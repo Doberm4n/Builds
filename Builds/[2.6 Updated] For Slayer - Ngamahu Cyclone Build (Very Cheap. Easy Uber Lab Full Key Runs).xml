@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="98" targetVersion="2_6" banditNormal="Oak" bandit="None" banditMerciless="None" className="Duelist" ascendClassName="Slayer" mainSocketGroup="1" viewMode="IMPORT" banditCruel="Kraityn"/>
+	<Build level="98" targetVersion="2_6" banditNormal="Oak" bandit="None" banditMerciless="None" className="Duelist" ascendClassName="Slayer" mainSocketGroup="1" viewMode="CALCS" banditCruel="Kraityn"/>
 	<Calcs>
-		<Input name="skill_number" number="1"/>
-		<Input name="misc_buffMode" string="EFFECTIVE"/>
+		<Input name="skill_number" number="4"/>
+		<Input name="misc_buffMode" string="BUFFED"/>
 		<Section collapsed="false" id="SkillSelect"/>
 		<Section collapsed="false" id="HitDamage"/>
 		<Section collapsed="false" id="Dot"/>
@@ -28,53 +28,54 @@
 		<Section collapsed="false" id="MiscDefences"/>
 	</Calcs>
 	<Skills>
-		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Weapon 1 Swap" mainActiveSkill="nil">
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
 			<Gem level="15" skillId="SupportConcentratedEffect" quality="13" enabled="true" nameSpec="Concentrated Effect"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Gloves" mainActiveSkill="nil">
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
 			<Gem level="20" skillId="AncestorTotemSlam" quality="21" enabled="true" nameSpec="Ancestral Warchief"/>
 			<Gem level="20" skillId="LeapSlam" quality="0" enabled="true" nameSpec="Leap Slam"/>
 			<Gem level="1" skillId="Portal" quality="0" enabled="true" nameSpec="Portal"/>
 			<Gem level="19" skillId="HeraldOfAsh" quality="20" enabled="true" nameSpec="Herald of Ash"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Helmet" mainActiveSkill="nil">
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Helmet" mainActiveSkill="1">
 			<Gem level="21" skillId="Flammability" quality="20" enabled="true" nameSpec="Flammability"/>
 			<Gem level="13" skillId="Enfeeble" quality="15" enabled="true" nameSpec="Enfeeble"/>
 			<Gem level="19" skillId="SupportBlasphemy" quality="20" enabled="true" nameSpec="Blasphemy"/>
 			<Gem level="20" skillId="BloodRage" quality="20" enabled="true" nameSpec="Blood Rage"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Body Armour" mainActiveSkill="nil">
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Body Armour" mainActiveSkill="1">
 			<Gem level="20" skillId="SupportFortify" quality="16" enabled="true" nameSpec="Fortify"/>
 			<Gem level="21" skillId="SupportFasterAttack" quality="20" enabled="true" nameSpec="Faster Attacks"/>
 			<Gem level="20" skillId="SupportElementalFocus" quality="23" enabled="true" nameSpec="Elemental Focus"/>
 			<Gem level="21" skillId="SupportIncreasedAreaOfEffect" quality="20" enabled="true" nameSpec="Increased Area of Effect"/>
 			<Gem level="20" skillId="SupportWeaponElementalDamage" quality="23" enabled="true" nameSpec="Weapon Elemental Damage"/>
+			<Gem level="20" skillId="Cyclone" quality="20" enabled="true" nameSpec="Cyclone"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Boots" mainActiveSkill="nil">
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Boots" mainActiveSkill="1">
 			<Gem level="15" skillId="ImmortalCall" quality="16" enabled="true" nameSpec="Immortal Call"/>
 			<Gem level="20" skillId="SupportIncreasedDuration" quality="20" enabled="true" nameSpec="Increased Duration"/>
 			<Gem level="13" skillId="SupportCastOnDamageTaken" quality="18" enabled="true" nameSpec="Cast when Damage Taken"/>
 			<Gem level="20" skillId="VaalLightningTrap" quality="19" enabled="true" nameSpec="Vaal Lightning Trap"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Weapon 1" mainActiveSkill="nil">
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 1" mainActiveSkill="1">
 			<Gem level="20" skillId="SupportGreaterMultipleProjectiles" quality="20" enabled="true" nameSpec="Greater Multiple Projectiles"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Weapon 1" mainActiveSkill="nil">
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 1" mainActiveSkill="1">
 			<Gem level="20" skillId="SupportAddedFireDamage" quality="23" enabled="true" nameSpec="Added Fire Damage"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Weapon 1" mainActiveSkill="nil">
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 1" mainActiveSkill="1">
 			<Gem level="20" skillId="SupportWeaponElementalDamage" quality="20" enabled="true" nameSpec="Weapon Elemental Damage"/>
 			<Gem level="21" skillId="SupportPhysicalProjectileAttackDamage" quality="20" enabled="true" nameSpec="Physical Projectile Attack Damage"/>
 			<Gem level="21" skillId="SupportFirePenetration" quality="20" enabled="true" nameSpec="Fire Penetration"/>
 			<Gem level="20" skillId="SupportConcentratedEffect" quality="21" enabled="true" nameSpec="Concentrated Effect"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Weapon 2 Swap" mainActiveSkill="nil">
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 2 Swap" mainActiveSkill="1">
 			<Gem level="19" skillId="SupportFasterCast" quality="20" enabled="true" nameSpec="Faster Casting"/>
 		</Skill>
-		<Skill source="Item:9:Rift Knuckle, Titan Gauntlets" mainActiveSkillCalcs="nil" label="" enabled="true" slot="Gloves" mainActiveSkill="nil">
+		<Skill source="Item:9:Rift Knuckle, Titan Gauntlets" mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
 			<Gem level="1" skillId="EnchantmentOfFuryOnHit4" quality="0" enabled="true" nameSpec="EnchantmentOfFuryOnHit4"/>
 		</Skill>
-		<Skill source="Item:17:Ngamahu&apos;s Flame, Abyssal Axe" mainActiveSkillCalcs="nil" label="" enabled="true" slot="Weapon 1" mainActiveSkill="nil">
+		<Skill source="Item:17:Ngamahu&apos;s Flame, Abyssal Axe" mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 1" mainActiveSkill="1">
 			<Gem level="16" skillId="TriggeredMoltenStrike" quality="0" enabled="true" nameSpec="TriggeredMoltenStrike"/>
 			<Gem level="20" skillId="SupportGreaterMultipleProjectiles" quality="20" enabled="true" nameSpec="Greater Multiple Projectiles"/>
 			<Gem level="20" skillId="SupportAddedFireDamage" quality="23" enabled="true" nameSpec="Added Fire Damage"/>
@@ -87,7 +88,7 @@
 	<Tree activeSpec="1">
 		<Spec>
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAQBABR1jbl82fcy73xvJ49gBS2bLcPmMonAZiFVYVKGYGZUggeK8HbnXz-pJ-9OxPa8n3TtI_a-p3VOR3508cSCGjj4689-kFV_K6aN5FEnnzwFr2yFp62NIWBlTVb6XhPsOAd1jX1l8DkO45-iAKTC_W6uPpd5wKbGrjpStz71YRjb8B_z3bF8soAaPtw97w4UIAthmjvYvThTZ5t2rA48O7bawSmlqZQwfP4K8i-HdppqOth67-oYg19Gt2jyFHFyqYPMvTZ35TJ-UEdAoGegBLNfORiRhNloZYV7Jy-GtKU1CZZ314KbsKuQbJ_f2XwMcIdqTZI8LdNvIq9KfYTv
+				https://www.pathofexile.com/passive-skill-tree/AAAABAQBABR1jbkYkWhl73xvJ49gBS2bLcPmMonAZiFVYVKGYGZUd-WK8HbnXz-pJwmWxPa8n3TtI_a-p3VOsKt08ZBsGjiCm89-kFV_K6aN5FEnnzwFr2yFp62NIWB671b6XhPsOAd1jX1l8DkO45_Tb6TC_W6uPpd5wKbGrjpStz71YRjb8B88LbF8soAaPtw9TZIUIAthmjuHajhTZ5t2rA48O7bawSmlqZSGtP4K8i-HdppqOthlTaU1g1_vToIHXzmDzKIAfNnz3fjr7w5AoEa3aPIUcXKp9zK9NjJ-Jy9QR-oYZ6B31wSzxIIwfJ_f2XwMcEd-hNmFe9i9Iq9KfYTv
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -95,22 +96,22 @@
 				<Socket nodeId="28475" itemId="0"/>
 				<Socket nodeId="26196" itemId="2"/>
 				<Socket nodeId="36634" itemId="0"/>
-				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="61419" itemId="0"/>
 				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="26725" itemId="1"/>
-				<Socket nodeId="33989" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="54127" itemId="4"/>
 				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="33631" itemId="3"/>
-				<Socket nodeId="54127" itemId="4"/>
-				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="26725" itemId="1"/>
 			</Sockets>
 		</Spec>
 	</Tree>
