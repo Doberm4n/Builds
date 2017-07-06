@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="98" targetVersion="2_6" banditNormal="Oak" bandit="None" banditMerciless="None" className="Duelist" ascendClassName="Slayer" mainSocketGroup="1" viewMode="CALCS" banditCruel="Kraityn"/>
+	<Build level="98" targetVersion="2_6" banditNormal="Oak" bandit="None" banditMerciless="None" className="Duelist" ascendClassName="Slayer" mainSocketGroup="4" viewMode="SKILLS" banditCruel="Kraityn"/>
 	<Calcs>
 		<Input name="skill_number" number="4"/>
 		<Input name="misc_buffMode" string="BUFFED"/>
@@ -28,7 +28,7 @@
 		<Section collapsed="false" id="MiscDefences"/>
 	</Calcs>
 	<Skills>
-		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 1 Swap" mainActiveSkill="1">
 			<Gem level="15" skillId="SupportConcentratedEffect" quality="13" enabled="true" nameSpec="Concentrated Effect"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
@@ -118,7 +118,7 @@
 	<Notes>
 		https://www.pathofexile.com/forum/view-thread/1819239
 	</Notes>
-	<TreeView searchStr="" zoomY="-1240.9171495309" showHeatMap="false" zoomLevel="8" showStatDifferences="true" zoomX="-406.28425664197"/>
+	<TreeView searchStr="" zoomY="38.233852653608" showHeatMap="false" zoomLevel="3" showStatDifferences="true" zoomX="-111.02997529514"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item id="1">
 			Rarity: UNIQUE
