@@ -1,4 +1,4 @@
-The City of Sarn
+﻿The City of Sarn
 Defeat Blackguards and aquire "Lost in Love"
 The Sarn Encampment
 The Slums
@@ -14,11 +14,12 @@ The Marketplace
 The Catacombs (complete library)
 POE Quests tracker and leveling - Fast Leveling v2.2
 24.06.2017 02:48:29 3
-Town (receive quest reward for "Victorio’s Secrets")
+Town (receive quest reward for "Victorio’s Secrets") (+1 SP, +2 RP)
 Town
 The Battlefront (get wp, find Ribbon Spool)
 The Docks (get wp, talk to fairgraves & find Thaumetic Sulphate, farm here until you feel strong enough to progress)
-The Solaris Temple (Give Lady Dialla Sulphate and Ribbon Spool for Infernal Talc)
+The Solaris Temple lvl 1
+The Solaris Temple lvl 1 (get wp, Give Lady Dialla Sulphate and Ribbon Spool for Infernal Talc)
 Town
 The Warehouse Sewers (use Infernal Talc on Undying Passage)
 Ebony Barracks (get wp, kill General Gravius)
