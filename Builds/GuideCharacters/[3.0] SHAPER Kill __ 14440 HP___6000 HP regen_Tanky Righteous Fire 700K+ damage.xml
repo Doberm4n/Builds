@@ -73,7 +73,7 @@
 	<Tree activeSpec="1">
 		<Spec>
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcqW5lTUPI6-4UTUGHwBr461nzjxp34_xLlG8B3BiRaGUGDvcye7M1kteW_o8FLdNvKPrG2An2JvM9_DwtmK0UIDrhxq72SDpStz5mVKcIHKeCB4LH8B_z3fnoA9ZfP1NSg8zE9hOl7w69NgSzC2G8n1ZIcqlboKIAdO3YJLXydqxo8riTFHG-p9rBRZ0WC0d-GFZYY2h01HzGBOoYZKN5aC3ShNnPfsEELlMaOCftpleMz7vtaFgMX2Ehcg-QVXwOU6X-Cm87ouqa4JHODjy5fnrv2mIS4Scvr2zYvadVrKpQR_JBnz6tjdl8TeN4DcRYidjyRYNfvWCE7w==
+				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzc6hiE70PIvWAUTUGHwBqDX1nzjxp34_xLlG_56BiRJvOiAIIHe7M1kteW_o8FLXgNTePZfKcI02_GrlBHmK3G2DrhPfwcpzpStz5mVNi9Cfa9NoLH8B_z3WVNA9ZfPycvaGXaYnrv7w65fgSzC2G8n1ZIDjyRzprgdO2-p9rBE6Vo8v4KFHFyqVugU6UWC9gkxgRYY2h0kFVFnYTZwQQMXy3S-OvPfmhYLlMaOCftjM-mV7vtZKN5aGEhcg_UfHwOGFZHfm87ouq4k3astfKpbgYO9zIS4VNSr2z2SKdVrKoUIPJBnz6tjYPMKPo8LcRYidjyRcT26-4B3A==
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -86,24 +86,34 @@
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="2"/>
 				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="6230" itemId="3"/>
 				<Socket nodeId="55190" itemId="4"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="6230" itemId="3"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="54127" itemId="6"/>
 				<Socket nodeId="61419" itemId="0"/>
 				<Socket nodeId="33631" itemId="7"/>
-				<Socket nodeId="54127" itemId="6"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
 			</Sockets>
 		</Spec>
 	</Tree>
 	<Notes>
 		https://www.pathofexile.com/forum/view-thread/1892353
+
+You must have some cold or lightning damage on your gear equipment.
+Like this ring:
+
+Verified
+
+For same reason you must avoid to have x-y fire damage on your gear or you will ruin EE.
+
+Another method is to link CwDT(lvl1)-Ice Nova q20(think is lvl 7)-Curse on Hit-Flammability. 
+You will curse and will process EE only if you get hit, like when mobs are not melted right away by your RF. If they die right away then your damage is high enough and don&apos;t need EE in that moment.
 	</Notes>
-	<TreeView searchStr="" zoomY="0" showHeatMap="false" zoomLevel="3" showStatDifferences="true" zoomX="0"/>
+	<TreeView searchStr="" zoomY="184.12921967878" showHeatMap="false" zoomLevel="5" showStatDifferences="true" zoomX="222.69540109168"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item id="1">
 			Rarity: RARE
