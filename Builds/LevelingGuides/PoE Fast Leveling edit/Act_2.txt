@@ -8,8 +8,6 @@ Town
 Travel to Lioneye's (complete "The Way Forward" ) (+1 SP)
 Town
 The Old Fields
-POE Quests tracker and leveling - Fast Leveling v2.2
-24.06.2017 02:48:29 2
 The Crossroads (get wp, follow the road)
 The Broken Bridge (get wp, kill/help Kraityn) (follow the road, it will lead you to Kraityn)
 Town
@@ -19,8 +17,8 @@ The Crypt Level 1 (get wp, complete library)
 The Crypt Level 2 (get golden hand for "Through Sacred Ground") (+2 RP)
 Town
 The Crossroads
-The Chamber of Sins (left)
-The Chambers of Sins lvl 2 (get wp, complete Library & "Intruders in Black")
+The Chamber of Sins (left, get wp)
+The Chambers of Sins lvl 2 (complete Library & "Intruders in Black")
 Town
 The Riverways (follow the main road until you see a break, that path will lead you to the next area)
 The Wetlands (kill/help Oak & get the apex, get wp, poison the tree & complete "The Root of the Prolem")

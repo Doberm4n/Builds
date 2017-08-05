@@ -5,17 +5,14 @@ The Slums
 The Crematorium (get wp, complete Library, get Tolman's Bracelet)
 Town (complete "Lost in Love")
 The Slums (find Sewer Grating)
-The Slum Sewers (find the first Platinum Bust)
-The Warehouse Sewers (very important! you must find the wp here! if you don’t it will set you back if you continue without it, find 2nd Platinum Bust)
-The Warehouse District
-The Marketplace (get wp, find Ornate Chests and Market Sewers (all near wp))
-The Market Sewers (get last Platinum Bust)
-The Marketplace
+The Sewers (get wp, find the 3 Platinum Busts)
+#The Warehouse Sewers (very important! you must find the wp here! if you don’t it will set you back if you continue without it, find 2nd Platinum Bust)
+#The Warehouse District
+The Marketplace (get wp, find Ornate Chests)
+#The Market Sewers (get last Platinum Bust)
+#The Marketplace
 The Catacombs (complete library)
-POE Quests tracker and leveling - Fast Leveling v2.2
-24.06.2017 02:48:29 3
 Town (receive quest reward for "Victorio’s Secrets") (+1 SP, +2 RP)
-Town
 The Battlefront (get wp, find Ribbon Spool)
 The Docks (get wp, talk to fairgraves & find Thaumetic Sulphate, farm here until you feel strong enough to progress)
 The Solaris Temple lvl 1
