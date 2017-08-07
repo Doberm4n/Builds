@@ -86,17 +86,17 @@
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 1" mainActiveSkill="1">
 			<Gem level="5" skillId="LeapSlam" quality="0" enabled="true" nameSpec="Leap Slam"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Gloves" mainActiveSkill="nil">
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
 			<Gem level="1" skillId="AncestorTotemSlam" quality="0" enabled="true" nameSpec="Ancestral Warchief"/>
 			<Gem level="3" skillId="SupportFasterAttack" quality="0" enabled="true" nameSpec="Faster Attacks"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Weapon 1" mainActiveSkill="nil">
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 1" mainActiveSkill="1">
 			<Gem level="8" skillId="DecoyTotem" quality="0" enabled="true" nameSpec="Decoy Totem"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Weapon 2" mainActiveSkill="nil">
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 2" mainActiveSkill="1">
 			<Gem level="2" skillId="Vitality" quality="0" enabled="true" nameSpec="Vitality"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Body Armour" mainActiveSkill="nil">
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Body Armour" mainActiveSkill="1">
 			<Gem level="9" skillId="GroundSlam" quality="0" enabled="true" nameSpec="Ground Slam"/>
 			<Gem level="3" skillId="SupportFasterAttack" quality="0" enabled="true" nameSpec="Faster Attacks"/>
 			<Gem level="3" skillId="SupportMeleePhysicalDamage" quality="0" enabled="true" nameSpec="Melee Physical Damage"/>
@@ -106,7 +106,7 @@
 	<Tree activeSpec="1">
 		<Spec>
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAEAAHfjPfxBh8AaHKf-Clhj9kg8LXgN-ehfP7XyhNnYvTWSxtiDzMauAdzEWLc-wQR5aAxfqW4=
+				https://www.pathofexile.com/passive-skill-tree/AAAABAEAAHfjPfxBh8AaHKepblhjDF88LXgN-ehfP7XyhNmDzDWSxq7G2Lc-xFjYvfZIwQR5aP4KAdw=
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -118,23 +118,23 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="33631" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
 			</Sockets>
 		</Spec>
 		<Spec title="Guide">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcaFh670PIvWAUTUGHwBqE71nzjxrZfPxLlG8GDvnokc7TbxiRe7M1kteW_o8FLXfjTeODzASzPC2CB7iTmK09_Drhxq4UIDpStz5mVNi9HKe9NoLH8B_z3fZIA9ZfPycvaGUm86IA7w6a4FOlC2G8n1ZIZU25ftgkdO2-p1ugdqxo8tpiFHFyqdrBRZ0WC0d-hNlYY2h0kFXGBBhWZKMMXy3S6hjPfoNfLlMaOCftjM-mV7vtwQR5aGEhcg_UfHwO_gr46287ouoOPBOlAdxQR8T29zIS4VNSr2x4DadVrKoJ9vJBnz6tjcbYKPq18sRYidjyRacI6-6pbg==
+				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcZKOpbkPI6-4UTUGHwBqnCFnzjxqiAPxLlG8m8_nokc4GDmhle7M1kteW_o8FLbXyKPrG2L02HKc8LQn2mK064Xfjxq4EszpStz5mVHgNuJOCB4LH8B_z3di9A9ZfP1NSg8z3MsT27w5QR1OlC2G8n1ZIAdwTpQ48dO1yqdrBdqya4PjrFHG-p1ug_goWC9gkGFZYY2h01HxFneoYg195aC3ShNnPfsEELlMaOCftpleMz7vtaFgMX2Ehcg-QVXwOxgRHfm87ouraYmjyeu-5fhiR028S4Scvr2z2SKdVrKoUIPJBnz6tjdl8TeM9_MRYidjyRYTvvWBlTQ==
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -146,18 +146,18 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
 				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="33631" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
 			</Sockets>
 		</Spec>
 	</Tree>
@@ -187,8 +187,26 @@ Kikazaru rings gives 1 HP /level so at level 20 they give 20 HP regen. If you ma
 People say that RF can&apos;t be used to level with because RotP is lvl 65. But they don&apos;t try to think outside of the box. There are so many variations you can do and stay alive at lower levels.
 And btw, in normal and cruel mobs are just melted away by RF even if your life is low. Symple thing, their life is also very low.
 Is quickest way to level? No way. There are better build to level fast. But for me is the most comfortable way. I can play and watch TV in same time.
+
+
+&quot;
+Piftiuta wrote:
+Yes, both work. I suppose the math is like this:
+
+89% fire resist, and RF burns for 90% of HP, so the damage taken is 9.9% of HP.
+The 5% reduction applyed to 9.9% of HP means we only get 9.405% of HP (the reduction is 0.495% of HP). So in the end acts more or less like a 0.5% life regen.
+On a map with -max resist the effect is bigger.
+Let&apos;s say is a map with -16% max resist, so the fire resist is 73%.
+The damage taken is 27%*0.9 = 24.3% of HP.
+Reduction of 5% from that will be 24.3*0.05% = 1.215%, the damage tahen being 23.085% of HP.
+So it acts like a 1.35% life regen in this case.
+
+90% - 75%
+15%
+
+Vitality 1%
 	</Notes>
-	<TreeView searchStr="Life regen" zoomY="-271.21701299726" showHeatMap="false" zoomLevel="6" showStatDifferences="true" zoomX="300.14738454869"/>
+	<TreeView searchStr="Life regen" zoomY="-59.21701299726" showHeatMap="false" zoomLevel="6" showStatDifferences="true" zoomX="202.14738454869"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item id="1">
 			Rarity: MAGIC
