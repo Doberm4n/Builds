@@ -106,7 +106,7 @@
 	<Tree activeSpec="1">
 		<Spec>
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAEAAHfjPfxBh8AaHKepblhjDF88LXgN-ehfP7XyhNmDzDWSxq7G2Lc-xFjYvfZIwQR5aP4KAdw=
+				https://www.pathofexile.com/passive-skill-tree/AAAABAEAAHfjPfxBh8AaHKepblhjxq48LXgN-ehfP7XyhNkMXzWSg8zG2Lc-xFj2SNi9wQR5aP4KAdw=
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -118,23 +118,23 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
-				<Socket nodeId="55190" itemId="0"/>
-				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="34483" itemId="0"/>
-				<Socket nodeId="33631" itemId="0"/>
 				<Socket nodeId="41263" itemId="0"/>
 				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="61834" itemId="0"/>
 			</Sockets>
 		</Spec>
 		<Spec title="Guide">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcZKOpbkPI6-4UTUGHwBqnCFnzjxqiAPxLlG8m8_nokc4GDmhle7M1kteW_o8FLbXyKPrG2L02HKc8LQn2mK064Xfjxq4EszpStz5mVHgNuJOCB4LH8B_z3di9A9ZfP1NSg8z3MsT27w5QR1OlC2G8n1ZIAdwTpQ48dO1yqdrBdqya4PjrFHG-p1ug_goWC9gkGFZYY2h01HxFneoYg195aC3ShNnPfsEELlMaOCftpleMz7vtaFgMX2Ehcg-QVXwOxgRHfm87ouraYmjyeu-5fhiR028S4Scvr2z2SKdVrKoUIPJBnz6tjdl8TeM9_MRYidjyRYTvvWBlTQ==
+				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcwQQB3EPI6-4UTUGHwBpQR1nzjxrTb_xLlG8GDvno9zKiAD38e7M1kteWpwgFLZHOKPqDzL02CfaE7wSzmK134zrhxq4UIDpStz5mVHgNHKeCB4LH8B88LfZIA9ZfP1NSxPZoZf6P7w618lOlC2G8n1ZIqW52rJrgdO1yqdrBE6W5fhhWFHG-p1ugRZ0WC9pihNlYY2h01HzGBPjraFh5aC3S6hjPfmSjLlMaOCftpleMz7vtg18MX2Ehcg-QVXwO_grYJG87oupHfg48ZU1o8ibz2XwS4Scvr2y4k6dVrKrz3fJBnz6tjcbYTePYvcRYidjyRRiRvWB67w==
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -146,17 +146,17 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="55190" itemId="0"/>
-				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
-				<Socket nodeId="34483" itemId="0"/>
-				<Socket nodeId="33631" itemId="0"/>
 				<Socket nodeId="54127" itemId="0"/>
 				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
 				<Socket nodeId="61834" itemId="0"/>
 			</Sockets>
 		</Spec>
@@ -205,8 +205,16 @@ So it acts like a 1.35% life regen in this case.
 15%
 
 Vitality 1%
+Shield 3%
+Tree 10 (6 points)
+Tree 10.7 (8 points)
+2 Rings 4%
+
+
+
+
 	</Notes>
-	<TreeView searchStr="Life regen" zoomY="-59.21701299726" showHeatMap="false" zoomLevel="6" showStatDifferences="true" zoomX="202.14738454869"/>
+	<TreeView searchStr="Life regen" zoomY="-12.21701299726" showHeatMap="false" zoomLevel="6" showStatDifferences="true" zoomX="49.14738454869"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item id="1">
 			Rarity: MAGIC
