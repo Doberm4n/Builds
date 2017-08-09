@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="51" targetVersion="3_0" banditNormal="None" bandit="Oak" banditMerciless="None" className="Marauder" ascendClassName="Chieftain" mainSocketGroup="1" viewMode="NOTES" banditCruel="None">
+	<Build level="54" targetVersion="3_0" banditNormal="None" bandit="Oak" banditMerciless="None" className="Marauder" ascendClassName="Chieftain" mainSocketGroup="1" viewMode="IMPORT" banditCruel="None">
 		<PlayerStat stat="AverageHit" value="0"/>
 		<PlayerStat stat="AverageDamage" value="0"/>
 		<PlayerStat stat="Speed" value="0.83333333333333"/>
 		<PlayerStat stat="Speed" value="0.83333333333333"/>
 		<PlayerStat stat="PreEffectiveCritChance" value="0"/>
 		<PlayerStat stat="CritChance" value="0"/>
-		<PlayerStat stat="CritMultiplier" value="1.5"/>
+		<PlayerStat stat="CritMultiplier" value="1"/>
 		<PlayerStat stat="HitChance" value="100"/>
 		<PlayerStat stat="TotalDPS" value="0"/>
 		<PlayerStat stat="TotalDot" value="0"/>
 		<PlayerStat stat="Cooldown" value="1.2"/>
-		<PlayerStat stat="AreaOfEffectRadius" value="44"/>
+		<PlayerStat stat="AreaOfEffectRadius" value="46"/>
 		<PlayerStat stat="ManaCost" value="31"/>
 		<PlayerStat stat="Str" value="389"/>
-		<PlayerStat stat="ReqStr" value="113"/>
+		<PlayerStat stat="ReqStr" value="117"/>
 		<PlayerStat stat="Dex" value="80"/>
 		<PlayerStat stat="ReqDex" value="60"/>
-		<PlayerStat stat="Int" value="135"/>
+		<PlayerStat stat="Int" value="185"/>
 		<PlayerStat stat="ReqInt" value="69"/>
-		<PlayerStat stat="Life" value="1951"/>
+		<PlayerStat stat="Life" value="2011"/>
 		<PlayerStat stat="Spec:LifeInc" value="67"/>
-		<PlayerStat stat="LifeUnreserved" value="1951"/>
+		<PlayerStat stat="LifeUnreserved" value="2011"/>
 		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
-		<PlayerStat stat="LifeRegen" value="513.7535"/>
+		<PlayerStat stat="LifeRegen" value="539.469"/>
 		<PlayerStat stat="LifeLeechGainRate" value="0"/>
-		<PlayerStat stat="Mana" value="447"/>
+		<PlayerStat stat="Mana" value="490"/>
 		<PlayerStat stat="Spec:ManaInc" value="0"/>
-		<PlayerStat stat="ManaUnreserved" value="134"/>
-		<PlayerStat stat="ManaUnreservedPercent" value="29.977628635347"/>
-		<PlayerStat stat="ManaRegen" value="18.9"/>
+		<PlayerStat stat="ManaUnreserved" value="147"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="30"/>
+		<PlayerStat stat="ManaRegen" value="20.7"/>
 		<PlayerStat stat="ManaLeechGainRate" value="0"/>
-		<PlayerStat stat="TotalDegen" value="831.22"/>
-		<PlayerStat stat="NetLifeRegen" value="-317.4665"/>
-		<PlayerStat stat="EnergyShield" value="73"/>
+		<PlayerStat stat="TotalDegen" value="820.38"/>
+		<PlayerStat stat="NetLifeRegen" value="-280.911"/>
+		<PlayerStat stat="EnergyShield" value="78"/>
 		<PlayerStat stat="Spec:EnergyShieldInc" value="10"/>
 		<PlayerStat stat="EnergyShieldRegen" value="0"/>
 		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
-		<PlayerStat stat="Evasion" value="436"/>
+		<PlayerStat stat="Evasion" value="447"/>
 		<PlayerStat stat="Spec:EvasionInc" value="0"/>
-		<PlayerStat stat="MeleeEvadeChance" value="18"/>
-		<PlayerStat stat="MeleeEvadeChance" value="18"/>
-		<PlayerStat stat="ProjectileEvadeChance" value="18"/>
+		<PlayerStat stat="MeleeEvadeChance" value="17"/>
+		<PlayerStat stat="MeleeEvadeChance" value="17"/>
+		<PlayerStat stat="ProjectileEvadeChance" value="17"/>
 		<PlayerStat stat="Armour" value="887"/>
 		<PlayerStat stat="Spec:ArmourInc" value="124"/>
-		<PlayerStat stat="PhysicalDamageReduction" value="30"/>
+		<PlayerStat stat="PhysicalDamageReduction" value="27"/>
 		<PlayerStat stat="MovementSpeedMod" value="1.04"/>
 		<PlayerStat stat="BlockChance" value="22"/>
 		<PlayerStat stat="SpellBlockChance" value="0"/>
 		<PlayerStat stat="AttackDodgeChance" value="0"/>
 		<PlayerStat stat="SpellDodgeChance" value="0"/>
-		<PlayerStat stat="FireResist" value="54"/>
+		<PlayerStat stat="FireResist" value="56"/>
 		<PlayerStat stat="ColdResist" value="17"/>
 		<PlayerStat stat="LightningResist" value="25"/>
 		<PlayerStat stat="ChaosResist" value="-60"/>
@@ -61,7 +61,7 @@
 		<PlayerStat stat="ChaosResistOverCap" value="0"/>
 	</Build>
 	<Calcs>
-		<Input name="skill_number" number="4"/>
+		<Input name="skill_number" number="5"/>
 		<Input name="misc_buffMode" string="EFFECTIVE"/>
 		<Section collapsed="false" id="SkillSelect"/>
 		<Section collapsed="false" id="HitDamage"/>
@@ -88,38 +88,38 @@
 	</Calcs>
 	<Skills defaultGemQuality="nil" defaultGemLevel="nil" sortGemsByDPS="true">
 		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Weapon 2" mainActiveSkill="1">
-			<Gem level="9" skillId="FireResistAura" quality="0" enabled="true" nameSpec="Purity of Fire"/>
-			<Gem level="12" skillId="LeapSlam" quality="0" enabled="true" nameSpec="Leap Slam"/>
+			<Gem level="11" skillId="FireResistAura" quality="0" enabled="true" nameSpec="Purity of Fire"/>
+			<Gem level="13" skillId="LeapSlam" quality="0" enabled="true" nameSpec="Leap Slam"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Gloves" mainActiveSkill="nil">
-			<Gem level="10" skillId="Vitality" quality="0" enabled="true" nameSpec="Vitality"/>
+		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Boots" mainActiveSkill="nil">
+			<Gem level="13" skillId="Reckoning" quality="0" enabled="true" nameSpec="Reckoning"/>
+			<Gem level="1" skillId="SupportCurseOnHit" quality="0" enabled="true" nameSpec="Curse On Hit"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Helmet" mainActiveSkill="nil">
 			<Gem level="4" skillId="RighteousFire" quality="0" enabled="true" nameSpec="Righteous Fire"/>
-			<Gem level="9" skillId="SupportIncreasedBurningDamage" quality="0" enabled="true" nameSpec="Burning Damage"/>
+			<Gem level="11" skillId="SupportIncreasedBurningDamage" quality="0" enabled="true" nameSpec="Burning Damage"/>
 			<Gem level="3" skillId="SupportIncreasedAreaOfEffect" quality="0" enabled="true" nameSpec="Increased Area of Effect"/>
 			<Gem level="6" skillId="SupportElementalFocus" quality="0" enabled="true" nameSpec="Elemental Focus"/>
 		</Skill>
+		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Gloves" mainActiveSkill="nil">
+			<Gem level="11" skillId="Vitality" quality="0" enabled="true" nameSpec="Vitality"/>
+		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Body Armour" mainActiveSkill="nil">
 			<Gem level="3" skillId="Cyclone" quality="0" enabled="true" nameSpec="Cyclone"/>
-			<Gem level="9" skillId="SupportFortify" quality="0" enabled="true" nameSpec="Fortify"/>
-			<Gem level="8" skillId="SummonRockGolem" skillMinionSkill="1" skillMinionSkillCalcs="1" quality="0" enabled="true" nameSpec="Summon Stone Golem" skillMinion="SummonedStoneGolem"/>
+			<Gem level="10" skillId="SupportFortify" quality="0" enabled="true" nameSpec="Fortify"/>
+			<Gem level="10" skillId="SummonRockGolem" skillMinionSkill="1" skillMinionSkillCalcs="1" quality="0" enabled="true" nameSpec="Summon Stone Golem" skillMinion="SummonedStoneGolem"/>
 			<Gem level="9" skillId="SupportIncreasedCriticalStrikes" quality="0" enabled="true" nameSpec="Increased Critical Strikes"/>
-		</Skill>
-		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Boots" mainActiveSkill="nil">
-			<Gem level="12" skillId="Reckoning" quality="0" enabled="true" nameSpec="Reckoning"/>
-			<Gem level="1" skillId="SupportCurseOnHit" quality="0" enabled="true" nameSpec="Curse On Hit"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Weapon 1" mainActiveSkill="nil">
 			<Gem level="8" skillId="Flammability" quality="0" enabled="true" nameSpec="Flammability"/>
-			<Gem level="6" skillId="SupportCastOnDamageTaken" quality="0" enabled="true" nameSpec="Cast when Damage Taken"/>
-			<Gem level="10" skillId="DecoyTotem" quality="0" enabled="true" nameSpec="Decoy Totem"/>
+			<Gem level="7" skillId="SupportCastOnDamageTaken" quality="0" enabled="true" nameSpec="Cast when Damage Taken"/>
+			<Gem level="12" skillId="DecoyTotem" quality="0" enabled="true" nameSpec="Decoy Totem"/>
 		</Skill>
 	</Skills>
 	<Tree activeSpec="1">
 		<Spec>
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABOlaPJyqUGHwBraYlhjaHT-CvnoJvMGDoTZz341kvcy9kgn7eoY2sHYvWSjeWhhIcbYmK3UfHwOPfzGrsT2tz4FLcEECfa18oLHqW48LXgNr2xfP6dVlKCE74PMdqwMX1OlKPoLYcRYW6Acp3fjdO0B3A==
+				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcQYfAGvno9zIGDjWSpwgFLZitd-PGrrc-uJOCxzwtlKBfP8T2C2H2SHTtE6Vo8nKp2sHYJFhjaHT-CuoYz34n7WSjeWhhIdR8fA4B3BynW6BWSMEEU6UMX3gNr2x2rKdVg8yE7ybzCfa18sbYKPo9_MRY2L3aYoTZ6-6pbg==
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -131,23 +131,23 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
-				<Socket nodeId="55190" itemId="0"/>
-				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
-				<Socket nodeId="34483" itemId="0"/>
-				<Socket nodeId="33631" itemId="0"/>
 				<Socket nodeId="41263" itemId="0"/>
 				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="61834" itemId="0"/>
 			</Sockets>
 		</Spec>
 		<Spec title="Guide">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcZKOpbkPI6-4UTUGHwBrTb1nzjxr56PxLlG9TpRiRJvMGDlBHe7M1kteWpwgFLf6PKPrZfL02uJMcpwSzmK134zrhxq6DzDpStz5mVDwtCfaCB4LH8B_z3di9A9ZfP1NSogD3MhQg7w4B3MT2C2G8n1ZIhO8TpQ48dO1yqdrBdqya4PjrFHG-p1ugRZ0WC9piGFZYY2h01HzGBOoYg195aC3ShNnPfsEELlMaOCftpleMz7vtaFgMX2Ehcg-QVXwO_grYJG87oupHfmjyeu-5fpHOaGUS4Scvr2z2SKdVrKp4DfJBnz6tjcbYTeM9_MRYidjyRbXyvWBlTQ==
+				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcwQSE70PI6-4UTUGHwBoB3FnzjxoEs_xLlG-Rzvno9zK18mhle7M1kteW_o8FLQYOKPqDzPPdvTa4kzrhmK3GrnfjPfzG2DpStz5mVBynCfaCB4LH8B88LfZIA9ZfP1NSogCnCFOl7w5QR8T2C2G8n1ZIqW52rJrgdO1yqdrBE6W5fhhWFHG-p1ugxgQWC0d-hNlYY2h01Hz-CvjraFh5aC3S6hjPfmSjLlMaOCftpleMz7vtg18MX2Ehcg-QVXwORZ3aYm87ourYJA48ZU1o8tNvJvMS4Scvr2x4DadVrKoUIPJBnz6tjdl8TePYvcRYidjyRRiRvWB67w==
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -159,17 +159,17 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
-				<Socket nodeId="55190" itemId="0"/>
-				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="34483" itemId="0"/>
-				<Socket nodeId="33631" itemId="0"/>
 				<Socket nodeId="54127" itemId="0"/>
 				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="61834" itemId="0"/>
 			</Sockets>
 		</Spec>
@@ -241,7 +241,7 @@ Unaffected by Burning Ground
 
 i supose both should work with RF.
 	</Notes>
-	<TreeView searchStr="Life regen" zoomY="369.54185333333" showHeatMap="false" zoomLevel="7" showStatDifferences="true" zoomX="356.91772256954"/>
+	<TreeView searchStr="Life regen" zoomY="163.55143777778" showHeatMap="false" zoomLevel="6" showStatDifferences="true" zoomX="230.47496614128"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item id="1">
 			Rarity: RARE
