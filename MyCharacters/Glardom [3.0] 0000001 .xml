@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="68" targetVersion="3_0" banditNormal="None" bandit="Oak" banditMerciless="None" className="Marauder" ascendClassName="Chieftain" mainSocketGroup="1" viewMode="CALCS" banditCruel="None">
+	<Build level="73" targetVersion="3_0" banditNormal="None" bandit="Oak" banditMerciless="None" className="Marauder" ascendClassName="Chieftain" mainSocketGroup="1" viewMode="TREE" banditCruel="None">
 		<PlayerStat stat="AverageHit" value="0"/>
 		<PlayerStat stat="AverageDamage" value="0"/>
 		<PlayerStat stat="Speed" value="0.83333333333333"/>
@@ -12,50 +12,50 @@
 		<PlayerStat stat="TotalDPS" value="0"/>
 		<PlayerStat stat="TotalDot" value="0"/>
 		<PlayerStat stat="Cooldown" value="1.2"/>
-		<PlayerStat stat="AreaOfEffectRadius" value="51"/>
+		<PlayerStat stat="AreaOfEffectRadius" value="52"/>
 		<PlayerStat stat="ManaCost" value="31"/>
-		<PlayerStat stat="Str" value="437"/>
+		<PlayerStat stat="Str" value="503"/>
 		<PlayerStat stat="ReqStr" value="177"/>
 		<PlayerStat stat="Dex" value="74"/>
-		<PlayerStat stat="ReqDex" value="62"/>
+		<PlayerStat stat="ReqDex" value="64"/>
 		<PlayerStat stat="Int" value="170"/>
-		<PlayerStat stat="ReqInt" value="99"/>
-		<PlayerStat stat="Life" value="4722"/>
-		<PlayerStat stat="Spec:LifeInc" value="168"/>
-		<PlayerStat stat="LifeUnreserved" value="4722"/>
+		<PlayerStat stat="ReqInt" value="132"/>
+		<PlayerStat stat="Life" value="5695"/>
+		<PlayerStat stat="Spec:LifeInc" value="202"/>
+		<PlayerStat stat="LifeUnreserved" value="5695"/>
 		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
-		<PlayerStat stat="LifeRegen" value="1157.989"/>
+		<PlayerStat stat="LifeRegen" value="1420.18775"/>
 		<PlayerStat stat="LifeLeechGainRate" value="0"/>
-		<PlayerStat stat="Mana" value="559"/>
+		<PlayerStat stat="Mana" value="589"/>
 		<PlayerStat stat="Spec:ManaInc" value="0"/>
-		<PlayerStat stat="ManaUnreserved" value="-28"/>
-		<PlayerStat stat="ManaUnreservedPercent" value="-5.0089445438283"/>
-		<PlayerStat stat="ManaRegen" value="23.2"/>
+		<PlayerStat stat="ManaUnreserved" value="176"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="29.881154499151"/>
+		<PlayerStat stat="ManaRegen" value="24.4"/>
 		<PlayerStat stat="ManaLeechGainRate" value="0"/>
-		<PlayerStat stat="TotalDegen" value="613.984"/>
-		<PlayerStat stat="NetLifeRegen" value="544.005"/>
+		<PlayerStat stat="TotalDegen" value="683.969"/>
+		<PlayerStat stat="NetLifeRegen" value="736.21875"/>
 		<PlayerStat stat="EnergyShield" value="194"/>
 		<PlayerStat stat="Spec:EnergyShieldInc" value="10"/>
 		<PlayerStat stat="EnergyShieldRegen" value="0"/>
 		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
-		<PlayerStat stat="Evasion" value="357"/>
+		<PlayerStat stat="Evasion" value="378"/>
 		<PlayerStat stat="Spec:EvasionInc" value="24"/>
-		<PlayerStat stat="MeleeEvadeChance" value="9"/>
-		<PlayerStat stat="MeleeEvadeChance" value="9"/>
-		<PlayerStat stat="ProjectileEvadeChance" value="9"/>
-		<PlayerStat stat="Armour" value="3921"/>
-		<PlayerStat stat="Spec:ArmourInc" value="148"/>
-		<PlayerStat stat="PhysicalDamageReduction" value="43"/>
+		<PlayerStat stat="MeleeEvadeChance" value="8"/>
+		<PlayerStat stat="MeleeEvadeChance" value="8"/>
+		<PlayerStat stat="ProjectileEvadeChance" value="8"/>
+		<PlayerStat stat="Armour" value="4490"/>
+		<PlayerStat stat="Spec:ArmourInc" value="184"/>
+		<PlayerStat stat="PhysicalDamageReduction" value="40"/>
 		<PlayerStat stat="MovementSpeedMod" value="1.1"/>
 		<PlayerStat stat="BlockChance" value="24"/>
 		<PlayerStat stat="SpellBlockChance" value="0"/>
 		<PlayerStat stat="AttackDodgeChance" value="0"/>
 		<PlayerStat stat="SpellDodgeChance" value="0"/>
-		<PlayerStat stat="FireResist" value="86"/>
+		<PlayerStat stat="FireResist" value="87"/>
 		<PlayerStat stat="ColdResist" value="75"/>
 		<PlayerStat stat="LightningResist" value="75"/>
 		<PlayerStat stat="ChaosResist" value="-60"/>
-		<PlayerStat stat="FireResistOverCap" value="26"/>
+		<PlayerStat stat="FireResistOverCap" value="27"/>
 		<PlayerStat stat="ColdResistOverCap" value="17"/>
 		<PlayerStat stat="LightningResistOverCap" value="6"/>
 		<PlayerStat stat="ChaosResistOverCap" value="0"/>
@@ -87,48 +87,49 @@
 		<Section collapsed="false" id="MiscDefences"/>
 	</Calcs>
 	<Skills defaultGemQuality="nil" defaultGemLevel="nil" sortGemsByDPS="true">
-		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Weapon 2" mainActiveSkill="1">
-			<Gem level="16" skillId="FireResistAura" quality="0" enabled="true" nameSpec="Purity of Fire"/>
-			<Gem level="16" skillId="LeapSlam" quality="0" enabled="true" nameSpec="Leap Slam"/>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 2" mainActiveSkill="1">
+			<Gem level="17" skillId="FireResistAura" quality="0" enabled="true" nameSpec="Purity of Fire"/>
+			<Gem level="17" skillId="LeapSlam" quality="0" enabled="true" nameSpec="Leap Slam"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Helmet" mainActiveSkill="nil">
-			<Gem level="15" skillId="RighteousFire" quality="0" enabled="true" nameSpec="Righteous Fire"/>
-			<Gem level="13" skillId="SupportIncreasedAreaOfEffect" quality="0" enabled="true" nameSpec="Increased Area of Effect"/>
-			<Gem level="16" skillId="SupportIncreasedBurningDamage" quality="0" enabled="true" nameSpec="Burning Damage"/>
-			<Gem level="15" skillId="SupportElementalFocus" quality="0" enabled="true" nameSpec="Elemental Focus"/>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Helmet" mainActiveSkill="1">
+			<Gem level="17" skillId="RighteousFire" quality="0" enabled="true" nameSpec="Righteous Fire"/>
+			<Gem level="14" skillId="SupportConcentratedEffect" quality="0" enabled="true" nameSpec="Concentrated Effect"/>
+			<Gem level="17" skillId="SupportIncreasedBurningDamage" quality="0" enabled="true" nameSpec="Burning Damage"/>
+			<Gem level="17" skillId="SupportElementalFocus" quality="0" enabled="true" nameSpec="Elemental Focus"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Boots" mainActiveSkill="nil">
-			<Gem level="16" skillId="Flammability" quality="0" enabled="true" nameSpec="Flammability"/>
-			<Gem level="15" skillId="SupportBlasphemy" quality="0" enabled="true" nameSpec="Blasphemy"/>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Boots" mainActiveSkill="1">
+			<Gem level="16" skillId="Reckoning" quality="0" enabled="true" nameSpec="Reckoning"/>
+			<Gem level="12" skillId="SupportCurseOnHit" quality="0" enabled="true" nameSpec="Curse On Hit"/>
+			<Gem level="17" skillId="Flammability" quality="0" enabled="true" nameSpec="Flammability"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Body Armour" mainActiveSkill="nil">
-			<Gem level="16" skillId="SummonRockGolem" skillMinionSkill="1" skillMinionSkillCalcs="1" quality="0" enabled="true" nameSpec="Summon Stone Golem" skillMinion="SummonedStoneGolem"/>
-			<Gem level="13" skillId="SupportFortify" quality="0" enabled="true" nameSpec="Fortify"/>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Body Armour" mainActiveSkill="1">
+			<Gem level="17" skillId="SummonRockGolem" skillMinionSkill="1" skillMinionSkillCalcs="1" quality="0" enabled="true" nameSpec="Summon Stone Golem" skillMinion="SummonedStoneGolem"/>
+			<Gem level="16" skillId="SupportFortify" quality="0" enabled="true" nameSpec="Fortify"/>
 			<Gem level="3" skillId="Cyclone" quality="0" enabled="true" nameSpec="Cyclone"/>
-			<Gem level="16" skillId="SupportIncreasedCriticalStrikes" quality="0" enabled="true" nameSpec="Increased Critical Strikes"/>
+			<Gem level="17" skillId="SupportIncreasedCriticalStrikes" quality="0" enabled="true" nameSpec="Increased Critical Strikes"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Weapon 1" mainActiveSkill="nil">
-			<Gem level="9" skillId="FireBeam" skillPart="1" quality="0" enabled="true" nameSpec="Scorching Ray"/>
-			<Gem level="11" skillId="SupportSpellTotem" quality="0" enabled="true" nameSpec="Spell Totem"/>
-			<Gem level="7" skillId="SupportIncreasedBurningDamage" quality="0" enabled="true" nameSpec="Burning Damage"/>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 1" mainActiveSkill="1">
+			<Gem level="15" skillId="FireBeam" skillPart="1" quality="0" skillPartCalcs="1" enabled="true" nameSpec="Scorching Ray"/>
+			<Gem level="16" skillId="SupportSpellTotem" quality="0" enabled="true" nameSpec="Spell Totem"/>
+			<Gem level="15" skillId="SupportIncreasedBurningDamage" quality="0" enabled="true" nameSpec="Burning Damage"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Gloves" mainActiveSkill="nil">
-			<Gem level="12" skillId="EnduringCry" quality="0" enabled="true" nameSpec="Enduring Cry"/>
-			<Gem level="16" skillId="DecoyTotem" quality="0" enabled="true" nameSpec="Decoy Totem"/>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
+			<Gem level="16" skillId="EnduringCry" quality="0" enabled="true" nameSpec="Enduring Cry"/>
+			<Gem level="17" skillId="DecoyTotem" quality="0" enabled="true" nameSpec="Decoy Totem"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="nil" label="" enabled="true" slot="Gloves" mainActiveSkill="nil">
-			<Gem level="16" skillId="Vitality" quality="0" enabled="true" nameSpec="Vitality"/>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
+			<Gem level="17" skillId="Vitality" quality="0" enabled="true" nameSpec="Vitality"/>
 		</Skill>
 	</Skills>
 	<Tree activeSpec="1">
 		<Spec>
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcQYfAGo8a-egm87XyNZKnCAUtmK064T38tz64k702gsfwHzwtlKAD1l8_7w4UIAthVkh07ROlaPLE9v6PcqlboP4KFgtHfvcyWGNodPZIRZ2iAAYO6hjawYTZz37aYti92CQn7WSjxtjGroNfDF9hIcYE1Hx8DsEEvqdvO7l-AdxQRwSzKPqDzFOlHKd4Da9sCfanVWVNU1J343lorY2mV03jhO_EWJrg8kV2rOvuqW4=
+				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcQYfAGlnzjxr56PcyogA1kv6PBS2YrTrhxq63PriTggeCx_AfPC2UoIzPXz_GBITvGFbvDnasxPYLYUWd2L2E2Ud-g1907U3jplcTpZrgaPIUcXKpW6BlTRYL2CRTUlhjaHQD1v4KpwhWSFOlGjj4689-9kh4DQSzJ-3aYlBHAdzBBAxfYSEcp9R8fA4J9nfjbzt5aLXykFW5fmSjvTa-pybzJy-vbAYOp1WsqhQg6hjawa2Ng8wo-tl8xFg9_PJFxtjr7qlu
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
 				<Socket nodeId="32763" itemId="0"/>
-				<Socket nodeId="28475" itemId="20"/>
+				<Socket nodeId="28475" itemId="18"/>
 				<Socket nodeId="26196" itemId="0"/>
 				<Socket nodeId="36634" itemId="17"/>
 				<Socket nodeId="33989" itemId="0"/>
@@ -139,19 +140,19 @@
 				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="34483" itemId="0"/>
-				<Socket nodeId="33631" itemId="16"/>
-				<Socket nodeId="6230" itemId="0"/>
 				<Socket nodeId="2491" itemId="0"/>
 				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="33631" itemId="16"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="6230" itemId="19"/>
+				<Socket nodeId="61834" itemId="0"/>
 			</Sockets>
 		</Spec>
 		<Spec title="Guide">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcQYdZ848a_EuUbxiRJvO18gUtmK134z38ZlQJ9oIHA9ZfPwSzvJ9QR7l-vqdboBYL2mJFnS3S6hjPfi5Tu-1oWJBVfA5vOxLhr2ysqvJBnz6tjaZXTePEWPJFvWBlTUPIFE3AGpHOBg57szWS15anCMauOlK3PhynvTaCx_AfPC2Mz-8OFCALYfZIE6Vo8hRx2sEB3NwjWGNodHrv_grr7tNvkn0o-sbYuJP-j1NSDjwn7fjrhO_GBMEEDF9hIXIP1HyiAGhleWhTpaLqGFYaOINfdO3YJHKpOuF4DZrgdqynVdi9xPb3MmSjR37ZfFZI890nL4nYhNn56IPMqW4=
+				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcQYdZ848a_EuUb_no9zK18gUtmK134z38ZlS4k4IHA9ZfP8T2vJ907ZrgcqlboBYL2mJFnRo46hjPfi5Tu-1oWJBVfA5vOxLhr2ysqvJBnz6tjcbYKPrEWPJF6-5670PIFE3AGpHOBg57szWS15b-j8auOlK3PhynvTaCx_AfPC2Mz-8OU6ULYfZIdqwOPBRx2sH469wjWGNodGVNxgS9YNNvOuFN46ZXCfZQR3gNaPIn7QHchO_-CsEEeWhhIXIP1HyiAPPdDF8UIKLqpwgYVi3Sg1-SfdgkvqcnL7l-E6WnVVNSJvPYvQSzhNmDzGSjaGVHfonYGJFWSNl8qW4=
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -167,14 +168,14 @@
 				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
-				<Socket nodeId="34483" itemId="0"/>
-				<Socket nodeId="33631" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="61419" itemId="0"/>
 				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
 			</Sockets>
 		</Spec>
 	</Tree>
@@ -245,7 +246,7 @@ Unaffected by Burning Ground
 
 i supose both should work with RF.
 	</Notes>
-	<TreeView searchStr="point" zoomY="-213.21790189265" showHeatMap="false" zoomLevel="3" showStatDifferences="true" zoomX="-122.7236685028"/>
+	<TreeView searchStr="% increased maximum l" zoomY="-217.50437469793" showHeatMap="false" zoomLevel="7" showStatDifferences="true" zoomX="991.17780099259"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item id="16">
 			Rarity: MAGIC
@@ -269,7 +270,7 @@ With at least 40 Intelligence in Radius, Magma Orb fires an additional Projectil
 With at least 40 Intelligence in Radius, Magma Orb
 has 10% increased Area of Effect per Chain
 		</Item>
-		<Item id="20">
+		<Item id="18">
 			Rarity: MAGIC
 Puncturing Viridian Jewel of Combusting
 Unique ID: 8bde804ec0737dc971b401eb1e71d3b5a303c4f24ce699531d3489dbc23d42f8
@@ -277,6 +278,17 @@ Item Level: 64
 Implicits: 0
 18% increased Burning Damage
 +15% to Critical Strike Multiplier while Dual Wielding
+		</Item>
+		<Item id="19">
+			Rarity: RARE
+Foe Shard
+Cobalt Jewel
+Unique ID: eb0388f77d4c61f12e3485efd70fccc0ca34e4757be05857d99691f9d434b616
+Item Level: 71
+Implicits: 0
+1% additional Chance to Block Spells while Dual Wielding
+10% increased Damage over Time
+5% increased maximum Life
 		</Item>
 		<Item id="1">
 			Rarity: RARE
