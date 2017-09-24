@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="97" targetVersion="3_0" banditNormal="None" bandit="Oak" banditMerciless="None" className="Marauder" ascendClassName="Chieftain" mainSocketGroup="1" viewMode="SKILLS" banditCruel="None">
-		<PlayerStat stat="AverageHit" value="660.5"/>
-		<PlayerStat stat="AverageDamage" value="660.5"/>
+	<Build level="97" targetVersion="3_0" banditNormal="None" bandit="Oak" banditMerciless="None" className="Marauder" ascendClassName="Chieftain" mainSocketGroup="1" viewMode="TREE" banditCruel="None">
+		<PlayerStat stat="AverageHit" value="495.375"/>
+		<PlayerStat stat="AverageDamage" value="495.375"/>
 		<PlayerStat stat="Speed" value="2.34"/>
 		<PlayerStat stat="Speed" value="2.34"/>
 		<PlayerStat stat="PreEffectiveCritChance" value="14.076"/>
 		<PlayerStat stat="CritChance" value="14.076"/>
 		<PlayerStat stat="CritMultiplier" value="1"/>
 		<PlayerStat stat="HitChance" value="100"/>
-		<PlayerStat stat="TotalDPS" value="1545.57"/>
+		<PlayerStat stat="TotalDPS" value="1159.1775"/>
 		<PlayerStat stat="TotalDot" value="0"/>
-		<PlayerStat stat="WithPoisonDPS" value="1545.57"/>
+		<PlayerStat stat="WithPoisonDPS" value="1159.1775"/>
 		<PlayerStat stat="Cooldown" value="0.5"/>
 		<PlayerStat stat="ManaCost" value="40"/>
 		<PlayerStat stat="Str" value="783"/>
@@ -132,7 +132,7 @@
 	<Tree activeSpec="1">
 		<Spec>
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcLdJDyHF5AdwWb8AaUftZ848avWBoZZRvzRb56CbzBg49_HuzNZLXlqcIBS360hQgTeODzCcvPC3japitHxg64cau2L1347c-ZlT2SAn2ggeCx_Af890dFAPWXz_-j3gNdqyDX-8O2mLE9gthhNlWSITvaFi5fnTtjM9vOxOlmuCPRhRxcqnawZHOFgvYJFBHWGNodJBV_goYVsYEeWgaOPjrz35koy5THKcn7aIAple77cEEDF9hIXIP1Hx8DrXyuJMSaUWdFxxBh0d-vTZboGjy6hhTUq9s9zKnVayqBLPyQZ8-2XzG2Cj602_EWInY8kVTpevuqW4=
+				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcGjhDyHF5qW4Wb8AazRZZ848a6-5TpZRv42r56GhlBg7-j3uzNZLXlqcIBS0nL9NvKPrG2Nl8d-PGrpitHxg64T38BLMdFLc-ZlT60gn2ggeCx_AfPC33MozPXz9R-1NS6hho8u8OW6DE9gthvTZWSEd-QYfYJHTtRZ0SaXasuX64kxRxcqnawbXyFgvaYnwOWGNodNR8_gr462SjDF8t0oTZz37BBC5THKcn7aZXogC77WhYeWhhIXIPkFWPRsYEGFZvO1BHFxyRzprgE6UB3INfJvN4Da9s2L2nVayq893yQZ8-9kiDzE3jA9bEWInY8kUUIL1ghO8=
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="23"/>
@@ -145,22 +145,22 @@
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="16"/>
 				<Socket nodeId="54127" itemId="26"/>
-				<Socket nodeId="6230" itemId="24"/>
+				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="55190" itemId="22"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
 				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="33631" itemId="25"/>
-				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="6230" itemId="24"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
 			</Sockets>
 		</Spec>
 		<Spec title="Guide">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcQYdZ848a_EuUb_no9zK18gUtmK134z38ZlS4k4IHA9ZfP8T2vJ9QR5rgcqlboBYL2CRFnRo4GFbPfi5Tu-1oWJBVfA5vOxLhr2ysqvJBnz6tjcbYKPrEWPJF6-5670PIFE3AGpHO0297szWS15anCMauOlK3PhynvTaCx_Afkn2Mz-8OU6ULYdi9dqwOPBRx2sH464TvWGNodGVNxgS9YKIA891N46ZXCfZ07XgNaPIn7QHcqW7-CoNfeWhhIXIP1HwGDjwtDF8UIKLqGJGE2S3SZKMm80d-vqdTUrl-E6WnVScv_o9WSASz6hiDzMEEOuHaYonYaGX2SNl83CM=
+				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcQYdZ848a_EuUb_noaGW18gUtmK064T38ZlQJ9oIHA9ZfPwSzvJ9QR7l-vqdboBYL2mJFnS3S6hjPfi5Tu-1oWJBVfA5vOxLhr2ysqvJBnz6tjaZXTePEWPJFvWBlTUPIFE3AGpHOBg57szWS15anCMauOlK3PhynvTaCx_Afkn2Mz-8OFCALYfZIE6Vo8hRx2sEB3NwjWGNodHrv_grr7tNvd-Mo-sbYuJM8LXgNDjwn7fjrhO_GBMEEDF9hIXIP1HyiAPPdeWhTpaLq9zIYVho4g1907dgkcqknL5rgdqynVRiR2L3E9oTZZKPZfCbzR35TUonY_o9WSIPMqW4=
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -173,17 +173,45 @@
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
 				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
 				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="33631" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+			</Sockets>
+		</Spec>
+		<Spec title="Berserker">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAECABzc2WGboR0UFm_AGlH7WfOPGny4lG967_noaGUGDlZIDF81kiku_o8FLffXIZB9-zrh0iFBh03jmK0fGHfjPfxVxoPMtz5mVMbYHKeCB4LH8B88LfGs9khfPxQgGj5xeWVN7w5QR1OlC2HGrti9Jy_4X4NfdO3E9uDYdqxo8uoQg9u-p9rBhNmE79gkvTZYY2h002_-Cprg8i9vOxo4GFbPfjpYLlOiACftpldko5BVwQR5aGEhcg-nbdR8j0apbqyY-tJXDRccGS5mnkWdw2gSaUd-U1KvbM0W85unCNpi8kFf0K2N2Xwo-uNqxFi4k_JFCfbr7gHc
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="23"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="28475" itemId="17"/>
+				<Socket nodeId="26196" itemId="28"/>
+				<Socket nodeId="36634" itemId="27"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="55190" itemId="22"/>
+				<Socket nodeId="48768" itemId="0"/>
 				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="26725" itemId="16"/>
+				<Socket nodeId="54127" itemId="26"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="33631" itemId="25"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="6230" itemId="24"/>
 			</Sockets>
 		</Spec>
 	</Tree>
@@ -286,7 +314,7 @@ IMPORTANT: NEED MORE elemental/DoT essence modifier on helmet/gloves
 
 Minotaur: enfeeble, inc AOE, gain charges, fortify, kite
 	</Notes>
-	<TreeView searchStr="% increased maximum l" zoomY="-338.04062335939" showHeatMap="false" zoomLevel="6" showStatDifferences="true" zoomX="343.93407860493"/>
+	<TreeView searchStr="% increased maximum l" zoomY="122.95937664061" showHeatMap="false" zoomLevel="6" showStatDifferences="true" zoomX="392.93407860493"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item variant="2" id="20">
 			Rarity: Unique
@@ -742,5 +770,7 @@ Socketed Gems are Supported by Level 30 Iron Will
 			<Slot name="Ring 2" itemId="0"/>
 		</ItemSet>
 	</Items>
-	<Config/>
+	<Config>
+		<Input name="enemyConditionHitByLightningDamage" boolean="true"/>
+	</Config>
 </PathOfBuilding>

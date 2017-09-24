@@ -1,52 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="97" targetVersion="3_0" banditNormal="None" bandit="Oak" banditMerciless="None" className="Marauder" ascendClassName="Chieftain" mainSocketGroup="1" viewMode="TREE" banditCruel="None">
-		<PlayerStat stat="AverageHit" value="536.625"/>
-		<PlayerStat stat="AverageDamage" value="536.625"/>
+	<Build level="97" targetVersion="3_0" banditNormal="None" bandit="Oak" banditMerciless="None" className="Marauder" ascendClassName="Chieftain" mainSocketGroup="1" viewMode="ITEMS" banditCruel="None">
+		<PlayerStat stat="AverageHit" value="0"/>
+		<PlayerStat stat="AverageDamage" value="0"/>
 		<PlayerStat stat="Speed" value="2.34"/>
 		<PlayerStat stat="Speed" value="2.34"/>
-		<PlayerStat stat="PreEffectiveCritChance" value="14.076"/>
-		<PlayerStat stat="CritChance" value="14.076"/>
+		<PlayerStat stat="PreEffectiveCritChance" value="0"/>
+		<PlayerStat stat="CritChance" value="0"/>
 		<PlayerStat stat="CritMultiplier" value="1"/>
 		<PlayerStat stat="HitChance" value="100"/>
-		<PlayerStat stat="TotalDPS" value="1255.7025"/>
+		<PlayerStat stat="TotalDPS" value="0"/>
 		<PlayerStat stat="TotalDot" value="0"/>
-		<PlayerStat stat="WithPoisonDPS" value="1255.7025"/>
+		<PlayerStat stat="WithPoisonDPS" value="0"/>
 		<PlayerStat stat="Cooldown" value="0.5"/>
-		<PlayerStat stat="ManaCost" value="40"/>
-		<PlayerStat stat="Str" value="761"/>
+		<PlayerStat stat="AreaOfEffectRadius" value="44"/>
+		<PlayerStat stat="ManaCost" value="39"/>
+		<PlayerStat stat="Str" value="673"/>
 		<PlayerStat stat="ReqStr" value="191"/>
-		<PlayerStat stat="Dex" value="68"/>
+		<PlayerStat stat="Dex" value="43"/>
 		<PlayerStat stat="ReqDex" value="42"/>
-		<PlayerStat stat="Int" value="143"/>
+		<PlayerStat stat="Int" value="173"/>
 		<PlayerStat stat="ReqInt" value="155"/>
-		<PlayerStat stat="Life" value="9753"/>
+		<PlayerStat stat="Life" value="8900"/>
 		<PlayerStat stat="Spec:LifeInc" value="206"/>
-		<PlayerStat stat="LifeUnreserved" value="9753"/>
+		<PlayerStat stat="LifeUnreserved" value="8900"/>
 		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
-		<PlayerStat stat="LifeRegen" value="2176.034"/>
+		<PlayerStat stat="LifeRegen" value="1450.8"/>
 		<PlayerStat stat="LifeLeechGainRate" value="0"/>
-		<PlayerStat stat="Mana" value="749"/>
+		<PlayerStat stat="Mana" value="764"/>
 		<PlayerStat stat="Spec:ManaInc" value="5"/>
-		<PlayerStat stat="ManaUnreserved" value="164"/>
-		<PlayerStat stat="ManaUnreservedPercent" value="21.895861148198"/>
-		<PlayerStat stat="ManaRegen" value="29.5"/>
+		<PlayerStat stat="ManaUnreserved" value="0"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="0"/>
+		<PlayerStat stat="ManaRegen" value="30.1"/>
 		<PlayerStat stat="ManaLeechGainRate" value="0"/>
-		<PlayerStat stat="TotalDegen" value="986.183"/>
-		<PlayerStat stat="NetLifeRegen" value="1189.851"/>
-		<PlayerStat stat="EnergyShield" value="268"/>
+		<PlayerStat stat="TotalDegen" value="892.727"/>
+		<PlayerStat stat="NetLifeRegen" value="558.073"/>
+		<PlayerStat stat="EnergyShield" value="151"/>
 		<PlayerStat stat="Spec:EnergyShieldInc" value="10"/>
 		<PlayerStat stat="EnergyShieldRegen" value="0"/>
 		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
-		<PlayerStat stat="Evasion" value="475"/>
+		<PlayerStat stat="Evasion" value="458"/>
 		<PlayerStat stat="Spec:EvasionInc" value="24"/>
 		<PlayerStat stat="MeleeEvadeChance" value="6"/>
 		<PlayerStat stat="MeleeEvadeChance" value="6"/>
 		<PlayerStat stat="ProjectileEvadeChance" value="6"/>
-		<PlayerStat stat="Armour" value="10833"/>
+		<PlayerStat stat="Armour" value="8872"/>
 		<PlayerStat stat="Spec:ArmourInc" value="212"/>
-		<PlayerStat stat="PhysicalDamageReduction" value="49"/>
-		<PlayerStat stat="MovementSpeedMod" value="1.3"/>
+		<PlayerStat stat="PhysicalDamageReduction" value="44"/>
+		<PlayerStat stat="MovementSpeedMod" value="1.15"/>
 		<PlayerStat stat="BlockChance" value="24"/>
 		<PlayerStat stat="SpellBlockChance" value="0"/>
 		<PlayerStat stat="AttackDodgeChance" value="0"/>
@@ -55,9 +56,9 @@
 		<PlayerStat stat="ColdResist" value="75"/>
 		<PlayerStat stat="LightningResist" value="75"/>
 		<PlayerStat stat="ChaosResist" value="-48"/>
-		<PlayerStat stat="FireResistOverCap" value="103"/>
-		<PlayerStat stat="ColdResistOverCap" value="33"/>
-		<PlayerStat stat="LightningResistOverCap" value="66"/>
+		<PlayerStat stat="FireResistOverCap" value="99"/>
+		<PlayerStat stat="ColdResistOverCap" value="17"/>
+		<PlayerStat stat="LightningResistOverCap" value="54"/>
 		<PlayerStat stat="ChaosResistOverCap" value="0"/>
 	</Build>
 	<Calcs>
@@ -88,15 +89,15 @@
 	</Calcs>
 	<Skills defaultGemQuality="nil" defaultGemLevel="nil" sortGemsByDPS="false">
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Boots" mainActiveSkill="1">
-			<Gem level="20" skillId="OrbOfStorms" quality="0" enabled="true" nameSpec="Orb of Storms"/>
-			<Gem level="20" skillId="SupportIncreasedCriticalStrikes" quality="16" enabled="true" nameSpec="Increased Critical Strikes"/>
-			<Gem level="20" skillId="SupportIncreasedAreaOfEffect" quality="0" enabled="true" nameSpec="Increased Area of Effect"/>
-			<Gem level="20" skillId="LeapSlam" quality="0" enabled="true" nameSpec="Leap Slam"/>
+			<Gem level="20" skillId="SupportBlasphemy" skillPart="1" quality="0" enabled="true" nameSpec="Blasphemy" skillMinion="SummonedChaosGolem"/>
+			<Gem level="20" skillId="Flammability" skillMinionItemSet="1" skillPart="1" quality="16" enabled="true" nameSpec="Flammability" skillMinion="AnimatedWeapon"/>
+			<Gem level="20" skillId="ElementalWeakness" skillPart="1" quality="0" enabled="true" nameSpec="Elemental Weakness" skillMinion="SummonedChaosGolem"/>
+			<Gem level="4" skillId="SupportAdditionalXP" skillMinionItemSet="1" skillPart="1" quality="0" enabled="true" nameSpec="Enlighten" skillMinion="AnimatedWeapon"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
 			<Gem level="1" skillId="Cyclone" quality="0" enabled="true" nameSpec="Cyclone"/>
 			<Gem level="20" skillId="SupportBlasphemy" quality="0" enabled="true" nameSpec="Blasphemy"/>
-			<Gem level="20" skillId="Flammability" skillPart="1" quality="0" enabled="true" nameSpec="Flammability" skillMinion="SummonedChaosGolem"/>
+			<Gem level="16" skillId="OrbOfStorms" skillPart="1" quality="0" enabled="true" nameSpec="Orb of Storms" skillMinion="SummonedChaosGolem"/>
 			<Gem level="20" skillId="SupportFortify" quality="0" enabled="true" nameSpec="Fortify"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 1" mainActiveSkill="1">
@@ -105,7 +106,7 @@
 			<Gem level="20" skillId="SupportIncreasedBurningDamage" quality="0" enabled="true" nameSpec="Burning Damage"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 2" mainActiveSkill="1">
-			<Gem level="20" skillId="EnduringCry" quality="0" enabled="true" nameSpec="Enduring Cry"/>
+			<Gem level="3" skillId="SupportAdditionalXP" skillPart="1" quality="0" enabled="true" nameSpec="Enlighten" skillMinion="SummonedChaosGolem"/>
 			<Gem level="21" skillId="FireResistAura" quality="6" enabled="true" nameSpec="Purity of Fire"/>
 			<Gem level="3" skillId="SupportAdditionalLevel" quality="18" enabled="true" nameSpec="Empower"/>
 		</Skill>
@@ -132,7 +133,7 @@
 	<Tree activeSpec="1">
 		<Spec>
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzc2WHvfEPIcXmf30GH7DhR-3rvjxq9YHy4AdxoZfnoJvO18pHOe7M1kiku_o-Fex0UzRZN44PMpwjxrDrhmK0fGHfjPfyiAAYOtz5mVAGRuJO9NoLH8B88LVOlA9ZfP1ZIGj7hcycv7w72SBQgC2GaO9i9eA1XDYTvdO2a4FugE6W5fpZs2CTaYtrB42oWC0d-bztYY2h0Emn-Co9G8i_UfC3SGFbPfoTZLlOCmyftOtiDX7vtZKMMX2EhHKeQVXwOGjjGBPrSBLMXHBkuRZ3AGmjypldQR1NSr2zE9qdV85sJ9gUtxq6tjcbYKPoWb8RY02_yRWVN6-6pbg==
+				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzc2WFBh1H7jxp8uPnoaGUpLgUtmK064T38ZlS4kwPWXz_hc8QVAZF07bl-lmxboBYL2mJFnRo4GFbPfi5Tu-2QVY9G-tIXHK9srY3G2E3jxFjyRb1geu9DyHF5Fm_xrM0Wkc7Tb3uzNZKnCB8Yxq63PhynvTaCx_AfPC0aPu8OU6ULYZo79kgTpWjyeWjBBNrBZU3r7lBHWGNodOw4_goo-vIvplfE9gn2BLNWSFNS73wn7TrYhXvAGoNfDF9hIQHc1Hya4HwOxgQSaW87Vw0ZLi3SZKOCm4TZR34nL9gk42qnVSbzHRTYvRQgn9-DzP6PqW7zm3fjogAGDoTv
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="23"/>
@@ -144,23 +145,23 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="16"/>
-				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="6230" itemId="24"/>
+				<Socket nodeId="54127" itemId="26"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
 				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
-				<Socket nodeId="54127" itemId="26"/>
+				<Socket nodeId="6230" itemId="24"/>
+				<Socket nodeId="41263" itemId="0"/>
 				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="33631" itemId="25"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
 			</Sockets>
 		</Spec>
 		<Spec title="Guide">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcQYdZ848a_EuUb_noaGW18gUtmK064T38ZlQJ9oIHA9ZfPwSzvJ9QR7l-vqdboBYL2CRFnS3SGFbPfi5Tu-1oWJBVfA5vOxLhr2ysqvJBnz6tjaZXTePEWPJFvWBlTUPIFE3AGpHO0297szWS15anCMauOlK3PhynvTaCx_Afkn2Mz-8OFCALYdi9E6Vo8hRx2sEB3ITvWGNodHrv_grr7qIAU1Io-sbYuJN343gNDjwn7fjrqW7GBINfDF9hIXIP1HwGDhiReWhTpaLq_o-E2Ro4ZKPz3Ud-cqknL5rgdqynVXTtJvNWSMT26hjZfMEEPC3aYonY9zL2SIPM3CM=
+				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcQYdZ848a_EuUb_noJvO18gUtmK064T38ZlQJ9oIHA9ZfPwSzvJ9QR7l-vqdboBYLR35FnS3ShNnPfi5Tu-1oWJBVfA5vOxLhr2ysqvJBnz6tjaZXTePEWPJFvWBlTUPIFE3AGpHOogB7szWS15anCMauOlK3PhynvTaCx_Af892Mz-8OFCALYVZIE6Vo8hRx2sEB3KluWGNodHrv_grr7gYOPC0o-sbYuJN07VNSDjwn7fjr3CPGBGSjDF9hIXIP1HzTb5J9eWhTpaLq9zLqGBo4wQQYkdpicqknL5rgdqynVXgNaGX2SMT2GFbZfINfd-PYJInY_o_YvYPMhO8=
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -172,18 +173,18 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
 				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
 				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="33631" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
 			</Sockets>
 		</Spec>
 	</Tree>
@@ -286,7 +287,7 @@ IMPORTANT: NEED MORE elemental/DoT essence modifier on helmet/gloves
 
 Minotaur: enfeeble, inc AOE, gain charges, fortify, kite
 	</Notes>
-	<TreeView searchStr="% increased maximum l" zoomY="42.95937664061" showHeatMap="false" zoomLevel="6" showStatDifferences="true" zoomX="309.93407860493"/>
+	<TreeView searchStr="% increased maximum l" zoomY="-110.04062335939" showHeatMap="false" zoomLevel="6" showStatDifferences="true" zoomX="265.93407860493"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item variant="2" id="20">
 			Rarity: Unique
@@ -370,6 +371,7 @@ Implicits: 0
 6% increased maximum Life
 18% increased Burning Damage
 12% increased Area Damage
++12% to Cold and Lightning resistances
 		</Item>
 		<Item id="24">
 			Rarity: RARE
@@ -686,17 +688,72 @@ Socketed Gems are Supported by Level 30 Iron Will
 1% increased Damage per 8 Strength when in Main Hand
 1% increased Armour per 16 Strength when in Off Hand
 		</Item>
+		<Item variant="2" id="29">
+			Rarity: Unique
+Belt of the Deceiver
+Heavy Belt
+Variant: Pre 2.6.0
+Variant: Current
+Requires Level 20
++(25-35) to Strength
+{variant:1}10% reduced Chance to Block Attacks and Spells
+(15-25)% increased Physical Damage
+You take 30% reduced Extra Damage from Critical Strikes
++(30-40) to maximum Life
+{variant:1}+(6-10)% to all Elemental Resistances
+{variant:2}+(10-15)% to all Elemental Resistances
+{variant:2}Nearby Enemies are Intimidated
+			<ModRange range="0.78048780487805" id="1"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.59756097560976" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.97560975609756" id="7"/>
+		</Item>
+		<Item id="30">
+			Rarity: Unique
+Ngamahu Tiki
+Coral Amulet
+Requires Level 36
+(2-4) Life Regenerated per second
+(50-70)% increased Fire Damage
+You gain 100 Evasion Rating when on Low Life
++(30-50) to maximum Life
++(20-30)% to Fire Resistance
+1% of Life Regenerated per Second while on Low Life
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="1" id="2"/>
+			<ModRange range="0.92682926829268" id="4"/>
+			<ModRange range="0.6219512195122" id="5"/>
+		</Item>
+		<Item variant="2" id="31">
+			Rarity: Unique
+Windscream
+Reinforced Greaves
+Variant: Pre 2.6.0
+Variant: Current
+Requires Level 33, 60 Str
+(50-80)% increased Armour
++(10-15)% to all Elemental Resistances
+{variant:1}10% increased Movement Speed
+{variant:2}15% increased Movement Speed
+{variant:1}10% increased Elemental Damage
+{variant:2}(10-20)% increased Elemental Damage
+Enemies can have 1 additional Curse
+			<ModRange range="1" id="1"/>
+			<ModRange range="0.20731707317073" id="2"/>
+			<ModRange range="1" id="6"/>
+		</Item>
 		<Slot name="Gloves" itemId="4"/>
 		<Slot name="Weapon 1" itemId="3"/>
 		<Slot name="Flask 1" itemId="19"/>
 		<Slot name="Flask 3" itemId="10"/>
-		<Slot name="Amulet" itemId="9"/>
+		<Slot name="Amulet" itemId="30"/>
 		<Slot name="Flask 2" itemId="2"/>
 		<Slot name="Weapon 2" itemId="14"/>
-		<Slot name="Boots" itemId="1"/>
+		<Slot name="Boots" itemId="31"/>
 		<Slot name="Weapon 1 Swap" itemId="21"/>
 		<Slot name="Flask 4" itemId="8"/>
-		<Slot name="Belt" itemId="5"/>
+		<Slot name="Belt" itemId="29"/>
 		<Slot name="Flask 5" itemId="7"/>
 		<Slot name="Body Armour" itemId="11"/>
 		<Slot name="Ring 1" itemId="6"/>
@@ -708,13 +765,13 @@ Socketed Gems are Supported by Level 30 Iron Will
 			<Slot name="Weapon 1" itemId="3"/>
 			<Slot name="Flask 1" itemId="19"/>
 			<Slot name="Flask 3" itemId="10"/>
-			<Slot name="Amulet" itemId="9"/>
+			<Slot name="Amulet" itemId="30"/>
 			<Slot name="Flask 2" itemId="2"/>
 			<Slot name="Weapon 2" itemId="14"/>
-			<Slot name="Boots" itemId="1"/>
+			<Slot name="Boots" itemId="31"/>
 			<Slot name="Weapon 1 Swap" itemId="21"/>
 			<Slot name="Flask 4" itemId="8"/>
-			<Slot name="Belt" itemId="5"/>
+			<Slot name="Belt" itemId="29"/>
 			<Slot name="Flask 5" itemId="7"/>
 			<Slot name="Body Armour" itemId="11"/>
 			<Slot name="Ring 1" itemId="6"/>
@@ -744,5 +801,7 @@ Socketed Gems are Supported by Level 30 Iron Will
 	</Items>
 	<Config>
 		<Input name="enemyConditionHitByLightningDamage" boolean="true"/>
+		<Input name="conditionEnemyIntimidated" boolean="true"/>
+		<Input name="enemyIsBoss" string="NONE"/>
 	</Config>
 </PathOfBuilding>
