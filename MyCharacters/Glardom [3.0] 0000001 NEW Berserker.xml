@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="97" targetVersion="3_0" banditNormal="None" bandit="Oak" banditMerciless="None" className="Marauder" ascendClassName="Berserker" mainSocketGroup="1" viewMode="CALCS" banditCruel="None">
+	<Build level="97" targetVersion="3_0" banditNormal="None" bandit="Oak" banditMerciless="None" className="Marauder" ascendClassName="Berserker" mainSocketGroup="1" viewMode="CONFIG" banditCruel="None">
 		<PlayerStat stat="AverageHit" value="526.7625"/>
 		<PlayerStat stat="AverageDamage" value="526.7625"/>
 		<PlayerStat stat="Speed" value="2"/>
@@ -14,17 +14,17 @@
 		<PlayerStat stat="WithPoisonDPS" value="1053.525"/>
 		<PlayerStat stat="Cooldown" value="0.5"/>
 		<PlayerStat stat="ManaCost" value="45"/>
-		<PlayerStat stat="Str" value="535"/>
+		<PlayerStat stat="Str" value="539"/>
 		<PlayerStat stat="ReqStr" value="191"/>
 		<PlayerStat stat="Dex" value="43"/>
 		<PlayerStat stat="ReqDex" value="42"/>
 		<PlayerStat stat="Int" value="163"/>
 		<PlayerStat stat="ReqInt" value="155"/>
-		<PlayerStat stat="Life" value="8897"/>
+		<PlayerStat stat="Life" value="9240"/>
 		<PlayerStat stat="Spec:LifeInc" value="223"/>
-		<PlayerStat stat="LifeUnreserved" value="8897"/>
+		<PlayerStat stat="LifeUnreserved" value="9240"/>
 		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
-		<PlayerStat stat="LifeRegen" value="1556.61"/>
+		<PlayerStat stat="LifeRegen" value="1604.2"/>
 		<PlayerStat stat="LifeLeechGainRate" value="0"/>
 		<PlayerStat stat="Mana" value="698"/>
 		<PlayerStat stat="Spec:ManaInc" value="0"/>
@@ -32,8 +32,8 @@
 		<PlayerStat stat="ManaUnreservedPercent" value="29.942693409742"/>
 		<PlayerStat stat="ManaRegen" value="22"/>
 		<PlayerStat stat="ManaLeechGainRate" value="0"/>
-		<PlayerStat stat="TotalDegen" value="1070.7312"/>
-		<PlayerStat stat="NetLifeRegen" value="485.8788"/>
+		<PlayerStat stat="TotalDegen" value="1111.4796"/>
+		<PlayerStat stat="NetLifeRegen" value="492.7204"/>
 		<PlayerStat stat="EnergyShield" value="149"/>
 		<PlayerStat stat="Spec:EnergyShieldInc" value="10"/>
 		<PlayerStat stat="EnergyShieldRegen" value="0"/>
@@ -55,14 +55,14 @@
 		<PlayerStat stat="ColdResist" value="75"/>
 		<PlayerStat stat="LightningResist" value="75"/>
 		<PlayerStat stat="ChaosResist" value="-44"/>
-		<PlayerStat stat="FireResistOverCap" value="53"/>
-		<PlayerStat stat="ColdResistOverCap" value="35"/>
-		<PlayerStat stat="LightningResistOverCap" value="36"/>
+		<PlayerStat stat="FireResistOverCap" value="94"/>
+		<PlayerStat stat="ColdResistOverCap" value="14"/>
+		<PlayerStat stat="LightningResistOverCap" value="51"/>
 		<PlayerStat stat="ChaosResistOverCap" value="0"/>
 	</Build>
 	<Calcs>
 		<Input name="misc_buffMode" string="EFFECTIVE"/>
-		<Input name="skill_number" number="3"/>
+		<Input name="skill_number" number="7"/>
 		<Section collapsed="false" id="SkillSelect"/>
 		<Section collapsed="false" id="HitDamage"/>
 		<Section collapsed="false" id="Dot"/>
@@ -132,7 +132,7 @@
 	<Tree activeSpec="4">
 		<Spec>
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcLdJDyHF5hO9Bh8AazRZZ848avWD3MpRvdO356JHO029R-3uzNZLXlqcIBS1348T2TePZfP6PPC29NpitHxg64cauPfwdFLc-ZlTG2LiTggeCx_Af8914DQPWXz8UICcv9khoZe8OtfJTpQthBg5WSAHcE6VboFBH_gpvO3asaPIYVhRxcqnawWSjFgvYJI9GWGNodJBVxgSE2WhYeWgaOOoYz37BBC5THKcn7aIAple77YNfDF9hIXIP1Hx8DvjrRZ0SadpiFxy5fprgFm_60kd-2L1TUq9sjM-nVayqBLPyQZ8-CfaDzCj642rEWInY8kUm8-vuqW4=
+				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcGjhDyHF5qW5Bh8AazRZZ848a6-4m85RvtfL56Pcy029oZXuzNZLXlv6PBS3E9uNqKPqDzAn2eA0dFJitHxg64cauBLOnCLc-ZlTZfLiTvTaCx_Af892MzwPWXz907VNS2L1Hfu8O-tIUIAthFm9WSJrguX7awVBH2mISaROlaPJFnRRxcqlboPjrFgvYJHwOWGNodNR8_grqGMEEDF8t0hhWz36DXy5THKcn7aZXogC77WSjeWhhIXIPkFWPRmhYhNlvO8YEFxx2rITvBg5R-5HO9kgnL69sPC2nVayqPfzyQZ8-ggfG2E3jd-PEWInY8kVTpb1gAdw=
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="23"/>
@@ -145,22 +145,22 @@
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="16"/>
 				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="6230" itemId="24"/>
+				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="55190" itemId="22"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="54127" itemId="26"/>
 				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="33631" itemId="25"/>
-				<Socket nodeId="54127" itemId="26"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="6230" itemId="24"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
 			</Sockets>
 		</Spec>
 		<Spec title="Guide">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcQYdZ848a_EuUb_noJvO18gUtmK134z38ZlS4k4IHA9ZfP8T2vJ9QR5rgcqlboBYL2CRFnRo4GFbPfi5Tu-1oWJBVfA5vOxLhr2ysqvJBnz6tjcbYKPrEWPJF6-5670PIFE3AGpHO0297szWS15b-j8auOlK3PhynvTaCx_Af892Mz-8OU6ULYdi9dqwOPBRx2sH464TvWGNodGVNxgS9YKIAOuFN46ZXCfaSfVNSaPIn7QHcqW7-CoNfeWhhIXIP1HwGDjwtDF8UIKLqpwiE2S3SZKN07Ud-vqd4Dbl-E6WnVfcyVkgEs-oYwQSDzBiR2mInL4nYaGX2SNl83CM=
+				https://www.pathofexile.com/passive-skill-tree/AAAABAEDABzcQYdZ848a_EuUb_noaGW18gUtmK134z38ZlQJ9oIHA9ZfPwSzvJ907bl-vqdboBYL2mJFnS3S6hjPfi5Tu-1oWJBVfA5vOxLhr2ysqvJBnz6tjaZXTePEWPJFvWBlTUPIFE3AGpHOBg57szWS15b-j8auOlK3PhynvTaCx_Af892Mz-8OFCALYfZIE6Vo8hRx2sEB3NwjWGNodHrv_grr7tNv9zIo-sbYuJM8LVNSDjwn7fjrhO_GBMEEDF9hIXIP1HyiADrheWhTpaLqJvMYVho4g1-SfdgkcqknL5rgdqynVVBHpwjYvcT2hNnZfGSjR354DYnYVkiDzBiRqW4=
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -173,22 +173,22 @@
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
 				<Socket nodeId="54127" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
 				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="33631" itemId="0"/>
-				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
-				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
 			</Sockets>
 		</Spec>
 		<Spec title="Berserker">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAECABzc2WGboR0UFm_AGlH7WfOPGny4lG967_noaGXTbwYOmK01kikupwgFLffX8kV9-8auzRYJ9ij6w2gfGHfjPfxVxtl8tz5mVPZIHKe9NoLH8B88LfObxthfP3F5Gj64k_6P7w5QRxQgC2E64di9U1L4X6IAdO1XDeDYdqxo8uoQ2mK-p9rBbztFnUd-Zp5YY2h0-tL-CjpY8i_jaho4hNnPfoPbLlOsmCftqW55aNR8wQQMX2Ehcg-nbZBVj0Zko4NfEmkYVhccGS7YJKZXmuCE7_GsJy-vbEGHVkiDzFOl8kFf0K2N0iFN44IHxFjE9iGQAdzr7mVN
+				https://www.pathofexile.com/passive-skill-tree/AAAABAECABzc2WGboR0UFm_AGlH7WfOPGny4lG9lTfnoaGXTb3fjAdw1kikupwgFLffXIZB9-8T2uJOCB03jw2gfGDrhxq5VxtIhtz5mVNl885u9NoLH8B88LRynPfxfP1OlGj6DzFZI7w5BhxQgC2FQR9i9Jy_4X_GsdO2E7-DYdqxo8uoQmuC-p9rBplfYJFcN8i9YY2h042pFnRhWZp4SaRo4hNnPfjpYLlODXyftZKMMX5BVwQR5aGEhcg-nbdR8j0apbqyYbzuD2xccGS7-CvrSR37aYqIAU1KvbAYOCfbNFvZI8kFf0K2Nxtgo-nF5xFj-j_JFmK3r7nrv
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="23"/>
@@ -196,27 +196,27 @@
 				<Socket nodeId="28475" itemId="17"/>
 				<Socket nodeId="26196" itemId="28"/>
 				<Socket nodeId="36634" itemId="27"/>
-				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="61419" itemId="0"/>
 				<Socket nodeId="54127" itemId="26"/>
-				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="6230" itemId="24"/>
 				<Socket nodeId="55190" itemId="22"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="33989" itemId="0"/>
-				<Socket nodeId="6230" itemId="24"/>
+				<Socket nodeId="26725" itemId="16"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
 				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="33631" itemId="25"/>
-				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="26725" itemId="16"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
 			</Sockets>
 		</Spec>
 		<Spec title="Chieftain">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAECABzc2WEB3HF5HRRBh8AaUftZ848ahO98uJRvIZD56GhlBg7XlqluNZIpLqcIBS3-j1ZIffvZfFcNmK1vO8NoHxg64cau2mLYvbc-ZlSDzPObvTaCx_AfPC0YVicvXz9koxo-4XMMX-8Og18Eswthmjv2SKIA-F_E9nTt42rg2HasaPLqEBJpcqnawVBHmuDYJNR8WGNodNNvRZ0o-vIvR34aOITZz364ky5TwQQn7c0WJKpTpWhYeWhhIXIPd-OQVY9GHKdlTfrS_goXHBkuplfxrMbYgpsUIFNSr2wWb4IHrKo9_PJBX9CtjdIhTeMJ9sRYidjyRadt6-567w==
+				https://www.pathofexile.com/passive-skill-tree/AAAABAECABzc2WF673F515ZBh8AaUftZ848ap218uJRv8kX56GhlBg6DX287NZIpLqcIBS0J9k3jffvSIdpiHRTZfMNoHxg64cauPfz-j7c-ZlSCB_ObvTaCx_AfPC0Wb6luXz9TUho-4XMUIO8OgpvE9gthmjv2SMbY-F_xrHTtplfg2HasaPLqENi9cqnawUd-_gpXDfrSWGNodGVNRZ0cp_IvzRYaOBhWz36QVS5Td-Mn7WhYJKp5aGSjDF9hIXIPU6XUfI9GwQS4k-NqhNkXHBku02_YJJrgUEcSaScvr2yYrQSzrKpWSPJBX9CtjYPMKPqE78RYidghkKIA6-4B3A==
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="23"/>
@@ -224,22 +224,22 @@
 				<Socket nodeId="28475" itemId="17"/>
 				<Socket nodeId="26196" itemId="28"/>
 				<Socket nodeId="36634" itemId="27"/>
-				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="61419" itemId="0"/>
 				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="6230" itemId="24"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="55190" itemId="22"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="34483" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="26725" itemId="16"/>
+				<Socket nodeId="54127" itemId="26"/>
 				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="33631" itemId="25"/>
-				<Socket nodeId="54127" itemId="26"/>
-				<Socket nodeId="26725" itemId="16"/>
-				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="6230" itemId="24"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
 			</Sockets>
 		</Spec>
 	</Tree>
@@ -820,12 +820,13 @@ Rampage
 		<Slot name="Gloves" itemId="4"/>
 		<Slot name="Flask 1" itemId="19"/>
 		<Slot name="Flask 3" itemId="10"/>
+		<Slot name="Amulet" itemId="30"/>
 		<Slot name="Flask 2" itemId="2"/>
 		<Slot name="Weapon 2" itemId="14"/>
 		<Slot name="Boots" itemId="31"/>
 		<Slot name="Weapon 1 Swap" itemId="21"/>
 		<Slot name="Flask 4" itemId="8"/>
-		<Slot name="Belt" itemId="32"/>
+		<Slot name="Belt" itemId="29"/>
 		<Slot name="Flask 5" itemId="7"/>
 		<Slot name="Body Armour" itemId="11"/>
 		<Slot name="Ring 1" itemId="6"/>
@@ -837,13 +838,13 @@ Rampage
 			<Slot name="Weapon 1" itemId="0"/>
 			<Slot name="Flask 1" itemId="19"/>
 			<Slot name="Flask 3" itemId="10"/>
-			<Slot name="Amulet" itemId="0"/>
+			<Slot name="Amulet" itemId="30"/>
 			<Slot name="Flask 2" itemId="2"/>
 			<Slot name="Weapon 2" itemId="14"/>
 			<Slot name="Boots" itemId="31"/>
 			<Slot name="Weapon 1 Swap" itemId="21"/>
 			<Slot name="Flask 4" itemId="8"/>
-			<Slot name="Belt" itemId="32"/>
+			<Slot name="Belt" itemId="29"/>
 			<Slot name="Flask 5" itemId="7"/>
 			<Slot name="Body Armour" itemId="11"/>
 			<Slot name="Ring 1" itemId="6"/>
