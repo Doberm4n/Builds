@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="97" targetVersion="3_0" banditNormal="None" bandit="Oak" banditMerciless="None" className="Marauder" ascendClassName="Berserker" mainSocketGroup="1" viewMode="IMPORT" banditCruel="None">
+	<Build level="97" targetVersion="3_0" banditNormal="None" bandit="Oak" banditMerciless="None" className="Marauder" ascendClassName="Berserker" mainSocketGroup="1" viewMode="ITEMS" banditCruel="None">
 		<PlayerStat stat="AverageDamage" value="172.38"/>
 		<PlayerStat stat="Speed" value="1.974"/>
 		<PlayerStat stat="Speed" value="1.974"/>
@@ -516,6 +516,80 @@ Creates a Smoke Cloud on Use
 50% increased Charges used
 37% increased Damage Over Time during Flask Effect
 Grants level 21 Vulnerability Curse Aura during Flask Effect
+		</Item>
+		<Item variant="2" id="27">
+			Rarity: UNIQUE
+Belt of the Deceiver
+Heavy Belt
+Variant: Pre 2.6.0
+Variant: Current
+Selected Variant: 2
+LevelReq: 20
+Implicits: 1
+{range:1}+(25-35) to Strength
+{variant:1}10% reduced Chance to Block Attacks and Spells
+{range:0.232}(15-25)% increased Physical Damage
+You take 30% reduced Extra Damage from Critical Strikes
+{range:1}+(30-40) to maximum Life
+{variant:1}{range:0.5}+(6-10)% to all Elemental Resistances
+{variant:2}{range:1}+(10-15)% to all Elemental Resistances
+{variant:2}Nearby Enemies are Intimidated
+			<ModRange range="1" id="1"/>
+			<ModRange range="0.232" id="3"/>
+			<ModRange range="1" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="1" id="7"/>
+		</Item>
+		<Item id="28">
+			Rarity: UNIQUE
+Ngamahu Tiki
+Coral Amulet
+LevelReq: 36
+Implicits: 1
+{range:0.585}(2-4) Life Regenerated per second
+{range:1}(50-70)% increased Fire Damage
+You gain 100 Evasion Rating when on Low Life
+{range:0.963}+(30-50) to maximum Life
+{range:0.61}+(20-30)% to Fire Resistance
+1% of Life Regenerated per Second while on Low Life
+			<ModRange range="0.585" id="1"/>
+			<ModRange range="1" id="2"/>
+			<ModRange range="0.963" id="4"/>
+			<ModRange range="0.61" id="5"/>
+		</Item>
+		<Item variant="2" id="29">
+			Rarity: UNIQUE
+Windscream
+Reinforced Greaves
+Variant: Pre 2.6.0
+Variant: Current
+Selected Variant: 2
+Quality: 20
+LevelReq: 33
+Implicits: 0
+{range:1}(50-80)% increased Armour
+{range:1}+(10-15)% to all Elemental Resistances
+{variant:1}10% increased Movement Speed
+{variant:2}15% increased Movement Speed
+{variant:1}10% increased Elemental Damage
+{variant:2}{range:0.5}(10-20)% increased Elemental Damage
+Enemies can have 1 additional Curse
+			<ModRange range="1" id="1"/>
+			<ModRange range="1" id="2"/>
+			<ModRange range="0.5" id="6"/>
+		</Item>
+		<Item id="30">
+			Rarity: UNIQUE
+Bisco&apos;s Leash
+Heavy Belt
+Item Level: 70
+LevelReq: 30
+Implicits: 1
++31 to Strength
+5% increased Quantity of Items found
++36% to Cold Resistance
+Rampage
+1% increased Rarity of Items found per 15 Rampage Kills
 		</Item>
 		<Slot name="Gloves" itemId="15"/>
 		<Slot name="Weapon 1" itemId="11"/>
