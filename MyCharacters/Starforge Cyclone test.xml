@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="96" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Duelist" ascendClassName="Slayer" mainSocketGroup="2" viewMode="ITEMS" banditCruel="None">
-		<PlayerStat stat="AverageDamage" value="2296"/>
-		<PlayerStat stat="Speed" value="5.0662"/>
-		<PlayerStat stat="Speed" value="5.0662"/>
+	<Build level="96" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Duelist" ascendClassName="Slayer" mainSocketGroup="2" viewMode="CALCS" banditCruel="None">
+		<PlayerStat stat="AverageDamage" value="2569.5"/>
+		<PlayerStat stat="Speed" value="6.0298"/>
+		<PlayerStat stat="Speed" value="6.0298"/>
 		<PlayerStat stat="PreEffectiveCritChance" value="0"/>
 		<PlayerStat stat="CritChance" value="0"/>
 		<PlayerStat stat="CritMultiplier" value="0"/>
 		<PlayerStat stat="HitChance" value="100"/>
-		<PlayerStat stat="TotalDPS" value="23263.9904"/>
+		<PlayerStat stat="TotalDPS" value="30987.1422"/>
 		<PlayerStat stat="TotalDot" value="0"/>
 		<PlayerStat stat="BleedDPS" value="1025.15"/>
-		<PlayerStat stat="WithPoisonDPS" value="23263.9904"/>
+		<PlayerStat stat="WithPoisonDPS" value="30987.1422"/>
 		<PlayerStat stat="AreaOfEffectRadius" value="22"/>
 		<PlayerStat stat="ManaCost" value="12"/>
-		<PlayerStat stat="Str" value="563"/>
+		<PlayerStat stat="Str" value="571"/>
 		<PlayerStat stat="ReqStr" value="180"/>
-		<PlayerStat stat="Dex" value="223"/>
+		<PlayerStat stat="Dex" value="231"/>
 		<PlayerStat stat="ReqDex" value="113"/>
-		<PlayerStat stat="Int" value="163"/>
+		<PlayerStat stat="Int" value="171"/>
 		<PlayerStat stat="ReqInt" value="0"/>
-		<PlayerStat stat="Life" value="6591"/>
+		<PlayerStat stat="Life" value="7255"/>
 		<PlayerStat stat="Spec:LifeInc" value="214"/>
-		<PlayerStat stat="LifeUnreserved" value="6591"/>
+		<PlayerStat stat="LifeUnreserved" value="7255"/>
 		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
-		<PlayerStat stat="LifeRegen" value="355.914"/>
-		<PlayerStat stat="LifeLeechGainRate" value="2504.58"/>
+		<PlayerStat stat="LifeRegen" value="391.77"/>
+		<PlayerStat stat="LifeLeechGainRate" value="2756.9"/>
 		<PlayerStat stat="Mana" value="0"/>
 		<PlayerStat stat="Spec:ManaInc" value="0"/>
 		<PlayerStat stat="ManaRegen" value="0"/>
@@ -34,12 +34,12 @@
 		<PlayerStat stat="Spec:EnergyShieldInc" value="10"/>
 		<PlayerStat stat="EnergyShieldRegen" value="0"/>
 		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
-		<PlayerStat stat="Evasion" value="2139"/>
+		<PlayerStat stat="Evasion" value="2151"/>
 		<PlayerStat stat="Spec:EvasionInc" value="36"/>
 		<PlayerStat stat="MeleeEvadeChance" value="18"/>
 		<PlayerStat stat="MeleeEvadeChance" value="18"/>
 		<PlayerStat stat="ProjectileEvadeChance" value="18"/>
-		<PlayerStat stat="Armour" value="8267"/>
+		<PlayerStat stat="Armour" value="8218"/>
 		<PlayerStat stat="Spec:ArmourInc" value="122"/>
 		<PlayerStat stat="PhysicalDamageReduction" value="40"/>
 		<PlayerStat stat="MovementSpeedMod" value="1.5"/>
@@ -51,8 +51,8 @@
 		<PlayerStat stat="ColdResist" value="75"/>
 		<PlayerStat stat="LightningResist" value="75"/>
 		<PlayerStat stat="ChaosResist" value="-37"/>
-		<PlayerStat stat="FireResistOverCap" value="3"/>
-		<PlayerStat stat="ColdResistOverCap" value="4"/>
+		<PlayerStat stat="FireResistOverCap" value="15"/>
+		<PlayerStat stat="ColdResistOverCap" value="16"/>
 		<PlayerStat stat="LightningResistOverCap" value="16"/>
 		<PlayerStat stat="ChaosResistOverCap" value="0"/>
 	</Build>
@@ -89,41 +89,44 @@
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" mainActiveSkill="1">
 			<Gem level="20" skillId="Cyclone" quality="0" enabled="true" nameSpec="Cyclone"/>
 		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" mainActiveSkill="1">
+			<Gem level="20" skillId="VaalHaste" skillPart="1" quality="0" enabled="false" nameSpec="Vaal Haste" skillMinion="RaisedSkeleton"/>
+		</Skill>
 	</Skills>
 	<Tree activeSpec="1">
 		<Spec>
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAQBAMqQFexeE-569zKJ2Ad1WfOiABuq2XyUb-98OQ6KItNvg8xoZbkdrj7XlrKABS3vTgSzl3n464TvwKZXVCz7wQdhUoZgOlK3PmZUGlXpRoIHZ5vh74rwFHGMz18_qSe-p9w9h2oJljGexPbfv7yfNugaOOoYQKB07Wjyk6h2rA48kFU7tnKp2sHYve8OR37z3b02qZSGtIE6kGxJ1f4K82-E2c9-rKouU4NfOuEYkWVNUEdoWODDCbtyD2MX208lvIjt9kgLYfJa134UIORRpTUnnzwt8B88Ba9s9WGFp_oYirPyQcauJyCmVwxwwGYhVRDw8kWbLXzZeu8=
+				https://www.pathofexile.com/passive-skill-tree/AAAABAQBAGVNGJFeE5stOQ4Q8Ad1WfM64RXswGaUb4zP7nqKItNvplcJlsaurj7XlrkdBS3Yvayql3mDzL02wKZQRyz7wQdhUoZgOlK3PmZUGlXpRoIHhO_h74rw8B-ygF8_qSfz3dw9FHHvTu8OBLPfv7yfNuilNRQg9WF07fJaZ5t2rA48C2E7tnKp2sGHavcyR34aOJBVqZSGtP4KkGxJ1WMX82_qGM9-aGUuUwm74MNoWJOoeu-DX3zZIVVyD_jr208lvIjtgToxnldU1348LeRRvqcnn_ZIaPI8Ba9sxPaFp_oYirPyQe98JyDZfAxwG6pAoInY8kWE2aIAypA=
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
 				<Socket nodeId="32763" itemId="0"/>
 				<Socket nodeId="28475" itemId="0"/>
-				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="26196" itemId="10"/>
 				<Socket nodeId="36634" itemId="0"/>
 				<Socket nodeId="33989" itemId="0"/>
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
-				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
-				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="26725" itemId="16"/>
+				<Socket nodeId="54127" itemId="14"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="55190" itemId="15"/>
 				<Socket nodeId="48768" itemId="0"/>
 				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
 				<Socket nodeId="34483" itemId="0"/>
-				<Socket nodeId="33631" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="33631" itemId="12"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="2491" itemId="9"/>
 				<Socket nodeId="61419" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
 			</Sockets>
 		</Spec>
 	</Tree>
 	<Notes>
 		
 	</Notes>
-	<TreeView searchStr="" zoomY="-180.688" showHeatMap="false" zoomLevel="6" showStatDifferences="true" zoomX="168.144"/>
+	<TreeView searchStr="" zoomY="51.312" showHeatMap="false" zoomLevel="6" showStatDifferences="true" zoomX="357.144"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item id="1">
 			Rarity: Unique
@@ -324,23 +327,6 @@ Adds 4 to 14 Physical Damage to Attacks
 +44% to Cold Resistance
 Adds 5 to 7 Physical Damage to Attacks
 		</Item>
-		<Item id="17">
-			Rarity: RARE
-Sol Hand
-Spiked Gloves
-Item Level: 73
-Quality: 20
-Sockets: G-R-R-R
-LevelReq: 73
-Implicits: 1
-20% increased Melee Damage
-Adds 2 to 5 Physical Damage to Attacks
-83% increased Armour
-+79 to maximum Life
-+40% to Fire Resistance
-+28% to Lightning Resistance
-+0% to Cold Resistance
-		</Item>
 		<Item id="18">
 			Rarity: Rare
 Doom Knuckle
@@ -360,7 +346,128 @@ Can have multiple Crafted Mods
 Adds 3 to 9 Physical Damage to Attacks
 +25% to Lightning Resistance
 		</Item>
-		<Slot name="Gloves" itemId="17"/>
+		<Item id="5">
+			Rarity: Rare
+Sol Hand
+Spiked Gloves
+--------
+Quality: +10% (augmented)
+Armour: 425 (augmented)
+--------
+Requirements:
+Level: 73
+Str: 95
+--------
+Sockets: G-R-R-R 
+--------
+Item Level: 73
+--------
+20% increased Melee Damage
+--------
+Adds 2 to 5 Physical Damage to Attacks
+83% increased Armour
++79 to maximum Life
++40% to Fire Resistance
++28% to Lightning Resistance
+11% increased Attack Speed
+		</Item>
+		<Item id="9">
+			Rarity: Rare
+Glyph Shine
+Crimson Jewel
+--------
+Item Level: 81
+--------
+7% increased Attack Speed with Swords
+7% increased maximum Life
+4% chance to Knock Enemies Back on hit
++12% to Fire and Cold Resistances
+--------
+Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.
+		</Item>
+		<Item id="10">
+			Rarity: Rare
+Dusk Scalpel
+Viridian Jewel
+--------
+Item Level: 70
+--------
+6% increased Attack Speed with Swords
+6% increased maximum Life
+6% increased Ignite Duration on Enemies
+5% chance to Ignite
+12% increased Area Damage
+--------
+Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.
+		</Item>
+		<Item id="11">
+			Rarity: Rare
+Rapture Scratch
+Viridian Jewel
+--------
+Item Level: 84
+--------
+15% increased Physical Damage with Swords
+5% increased maximum Life
+4% increased Attack and Cast Speed
+--------
+Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.
+		</Item>
+		<Item id="12">
+			Rarity: Rare
+Pandemonium Blood
+Crimson Jewel
+--------
+Item Level: 69
+--------
+16% increased Physical Damage with Swords
++8 to all Attributes
+6% increased maximum Life
+4% increased Attack and Cast Speed
+--------
+Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.
+		</Item>
+		<Item id="14">
+			Rarity: Rare
+Maelstrom Shine
+Crimson Jewel
+--------
+Item Level: 79
+--------
+16% increased Physical Damage with Swords
+6% increased Attack Speed with Two Handed Melee Weapons
+10% increased Melee Damage
+--------
+Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.
+		</Item>
+		<Item id="15">
+			Rarity: Rare
+Bramble Vessel
+Crimson Jewel
+--------
+Item Level: 74
+--------
+15% increased Physical Damage with Swords
+5% increased maximum Life
+11% increased Melee Damage
+4% increased Attack and Cast Speed
+--------
+Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.
+		</Item>
+		<Item id="16">
+			Rarity: Rare
+Luminous Glisten
+Crimson Jewel
+--------
+Item Level: 85
+--------
+6% increased Attack Speed with Two Handed Melee Weapons
+7% increased maximum Life
+12% increased Area Damage
+--------
+Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.
+		</Item>
+		<Slot name="Gloves" itemId="5"/>
 		<Slot name="Weapon 1" itemId="3"/>
 		<Slot name="Flask 1" itemId="7"/>
 		<Slot name="Amulet" itemId="4"/>
@@ -371,7 +478,7 @@ Adds 3 to 9 Physical Damage to Attacks
 		<Slot name="Helmet" itemId="8"/>
 		<Slot name="Ring 2" itemId="18"/>
 		<ItemSet useSecondWeaponSet="false" id="1">
-			<Slot name="Gloves" itemId="17"/>
+			<Slot name="Gloves" itemId="5"/>
 			<Slot name="Weapon 1" itemId="3"/>
 			<Slot name="Flask 1" itemId="7"/>
 			<Slot name="Flask 3" itemId="0"/>
