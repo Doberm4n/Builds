@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="12" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Templar" ascendClassName="None" mainSocketGroup="1" viewMode="ITEMS" banditCruel="None">
+	<Build level="36" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Templar" ascendClassName="None" mainSocketGroup="1" viewMode="TREE" banditCruel="None">
 		<PlayerStat stat="AverageHit" value="0"/>
 		<PlayerStat stat="AverageDamage" value="0"/>
 		<PlayerStat stat="Speed" value="1"/>
@@ -10,52 +10,52 @@
 		<PlayerStat stat="CritMultiplier" value="1.5"/>
 		<PlayerStat stat="HitChance" value="100"/>
 		<PlayerStat stat="TotalDPS" value="0"/>
-		<PlayerStat stat="TotalDot" value="104"/>
-		<PlayerStat stat="WithPoisonDPS" value="104"/>
+		<PlayerStat stat="TotalDot" value="504"/>
+		<PlayerStat stat="WithPoisonDPS" value="504"/>
 		<PlayerStat stat="AreaOfEffectRadius" value="23"/>
 		<PlayerStat stat="ManaCost" value="0"/>
-		<PlayerStat stat="Str" value="79"/>
+		<PlayerStat stat="Str" value="309"/>
 		<PlayerStat stat="ReqStr" value="68"/>
-		<PlayerStat stat="Dex" value="40"/>
+		<PlayerStat stat="Dex" value="60"/>
 		<PlayerStat stat="ReqDex" value="0"/>
-		<PlayerStat stat="Int" value="79"/>
+		<PlayerStat stat="Int" value="99"/>
 		<PlayerStat stat="ReqInt" value="98"/>
-		<PlayerStat stat="Life" value="247"/>
-		<PlayerStat stat="Spec:LifeInc" value="5"/>
-		<PlayerStat stat="LifeUnreserved" value="247"/>
+		<PlayerStat stat="Life" value="887"/>
+		<PlayerStat stat="Spec:LifeInc" value="39"/>
+		<PlayerStat stat="LifeUnreserved" value="887"/>
 		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
-		<PlayerStat stat="LifeRegen" value="38.82"/>
+		<PlayerStat stat="LifeRegen" value="211.259"/>
 		<PlayerStat stat="LifeLeechGainRate" value="0"/>
-		<PlayerStat stat="Mana" value="153"/>
+		<PlayerStat stat="Mana" value="315"/>
 		<PlayerStat stat="Spec:ManaInc" value="5"/>
-		<PlayerStat stat="ManaUnreserved" value="153"/>
-		<PlayerStat stat="ManaUnreservedPercent" value="100"/>
-		<PlayerStat stat="ManaRegen" value="5.9"/>
+		<PlayerStat stat="ManaUnreserved" value="204"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="64.761904761905"/>
+		<PlayerStat stat="ManaRegen" value="14.3"/>
 		<PlayerStat stat="ManaLeechGainRate" value="0"/>
-		<PlayerStat stat="TotalDegen" value="360.984"/>
-		<PlayerStat stat="NetLifeRegen" value="-322.164"/>
+		<PlayerStat stat="TotalDegen" value="185.702"/>
+		<PlayerStat stat="NetLifeRegen" value="25.557"/>
 		<PlayerStat stat="EnergyShield" value="13"/>
 		<PlayerStat stat="Spec:EnergyShieldInc" value="25"/>
 		<PlayerStat stat="EnergyShieldRegen" value="0"/>
 		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
-		<PlayerStat stat="Evasion" value="96"/>
+		<PlayerStat stat="Evasion" value="180"/>
 		<PlayerStat stat="Spec:EvasionInc" value="0"/>
-		<PlayerStat stat="MeleeEvadeChance" value="28"/>
-		<PlayerStat stat="MeleeEvadeChance" value="28"/>
-		<PlayerStat stat="ProjectileEvadeChance" value="28"/>
-		<PlayerStat stat="Armour" value="60"/>
-		<PlayerStat stat="Spec:ArmourInc" value="50"/>
-		<PlayerStat stat="PhysicalDamageReduction" value="22"/>
-		<PlayerStat stat="MovementSpeedMod" value="0.94"/>
+		<PlayerStat stat="MeleeEvadeChance" value="17"/>
+		<PlayerStat stat="MeleeEvadeChance" value="17"/>
+		<PlayerStat stat="ProjectileEvadeChance" value="17"/>
+		<PlayerStat stat="Armour" value="98"/>
+		<PlayerStat stat="Spec:ArmourInc" value="144"/>
+		<PlayerStat stat="PhysicalDamageReduction" value="9"/>
+		<PlayerStat stat="MovementSpeedMod" value="0.97"/>
 		<PlayerStat stat="BlockChance" value="22"/>
 		<PlayerStat stat="SpellBlockChance" value="0"/>
 		<PlayerStat stat="AttackDodgeChance" value="0"/>
 		<PlayerStat stat="SpellDodgeChance" value="0"/>
-		<PlayerStat stat="FireResist" value="-56"/>
-		<PlayerStat stat="ColdResist" value="-56"/>
-		<PlayerStat stat="LightningResist" value="-6"/>
+		<PlayerStat stat="FireResist" value="77"/>
+		<PlayerStat stat="ColdResist" value="-50"/>
+		<PlayerStat stat="LightningResist" value="0"/>
 		<PlayerStat stat="ChaosResist" value="-60"/>
-		<PlayerStat stat="FireResistOverCap" value="0"/>
+		<PlayerStat stat="FireResistOverCap" value="107"/>
 		<PlayerStat stat="ColdResistOverCap" value="0"/>
 		<PlayerStat stat="LightningResistOverCap" value="0"/>
 		<PlayerStat stat="ChaosResistOverCap" value="0"/>
@@ -89,12 +89,13 @@
 	<Skills defaultGemQuality="nil" defaultGemLevel="nil" sortGemsByDPS="true">
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Body Armour" mainActiveSkill="1">
 			<Gem level="20" skillId="RighteousFire" skillPart="1" quality="0" skillPartCalcs="1" enabled="true" nameSpec="Righteous Fire"/>
+			<Gem level="5" skillId="FireResistAura" quality="0" enabled="true" nameSpec="Purity of Fire"/>
 		</Skill>
 	</Skills>
 	<Tree activeSpec="1">
 		<Spec>
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAUAAJrPaPJPBENjcU1DyA==
+				https://www.pathofexile.com/passive-skill-tree/AAAABAUAAGebdqxo8kPIQYdPBNpiaHT56AYOhNlxTa4-KS7PfsEEDF9hISftms_UfHfjxq4J9mSjtz6E7xkuHKfawdSPBS08LZSgr2xfP3loGj4B3FOlrY2DzAthVw1DY9lh8ax8uHTtqW4=
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -106,25 +107,25 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
 				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
 				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="33631" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
 			</Sockets>
 		</Spec>
 	</Tree>
 	<Notes>
 		
 	</Notes>
-	<TreeView searchStr="" zoomY="108.88" showHeatMap="false" zoomLevel="6" showStatDifferences="true" zoomX="62.544"/>
+	<TreeView searchStr="regen" zoomY="-197.06259259259" showHeatMap="false" zoomLevel="6" showStatDifferences="true" zoomX="434.34677777778"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item variant="2" id="1">
 			Rarity: Unique
@@ -186,15 +187,18 @@ Implicits: 2
 			<ModRange range="0.5" id="3"/>
 		</Item>
 		<Item variant="2" id="4">
-			Rarity: Unique
+			Rarity: UNIQUE
 Shaper&apos;s Seed
 Agate Amulet
 Variant: Pre 2.6.0
 Variant: Current
-Requires Level 16
-+(16-24) to Strength and Intelligence
-(30-50)% increased Mana Regeneration Rate
+Selected Variant: 2
+LevelReq: 16
+Implicits: 1
+{range:0.5}+(16-24) to Strength and Intelligence
+{range:0.5}(30-50)% increased Mana Regeneration Rate
 2% of Life Regenerated per Second
++200 to Fire Resistance
 {variant:1}Nearby Allies gain 1% of Life Regenerated per Second
 {variant:2}Nearby Allies gain 2% of Life Regenerated per Second
 Nearby Allies gain 40% increased Mana Regeneration Rate
