@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="98" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Templar" ascendClassName="Guardian" mainSocketGroup="1" viewMode="TREE" banditCruel="None">
+	<Build level="98" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Templar" ascendClassName="Guardian" mainSocketGroup="1" viewMode="CALCS" banditCruel="None">
 		<PlayerStat stat="AverageHit" value="0"/>
 		<PlayerStat stat="AverageDamage" value="0"/>
 		<PlayerStat stat="Speed" value="1.27"/>
@@ -10,15 +10,15 @@
 		<PlayerStat stat="CritMultiplier" value="1"/>
 		<PlayerStat stat="HitChance" value="100"/>
 		<PlayerStat stat="TotalDPS" value="0"/>
-		<PlayerStat stat="TotalDot" value="17200.512"/>
-		<PlayerStat stat="WithPoisonDPS" value="17200.512"/>
+		<PlayerStat stat="TotalDot" value="24767.764"/>
+		<PlayerStat stat="WithPoisonDPS" value="24767.764"/>
 		<PlayerStat stat="AreaOfEffectRadius" value="23"/>
 		<PlayerStat stat="ManaCost" value="0"/>
 		<PlayerStat stat="Str" value="98"/>
 		<PlayerStat stat="ReqStr" value="113"/>
 		<PlayerStat stat="Dex" value="114"/>
 		<PlayerStat stat="ReqDex" value="117"/>
-		<PlayerStat stat="Int" value="403"/>
+		<PlayerStat stat="Int" value="451"/>
 		<PlayerStat stat="ReqInt" value="180"/>
 		<PlayerStat stat="Life" value="1552"/>
 		<PlayerStat stat="Spec:LifeInc" value="45"/>
@@ -26,17 +26,17 @@
 		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
 		<PlayerStat stat="LifeRegen" value="0"/>
 		<PlayerStat stat="LifeLeechGainRate" value="0"/>
-		<PlayerStat stat="Mana" value="1706"/>
+		<PlayerStat stat="Mana" value="1749"/>
 		<PlayerStat stat="Spec:ManaInc" value="77"/>
-		<PlayerStat stat="ManaUnreserved" value="221"/>
-		<PlayerStat stat="ManaUnreservedPercent" value="12.95427901524"/>
-		<PlayerStat stat="ManaRegen" value="53.7"/>
+		<PlayerStat stat="ManaUnreserved" value="-280"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="-16.00914808462"/>
+		<PlayerStat stat="ManaRegen" value="55.1"/>
 		<PlayerStat stat="ManaLeechGainRate" value="0"/>
-		<PlayerStat stat="TotalDegen" value="2704.192"/>
-		<PlayerStat stat="NetLifeRegen" value="-2315.54048"/>
-		<PlayerStat stat="EnergyShield" value="6224"/>
+		<PlayerStat stat="TotalDegen" value="896.313"/>
+		<PlayerStat stat="NetLifeRegen" value="-266.8602"/>
+		<PlayerStat stat="EnergyShield" value="9645"/>
 		<PlayerStat stat="Spec:EnergyShieldInc" value="317"/>
-		<PlayerStat stat="EnergyShieldRegen" value="388.65152"/>
+		<PlayerStat stat="EnergyShieldRegen" value="629.4528"/>
 		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
 		<PlayerStat stat="Evasion" value="1278"/>
 		<PlayerStat stat="Spec:EvasionInc" value="35"/>
@@ -45,24 +45,24 @@
 		<PlayerStat stat="ProjectileEvadeChance" value="12"/>
 		<PlayerStat stat="Armour" value="723"/>
 		<PlayerStat stat="Spec:ArmourInc" value="134"/>
-		<PlayerStat stat="PhysicalDamageReduction" value="9"/>
+		<PlayerStat stat="PhysicalDamageReduction" value="10"/>
 		<PlayerStat stat="MovementSpeedMod" value="1.37"/>
 		<PlayerStat stat="BlockChance" value="31"/>
 		<PlayerStat stat="SpellBlockChance" value="0"/>
 		<PlayerStat stat="AttackDodgeChance" value="0"/>
 		<PlayerStat stat="SpellDodgeChance" value="0"/>
-		<PlayerStat stat="FireResist" value="53"/>
-		<PlayerStat stat="ColdResist" value="56"/>
+		<PlayerStat stat="FireResist" value="89"/>
+		<PlayerStat stat="ColdResist" value="81"/>
 		<PlayerStat stat="LightningResist" value="65"/>
 		<PlayerStat stat="ChaosResist" value="0"/>
-		<PlayerStat stat="FireResistOverCap" value="0"/>
-		<PlayerStat stat="ColdResistOverCap" value="0"/>
+		<PlayerStat stat="FireResistOverCap" value="9"/>
+		<PlayerStat stat="ColdResistOverCap" value="14"/>
 		<PlayerStat stat="LightningResistOverCap" value="0"/>
 		<PlayerStat stat="ChaosResistOverCap" value="0"/>
 	</Build>
 	<Calcs>
 		<Input name="skill_number" number="1"/>
-		<Input name="misc_buffMode" string="EFFECTIVE"/>
+		<Input name="misc_buffMode" string="BUFFED"/>
 		<Section collapsed="false" id="SkillSelect"/>
 		<Section collapsed="false" id="HitDamage"/>
 		<Section collapsed="false" id="Dot"/>
@@ -92,6 +92,7 @@
 			<Gem level="20" skillId="FireResistAura" quality="0" enabled="true" nameSpec="Purity of Fire"/>
 			<Gem level="20" skillId="ColdResistAura" quality="0" enabled="true" nameSpec="Purity of Ice"/>
 			<Gem level="20" skillId="LightningResistAura" quality="0" enabled="true" nameSpec="Purity of Lightning"/>
+			<Gem level="20" skillId="Discipline" quality="0" enabled="true" nameSpec="Discipline"/>
 		</Skill>
 		<Skill source="Item:11:Woe Touch, Sorcerer Gloves" mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
 			<Gem level="1" skillId="EnchantmentOfTheGraveOnKill2" skillMinionSkill="1" skillMinionSkillCalcs="1" quality="0" enabled="true" nameSpec="EnchantmentOfTheGraveOnKill2" skillMinion="IcyRagingSpirit"/>
@@ -100,7 +101,7 @@
 	<Tree activeSpec="3">
 		<Spec>
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAUAAGebdqxo8kPI2sHxrFcNaHT56AYOhNlxTa4-KS4n7cEEDF9hIalums_UfHfjxq4J9tlhtz58uBkuHKdBh08EPC1DY5Sgr2xfPwUtGj6DzAHceWitjVOlC2HUj2Sjz37aYnTthO8=
+				https://www.pathofexile.com/passive-skill-tree/AAAABAUAAGebdqxo8kPI1I9PBFcNfLj56AYOhNnPfq4-KS5kowxfYSGpbprP1Hx348au2mJodLc-2WEZLhynCfYn7drBQ2OUoK9sXz8FLRo-g8x5aAHcrY1TpQthPC1Bh8EEcU3xrHTthO8=
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -112,23 +113,23 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="55190" itemId="0"/>
-				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
-				<Socket nodeId="34483" itemId="0"/>
-				<Socket nodeId="33631" itemId="0"/>
 				<Socket nodeId="54127" itemId="0"/>
 				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
 				<Socket nodeId="61834" itemId="0"/>
 			</Sockets>
 		</Spec>
 		<Spec title="RF Templar">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAUDABzcly1Bh1H7jxqUb_noflnquqcr4YiYrXvXZlS4k--IL2_v66EvGyUOSElPS67XauL3ytOFMuwY18_aYr6Kf8aX9EV-GFYEBw18XyqPRvrSi4z3wa9s2Vso-uvukydDyB0UcLtPBM0Wkiv-SQFvvKpGcfDVFy_BxekCxq63Phyngsc8LYMJDlxTpQth-d1WSCaIjHZMs0mxaPK0DGh0Bx4Rlk5SES-XlTbFcU1tGf0AXfLoWnF5Q2Ncax2ZDF8ksHIPms9-bICk6-RV1hJpZp4XHFfJHapq-pUug1-nCPk30B-ESLcx2CTZEx8CNbmlGIPMSVHEtMNttzCLeh8YKwoRUA==
+				https://www.pathofexile.com/passive-skill-tree/AAAABAUDABzcly1Bh1H7jxqUb_noflnquqcr4YiYrXvXZlS4k--IL2_v66EvxLQOSElPS67XauL3ytOFMuwY18-VLr6Kf8ZmnkV-6FoEBw18XyqPRvrSi4z3wa9s2Vso-uvukydDyB0UcLtPBM0Wkiv-SQFvvKpGcacIFy_BxekCxq63Phyngsc8LYMJDlxTpQth-d1WSCaIjHZMs0mxaPK0DLcxBx63MB8CES-XlTbFcU1tGf0AXfIYVk5SQ2Ncax2ZDF8RUHIPms9-bCsK6-RV1hJpl_QXHBslHapq-hGWg1-ApPk30B-ESDW52CTZE0lRpRhXyYPMw20ksHF5i3podB8Y2mLw1Q==
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -140,23 +141,23 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
-				<Socket nodeId="55190" itemId="0"/>
-				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="34483" itemId="0"/>
-				<Socket nodeId="33631" itemId="0"/>
 				<Socket nodeId="54127" itemId="0"/>
 				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="61834" itemId="0"/>
 			</Sockets>
 		</Spec>
 		<Spec title="RF Templar more ES">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAUDABzcly1R-ySwVeCUb_no6rp2gqcr4YjAZpite9dYWriT74gvb6EvGyUdTw5ISU9LrrVI12ri98rThTLsGNfPlS6-in_GZp7oWjQKDXwy0Y9G-tIXHPfB2Vso-uvukydDyB0UcLtPBM0Wkiv-SQFvvKoRUPDVbAsXL8HFpuuApJDWgseDCb6AVkgmiIx2SbFOUhhdtAyA4KcI62MRL7cxUikHHnF5Emld8iepN4NxTbGQi3rYJENjHxhcilxrGFZtGWjycg-az5sw_QB-bFXW2RMrCkZxtzAdqsNtIvRodDzv-TdJUYRIrfGlGNpiV8lFRxGWLKaPGjW5yAxmVDdmNsXpAi2o
+				https://www.pathofexile.com/passive-skill-tree/AAAABAUDABzcly1R-ySwVeCUb_no6rp2gqcrN2bAZpite9dYWriT74gvb6EvGyUdTw5ISU9LrrVI12pJUcrThTLsGNfPlS6-in_GZp4YVjQKDXwy0Y9G-tIXHPfB2Vso-uvukydDyB0UcLtPBM0Wkiv-SQFvvKoRUPDVbAsXL8HFpuuApJDWgseDCb6AVkgmiIx2SbFOUhhdtAxxeeGIpwgRL2h0UikHHukCIvRd8ieprfFxTW0ZjxraYkNjNsVcilxr6FqxkOtjcg-az5swgOB-bFXWEmm3MdgkHxgdqsNt4vc1uYt6-Tc874RIpRhXyRGWaPJFR7cwLKb9AGZUyAw3g9kTKwpGcS2o
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -168,17 +169,17 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
 				<Socket nodeId="61419" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="33631" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
-				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
 				<Socket nodeId="61834" itemId="0"/>
 			</Sockets>
 		</Spec>
@@ -397,12 +398,37 @@ Can have multiple Crafted Mods
 +28 to maximum Energy Shield
 +28% to Cold Resistance
 		</Item>
+		<Item id="12">
+			Rarity: Rare
+Doom Crest
+Hubris Circlet
+--------
+Quality: +20% (augmented)
+Energy Shield: 271 (augmented)
+--------
+Requirements:
+Level: 69 (unmet)
+Int: 154
+--------
+Sockets: B-B 
+--------
+Item Level: 80
+--------
++48 to Intelligence
+20% increased Energy Shield
++51 to maximum Energy Shield
++45% to Fire Resistance
++39% to Cold Resistance
+8% increased Stun and Block Recovery
+73% increased Energy Shield
+		</Item>
 		<Slot name="Gloves" itemId="11"/>
 		<Slot name="Weapon 1" itemId="9"/>
 		<Slot name="Amulet" itemId="7"/>
 		<Slot name="Weapon 2" itemId="10"/>
 		<Slot name="Boots" itemId="8"/>
 		<Slot name="Body Armour" itemId="6"/>
+		<Slot name="Helmet" itemId="12"/>
 		<ItemSet useSecondWeaponSet="false" id="1">
 			<Slot name="Gloves" itemId="11"/>
 			<Slot name="Weapon 1" itemId="9"/>
@@ -419,7 +445,7 @@ Can have multiple Crafted Mods
 			<Slot name="Body Armour" itemId="6"/>
 			<Slot name="Ring 1" itemId="0"/>
 			<Slot name="Weapon 2 Swap" itemId="0"/>
-			<Slot name="Helmet" itemId="0"/>
+			<Slot name="Helmet" itemId="12"/>
 			<Slot name="Ring 2" itemId="0"/>
 		</ItemSet>
 	</Items>
