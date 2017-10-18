@@ -30,13 +30,13 @@
 		<PlayerStat stat="Spec:ManaInc" value="97"/>
 		<PlayerStat stat="ManaUnreserved" value="-912"/>
 		<PlayerStat stat="ManaUnreservedPercent" value="-45.037037037037"/>
-		<PlayerStat stat="ManaRegen" value="63.8"/>
+		<PlayerStat stat="ManaRegen" value="79.7"/>
 		<PlayerStat stat="ManaLeechGainRate" value="0"/>
 		<PlayerStat stat="TotalDegen" value="960.784"/>
-		<PlayerStat stat="NetLifeRegen" value="-93.91473"/>
+		<PlayerStat stat="NetLifeRegen" value="27.53727"/>
 		<PlayerStat stat="EnergyShield" value="10121"/>
 		<PlayerStat stat="Spec:EnergyShieldInc" value="262"/>
-		<PlayerStat stat="EnergyShieldRegen" value="866.86927"/>
+		<PlayerStat stat="EnergyShieldRegen" value="988.32127"/>
 		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
 		<PlayerStat stat="Evasion" value="985"/>
 		<PlayerStat stat="Spec:EvasionInc" value="0"/>
@@ -102,7 +102,7 @@
 	<Tree activeSpec="5">
 		<Spec>
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAUAAGebdqxo8kPI2sHxrFcNaHT56AYOhNlxTa4-KS4n7cEEDF9hIYTvms_UfHfjxq4J9k8Etz7PfhkuHKdko0GHPC1DY5Sgr2xfPwUtGj5TpXloAdytjYPMC2HUj9pi2WF8uHTtqW4=
+				https://www.pathofexile.com/passive-skill-tree/AAAABAUAAGebdqxo8kPIQYfxrFcNaHT56AYOhNnPfq4-KS5kowxfYSGpbprP1Hx348auTwR8uLc-2WEZLhyn2mLUj0NjPC2UoK9sXz-DzBo-BS0B3HlorY1TpQth2sHBBCftcU0J9nTthO8=
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -114,23 +114,23 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="33631" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
 			</Sockets>
 		</Spec>
 		<Spec title="RF Templar">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAUDABzcly1Bh1H7jxqUb_noflnquqcr4YiYrTbFZlS4k--IL2_v66EvxLRXyUlPS67Xah8CytOFMuwY18_YJL6Kf8ZmnkV-GFYEBw18XyqPRvrSFxxDY69sXfIo-hEvkydDyB0UcLtPBM0Wkiv-SQFvvKoRUPDVFy_BxR8Yxq63Phyngsc8LYMJDlxTpQth-d1WSKUYjHZMs0mxi3q0DGh0Bx5xeZUu6-6XlXvXcU1tGRsl2VuX9BGW98Fca4NfDF-nCHIPms9-bElR6-RV1tkT6FqLjP0AHarDbbcwHZlGcfk30B-ESLcx2mIrCuL3JogOSIPMavpOUhJpaPI1uekCgKQksA==
+				https://www.pathofexile.com/passive-skill-tree/AAAABAUDABzcly1Bh1H7jxqUb_noflnquqcr4YiYrXvXZlS4k--IL2_v66EvxLQOSElPS67XauL3ytOFMuwY18_aYr6Kf8ZmnkV-6FoEBw18XyqPRvrSi4z3wa9s2Vso-uvukydDyB0UcLtPBM0Wkiv-SQFvvKoRUPDVFy_BxekCxq63Phyngsc8LYMJDlxTpQth-d1WSCaIjHZMs0mxaPK0DDW5Bx4ksICkES-XlTbFcU1tGf0AXfIYVklRQ2Ncax2ZDF9xeXIPms9-bJUu6-RV1hJpl_QXHBslHapq-qcIg18Rlvk30B-ESGh02CTZEx8CpRhXyYPMw223MEZxi3q3MR8YKwpOUg==
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -142,23 +142,23 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
 				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="33631" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
 			</Sockets>
 		</Spec>
 		<Spec title="RF Templar more ES">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAUDABzcly1R-ySwVeCUb_no6rqA4Kcr4YjAZpite9dmVLiT74gvb6EvGyUdT_0ASU9Lrq3x12pJUcrThTLsGNfP2mK-in_GZp7oWjQKDXwy0Y9G-tIXHENjXfIo-hEvkydDyB0UcLtPBM0Wkiv-SQFvvKoRUKcIbAsXL8HFpuuApJDWgseDCb6AJ6mlGIx2SbGLejzvtAwi9LcwEmnr7jW5UikHHkZxaPLZW1ZIJohxTbGQN4Pi9_fB8NVcilxrtzHYJDdmcg-az35scXmbMFXWEZYYVm0Z62MdqsNtjxqVLhhd-Te1SIRIV8krCmh0DkhFR-kCLKZYWnaCyAw2xR8YTlLZEy2o
+				https://www.pathofexile.com/passive-skill-tree/AAAABAUDABzcly1R-ySwVeCUb_no6rp2gqcr4YjAZpitNsVYWriT74gvb6EvGyUdTw5ISU9LrrVI12pJUcrThTLsGNfPlS6-in_GZp4YVjQKDXwy0Y9G-tIXHPfB2Vso-uvukydDyB0UcLtPBM0Wkiv-SQFvvKoRUKcIbAsXL8HFpusfGJDWgseDCb6AVkgmiIx2SbGLehhdtAyA4NkTTlIRL2h0UikHHrcwRnFd8ieprfFxTW0ZIvTaYkNjEmlcilxr6FqxkPDVcg-az5swN4N-bFXWKwq3MdgkN2YdqsNt4vc1uXF5-Tc874RIpRj9ABGW62NFR2jyLKaPGmZUyAx714CkV8npAi2o
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -170,23 +170,23 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
-				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="33631" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
 			</Sockets>
 		</Spec>
 		<Spec title="RF Templar New">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAUDABzcly1R-ySwVeA3g_no6rqA4KcrN2bAZpite9dmVLiT74gvb6EvGyUdT_0ASU9Lrq3x12pJUcrThTLsGNfP2mK-in_GZp7oWjQKDXwy0Y9G-tIXHENjXfIo-hEvkydDyB0UcLtPBM0Wkiv-SQFvvKoRUPDVbAsXL8HFpuuApJDWgseDCb6AJ6mlGIx2SbFo8jzvtAx2giL0Dkjr7jW5UikHHrcwRnHZW1ZIJohxTbGQi3ri9_fBEZZcilxrtzHYJCsKcg-az35slG-bMFXW2RMYVm0ZpwgdqsNtcXmVLhhd-Te1SIRIV8kSaWh0NsVFR-GILKZYWo8ayAwfGE5S62PpAi2o
+				https://www.pathofexile.com/passive-skill-tree/AAAABAUDABzcly1R-ySwVeA3g_no6rqA4Kcr4YjAZpitNsVYWriT74gvb6EvGyUdT1fJSU9LrrVI12pJUcrThTLsGNfPlS6-in_GZp4YVjQKDXwy0Y9G-tIXHPfB2Vso-uvukydDyB0UcLtPBM0Wkiv-SQFvvKoRUPDVbAsXL8HFpusfGJDWgseDCb6AVkgmiIx2SbFOUhhdtAyPGukC62MRL2h0UikHHiL0tzBd8ieprfFxTW0ZdoLaYkNjDkhcilxr6FqxkBGWcg-az5swi3p-bFXWEmm3MdgkKwodqsNt4vc1uZRv-Tc874RIpRj9ANkTpwhFR0ZxLKZxeWZUyAx714CkN2Zo8i2o
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -198,23 +198,23 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
 				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="33631" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
 			</Sockets>
 		</Spec>
 		<Spec title="RF Templar test">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAUDABzcly0dFHC7QYdPBJIrjxr-SZRvvKoRUH5Z8NUXLySw6QKnK-GIwcWYrYCkNbnGrlXGaPK3PmZUEmkcp--IgsdOUjwtavr56O_roS_i98S0w22VLg5cU6VXyfndSU-lGIx2S67QH9dqAW9JsR8CRnG0DMrThTLsGNfP2CQdmb6KtzFWSAcef8ZmnkV-l5X9AHFNBAfZE_fBGyVJUQ18XGtfKgxfpwhyD5rPfmyPRoNfVdb60hGWFxyX9B2q6-RtGXvXQ2P5N69shEhxeYPbi3pMs9lbC2GDzCj66ro2xUPIL2-4k-vukyc=
+				https://www.pathofexile.com/passive-skill-tree/AAAABAUDABzcly0dFHC7QYdPBHwOkiuPGhsl_kmUb1ugvKqvbBFQflnw1RcvRnEfAqcr4YjBxZit6QK4k8auVcYvb7c-ZlRDyByn74iCxzbFPC3qusNt7-uhL5UuxLQLYbcxDlxTpVfJ-d1JT6UYjHZLrkyz12qLekmxaPKD27QMytOFMuwY18_YJHF5voo1uUlRBx5_xmaeRX6XlXFNBAdfKkNje9dtGQ18XGsdmQxf6-RyD5rPfmyPRvrSVdYSaZf0FxwRlh2qavqDX6cI98H5N9AfhEinVdkT_QBWSNlbgKSDzCj64vdOUiSw-egBb-vukyc=
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -227,24 +227,24 @@
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
 				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
 				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="33631" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
-				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
 			</Sockets>
 		</Spec>
 	</Tree>
 	<Notes>
 		
 	</Notes>
-	<TreeView searchStr="regen" zoomY="185.23431069959" showHeatMap="false" zoomLevel="4" showStatDifferences="true" zoomX="-100.8425154321"/>
+	<TreeView searchStr="regen" zoomY="244.23431069959" showHeatMap="false" zoomLevel="4" showStatDifferences="true" zoomX="72.1574845679"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item variant="2" id="1">
 			Rarity: Unique
