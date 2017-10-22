@@ -98,18 +98,18 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
-				<Socket nodeId="55190" itemId="0"/>
-				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="61834" itemId="0"/>
 				<Socket nodeId="41263" itemId="0"/>
 				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="33631" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
 			</Sockets>
 		</Spec>
 	</Tree>
@@ -194,6 +194,49 @@ You were always there, by my side,
 whether we sat or played.
 Our friendship was a joyful ride,
 I wish you could have stayed.
+		</Item>
+		<Item id="5">
+			Rarity: Rare
+Gale Hope
+Viridian Jewel
+--------
+Item Level: 79
+--------
+10% increased Damage over Time
+16% increased Fire Damage
+19% increased Burning Damage
+14% increased Melee Physical Damage while holding a Shield
+--------
+Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.
+		</Item>
+		<Item id="6">
+			Rarity: Rare
+Spirit Shard
+Crimson Jewel
+--------
+Item Level: 81
+--------
+11% increased Damage over Time
+15% increased Physical Damage with Swords
+15% increased Fire Damage
+19% increased Burning Damage
+--------
+Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.
+--------
+Corrupted
+		</Item>
+		<Item id="7">
+			Rarity: Rare
+Vivid Curio
+Cobalt Jewel
+--------
+Item Level: 75
+--------
+11% increased Damage over Time
+15% increased Fire Damage
+20% increased Burning Damage
+--------
+Place into an allocated Jewel Socket on the Passive Skill Tree. Right click to remove from the Socket.
 		</Item>
 		<Slot name="Amulet" itemId="2"/>
 		<Slot name="Boots" itemId="3"/>
