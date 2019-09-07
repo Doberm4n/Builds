@@ -1,0 +1,1996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+	<Build level="94" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Ranger" ascendClassName="Deadeye" mainSocketGroup="1" viewMode="TREE" banditCruel="None">
+		<PlayerStat stat="AverageDamage" value="277848.94615523"/>
+		<PlayerStat stat="Speed" value="4.17312"/>
+		<PlayerStat stat="Speed" value="4.17312"/>
+		<PlayerStat stat="PreEffectiveCritChance" value="55.6025"/>
+		<PlayerStat stat="CritChance" value="80.2886199375"/>
+		<PlayerStat stat="CritMultiplier" value="5.61"/>
+		<PlayerStat stat="HitChance" value="100"/>
+		<PlayerStat stat="TotalDPS" value="1159496.9941793"/>
+		<PlayerStat stat="TotalDot" value="0"/>
+		<PlayerStat stat="BleedDPS" value="179.65974996831"/>
+		<PlayerStat stat="IgniteDPS" value="435.2175"/>
+		<PlayerStat stat="WithPoisonDPS" value="1159496.9941793"/>
+		<PlayerStat stat="ManaCost" value="51"/>
+		<PlayerStat stat="Str" value="249"/>
+		<PlayerStat stat="ReqStr" value="155"/>
+		<PlayerStat stat="Dex" value="420"/>
+		<PlayerStat stat="ReqDex" value="179"/>
+		<PlayerStat stat="Int" value="156"/>
+		<PlayerStat stat="ReqInt" value="159"/>
+		<PlayerStat stat="Life" value="5899"/>
+		<PlayerStat stat="Spec:LifeInc" value="152"/>
+		<PlayerStat stat="LifeUnreserved" value="5899"/>
+		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
+		<PlayerStat stat="LifeRegen" value="182.869"/>
+		<PlayerStat stat="LifeLeechGainRate" value="1334.20544"/>
+		<PlayerStat stat="Mana" value="1066"/>
+		<PlayerStat stat="Spec:ManaInc" value="23"/>
+		<PlayerStat stat="ManaUnreserved" value="244"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="22.889305816135"/>
+		<PlayerStat stat="ManaRegen" value="28.9"/>
+		<PlayerStat stat="ManaLeechGainRate" value="213.2"/>
+		<PlayerStat stat="TotalDegen" value="256.04"/>
+		<PlayerStat stat="NetLifeRegen" value="-73.171"/>
+		<PlayerStat stat="EnergyShield" value="502"/>
+		<PlayerStat stat="Spec:EnergyShieldInc" value="10"/>
+		<PlayerStat stat="EnergyShieldRegen" value="0"/>
+		<PlayerStat stat="EnergyShieldLeechGainRate" value="50.2"/>
+		<PlayerStat stat="Evasion" value="10298"/>
+		<PlayerStat stat="Spec:EvasionInc" value="137"/>
+		<PlayerStat stat="MeleeEvadeChance" value="35"/>
+		<PlayerStat stat="MeleeEvadeChance" value="35"/>
+		<PlayerStat stat="ProjectileEvadeChance" value="35"/>
+		<PlayerStat stat="Armour" value="58"/>
+		<PlayerStat stat="Spec:ArmourInc" value="48"/>
+		<PlayerStat stat="PhysicalDamageReduction" value="0"/>
+		<PlayerStat stat="EffectiveMovementSpeedMod" value="2.3"/>
+		<PlayerStat stat="BlockChance" value="0"/>
+		<PlayerStat stat="SpellBlockChance" value="0"/>
+		<PlayerStat stat="AttackDodgeChance" value="40"/>
+		<PlayerStat stat="SpellDodgeChance" value="30"/>
+		<PlayerStat stat="FireResist" value="47"/>
+		<PlayerStat stat="ColdResist" value="49"/>
+		<PlayerStat stat="LightningResist" value="3"/>
+		<PlayerStat stat="ChaosResist" value="-24"/>
+		<PlayerStat stat="FireResistOverCap" value="0"/>
+		<PlayerStat stat="ColdResistOverCap" value="0"/>
+		<PlayerStat stat="LightningResistOverCap" value="0"/>
+		<PlayerStat stat="ChaosResistOverCap" value="0"/>
+		<PlayerStat stat="PowerCharges" value="0"/>
+		<PlayerStat stat="PowerChargesMax" value="3"/>
+		<PlayerStat stat="FrenzyCharges" value="0"/>
+		<PlayerStat stat="FrenzyChargesMax" value="3"/>
+		<PlayerStat stat="EnduranceCharges" value="0"/>
+		<PlayerStat stat="EnduranceChargesMax" value="3"/>
+	</Build>
+	<Import/>
+	<Calcs>
+		<Input name="misc_buffMode" string="EFFECTIVE"/>
+		<Input name="skill_number" number="1"/>
+		<Section collapsed="false" id="SkillSelect"/>
+		<Section collapsed="false" id="HitDamage"/>
+		<Section collapsed="false" id="Dot"/>
+		<Section collapsed="false" id="Speed"/>
+		<Section collapsed="false" id="Crit"/>
+		<Section collapsed="false" id="HitChance"/>
+		<Section collapsed="false" id="SkillTypeStats"/>
+		<Section collapsed="false" id="Bleed"/>
+		<Section collapsed="false" id="Poison"/>
+		<Section collapsed="false" id="Ignite"/>
+		<Section collapsed="false" id="Decay"/>
+		<Section collapsed="false" id="LeechGain"/>
+		<Section collapsed="false" id="MiscEffects"/>
+		<Section collapsed="false" id="Attributes"/>
+		<Section collapsed="false" id="Life"/>
+		<Section collapsed="false" id="Mana"/>
+		<Section collapsed="false" id="EnergyShield"/>
+		<Section collapsed="false" id="Armour"/>
+		<Section collapsed="false" id="Evasion"/>
+		<Section collapsed="false" id="Resist"/>
+		<Section collapsed="false" id="DamageTaken"/>
+		<Section collapsed="false" id="MiscDefences"/>
+	</Calcs>
+	<Skills defaultGemQuality="nil" defaultGemLevel="nil" sortGemsByDPS="true">
+		<Skill mainActiveSkillCalcs="1" label="6L LA Bow" enabled="true" slot="Weapon 1" mainActiveSkill="1">
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemWeaponElementalDamage" enableGlobal2="false" quality="20" skillId="SupportWeaponElementalDamage" enabled="true" nameSpec="Elemental Damage with Attacks"/>
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemGreaterMultipleProjectiles" enableGlobal2="false" quality="20" skillId="SupportGreaterMultipleProjectiles" enabled="true" nameSpec="Greater Multiple Projectiles"/>
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemDamageAgainstChilled" enableGlobal2="false" quality="23" skillId="SupportDamageAgainstChilled" enabled="true" nameSpec="Hypothermia"/>
+			<Gem level="1" enableGlobal1="true" enableGlobal2="false" quality="0" enabled="false" nameSpec="Searching Eye Jewel"/>
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemAddedColdDamage" enableGlobal2="false" quality="20" skillId="SupportAddedColdDamage" enabled="false" nameSpec="Added Cold Damage"/>
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemLightningArrow" enableGlobal2="false" quality="23" skillPart="1" skillId="LightningArrow" skillPartCalcs="1" enabled="true" nameSpec="Lightning Arrow" skillMinion="SummonedPhantasm"/>
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemEnergyShieldLeech" enableGlobal2="false" quality="20" skillId="SupportEnergyShieldLeech" enabled="true" nameSpec="Energy Leech"/>
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemIncreasedCriticalDamage" enableGlobal2="false" quality="20" skillId="SupportIncreasedCriticalDamage" enabled="true" nameSpec="Increased Critical Damage"/>
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemSlowerProjectiles" enableGlobal2="false" quality="23" skillId="SupportSlowerProjectiles" enabled="false" nameSpec="Slower Projectiles"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="2L Boots" enabled="true" slot="Boots" mainActiveSkill="1">
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemBloodRage" enableGlobal2="false" quality="20" skillId="BloodRage" enabled="true" nameSpec="Blood Rage"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemSummonIceGolem" skillMinionSkill="1" enableGlobal2="false" quality="20" skillMinionSkillCalcs="1" skillId="SummonIceGolem" enabled="true" nameSpec="Summon Ice Golem" skillMinion="SummonedIceGolem"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="2L Gloves" enabled="true" slot="Gloves" mainActiveSkill="1">
+			<Gem level="1" enableGlobal1="true" enableGlobal2="false" quality="0" enabled="true" nameSpec="Searching Eye Jewel"/>
+			<Gem level="1" enableGlobal1="true" enableGlobal2="false" quality="0" enabled="true" nameSpec="Searching Eye Jewel"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemDash" enableGlobal2="false" quality="0" skillId="QuickDodge" enabled="true" nameSpec="Dash"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemSteelskin" enableGlobal2="false" quality="0" skillId="QuickGuard" enabled="true" nameSpec="Steelskin"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="4L Auras" enabled="true" slot="Helmet" mainActiveSkill="1">
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemHeraldOfThunder" enableGlobal2="false" quality="20" skillId="HeraldOfThunder" enabled="true" nameSpec="Herald of Thunder" skillMinion="SummonedPhantasm"/>
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemHeraldOfIce" enableGlobal2="false" quality="20" skillId="HeraldOfIce" enabled="true" nameSpec="Herald of Ice" skillMinion="SummonedPhantasm"/>
+			<Gem level="1" enableGlobal1="true" enableGlobal2="false" quality="0" enabled="true" nameSpec="Searching Eye Jewel"/>
+			<Gem level="1" enableGlobal1="true" enableGlobal2="false" quality="0" enabled="true" nameSpec="Searching Eye Jewel"/>
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemWrath" enableGlobal2="false" quality="20" skillId="Wrath" enabled="true" nameSpec="Wrath"/>
+			<Gem level="1" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemPrecision" enableGlobal2="false" quality="20" skillId="AccuracyAndCritsAura" enabled="true" nameSpec="Precision"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="5L Barrage Chest" enabled="true" slot="Body Armour" mainActiveSkill="1">
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemBarrage" skillMinionSkill="1" enableGlobal2="false" quality="23" skillPart="2" skillMinionSkillCalcs="1" skillId="Barrage" enabled="true" nameSpec="Barrage" skillMinion="SummonedPhantasm"/>
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemSlowerProjectiles" enableGlobal2="false" quality="20" skillId="SupportSlowerProjectiles" enabled="true" nameSpec="Slower Projectiles"/>
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemElementalFocus" enableGlobal2="false" quality="20" skillId="SupportElementalFocus" enabled="true" nameSpec="Elemental Focus"/>
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemWeaponElementalDamage" enableGlobal2="false" quality="20" skillId="SupportWeaponElementalDamage" enabled="true" nameSpec="Elemental Damage with Attacks"/>
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemEnergyShieldLeech" enableGlobal2="false" quality="20" skillId="SupportEnergyShieldLeech" enabled="true" nameSpec="Energy Leech"/>
+		</Skill>
+		<Skill source="Item:10:Bubonic Trail, Murder Boots" mainActiveSkillCalcs="1" label="" enabled="true" slot="Boots" mainActiveSkill="1">
+			<Gem level="20" enableGlobal1="true" enableGlobal2="false" quality="0" skillId="DeathWalk" enabled="true" nameSpec="Death Walk"/>
+		</Skill>
+		<Skill source="Item:5:Morbid Finger, Two-Stone Ring" mainActiveSkillCalcs="1" label="" enabled="true" slot="Ring 2" mainActiveSkill="1">
+			<Gem level="20" enableGlobal1="true" enableGlobal2="false" quality="0" skillId="SpiderAspect" enabled="true" nameSpec="Aspect of the Spider"/>
+		</Skill>
+		<Skill source="Item:5:Morbid Finger, Two-Stone Ring" mainActiveSkillCalcs="1" label="" enabled="true" slot="Ring 2" mainActiveSkill="1">
+			<Gem level="8" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemCriticalWeakness" enableGlobal2="false" quality="0" skillId="AssassinsMark" enabled="true" nameSpec="Assassin&apos;s Mark"/>
+		</Skill>
+		<Skill source="Item:69:Mark of the Elder, Steel Ring" mainActiveSkillCalcs="1" label="" enabled="true" slot="Ring 1" mainActiveSkill="1">
+			<Gem level="20" enableGlobal1="true" enableGlobal2="false" quality="0" skillId="TentacleSmash" enabled="true" nameSpec="Tentacle Whip"/>
+		</Skill>
+		<Skill source="Item:1:Shroud of the Lightless, Carnal Armour" mainActiveSkillCalcs="1" label="" enabled="true" slot="Body Armour" mainActiveSkill="1">
+			<Gem level="20" enableGlobal1="true" enableGlobal2="false" quality="0" skillId="ShadeForm" enabled="true" nameSpec="Shade Form"/>
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemSlowerProjectiles" enableGlobal2="false" quality="20" skillId="SupportSlowerProjectiles" enabled="true" nameSpec="Slower Projectiles"/>
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemElementalFocus" enableGlobal2="false" quality="20" skillId="SupportElementalFocus" enabled="true" nameSpec="Elemental Focus"/>
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemWeaponElementalDamage" enableGlobal2="false" quality="20" skillId="SupportWeaponElementalDamage" enabled="true" nameSpec="Elemental Damage with Attacks"/>
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemEnergyShieldLeech" enableGlobal2="false" quality="20" skillId="SupportEnergyShieldLeech" enabled="true" nameSpec="Energy Leech"/>
+		</Skill>
+		<Skill source="Item:92:Kraken Thread, Stygian Vise" mainActiveSkillCalcs="1" label="" enabled="false" slot="Belt" mainActiveSkill="1">
+			<Gem level="20" enableGlobal1="true" enableGlobal2="false" quality="0" skillId="SpiderAspect" enabled="true" nameSpec="Aspect of the Spider"/>
+		</Skill>
+	</Skills>
+	<Tree activeSpec="1">
+		<Spec title="[3.8] 94" treeVersion="3_8">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAICAFb6fXUqTRR1jbnAGv1uwaB1y4azjX3vetNvz16NgRa_pMI31KCft7bC7P6PBS08LWEQbIwV_ecKeBl4-a3C8rj_3iaVQzE6Qrc-ft1KyBqNvTa0xV3y_roknfajf_uJ09i9UUcKm02SH0HuDmlO035VSzz-jDZ293TtI_a18jnU8Yowcb6n3agVIDWSMHy5AoNfYeIILv4KYlqdqhm0WybP3W9XS3guU6QFLYOQEZuNPyftg-0_FUNTzzY9LOl_K3vDcFJvOx9M6mKNfo2_GY6Kr9rBmFN4DdQjJP0byHfXBbXnVCoLMfqDzG6q2rFirADu8kXy5gBeZU0=
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="32763" itemId="70"/>
+				<Socket nodeId="28475" itemId="24"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="33989" itemId="40"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="34"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="54127" itemId="77"/>
+				<Socket nodeId="60735" itemId="88"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="16"/>
+				<Socket nodeId="61834" itemId="79"/>
+				<Socket nodeId="34483" itemId="77"/>
+				<Socket nodeId="31683" itemId="49"/>
+				<Socket nodeId="6230" itemId="50"/>
+				<Socket nodeId="33631" itemId="77"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+			</Sockets>
+		</Spec>
+		<Spec title="[3.8] 87" treeVersion="3_8">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAICAFb6fXUqTRR1jbnAGoazjX3vetNvpMI31KCfjYH-jwBeNZJhEGyMFf3BoHgZePmtwvK4z15_-0MxOkK3PsLsSsi18r02bqr-ujwt2rH2ozH6idODzOdUKgtNkh9B7g5pThqNdcs8_gW12L107SP2_W451PGKYqy-p92oFSDUI3gNuQLawQguMHz-CmJanaoZtO0_z91vV42_LlOkBS2DkBGbjVsm7YONflPPH0w2PW87fyt7w3BSPydLeOpiLOmDXxVDiq8ZjphTdvfTfiT9G8h31ySdBS0wcV3y_960xX7dUUcA7vJF8ua3tmVN
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="32763" itemId="70"/>
+				<Socket nodeId="28475" itemId="24"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="34483" itemId="77"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="34"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="54127" itemId="77"/>
+				<Socket nodeId="31683" itemId="49"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="16"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="6230" itemId="50"/>
+				<Socket nodeId="33631" itemId="77"/>
+				<Socket nodeId="60735" itemId="88"/>
+				<Socket nodeId="33989" itemId="40"/>
+				<Socket nodeId="61834" itemId="79"/>
+			</Sockets>
+		</Spec>
+		<Spec title="[3.8] 78" treeVersion="3_8">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAICAFb6fXUqTRR1jbnAGoazjX3verXypMI31P1uNZL-jwUtYRBuqhX9eBl4-a3C8rh_-0MxOkLasX7dSsi9Njwt9qMx-re2waBNktNv7g5pTtrBdcs8_hqNtz507SP2jYE51PGK2L2-p92oFSD_3udUMHFRRySdCC7-CmJanaoZtABez91vVzB8LlPtgy2DkBGbjdN-WyZ294Nf7T9Tz_66fys2PT8nbztLeOpie8Ms6Y1-iq-NvxmOeA3UIyT9G8h31wW1wuy0xWKsg8zPXmyMoJ8A7vJF8uYVQ2VN
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="32763" itemId="70"/>
+				<Socket nodeId="28475" itemId="24"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="34483" itemId="77"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="34"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="31683" itemId="49"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="16"/>
+				<Socket nodeId="61834" itemId="79"/>
+				<Socket nodeId="33989" itemId="40"/>
+				<Socket nodeId="60735" itemId="88"/>
+				<Socket nodeId="6230" itemId="50"/>
+				<Socket nodeId="33631" itemId="77"/>
+				<Socket nodeId="54127" itemId="77"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+			</Sockets>
+		</Spec>
+		<Spec title="[3.8] 71" treeVersion="3_8">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAICAFb6fXUqTRR1jbnAGoazjX3verXypMI31M9et7b-jwBeYRBuqhX9eBl4-a3C8rh_-0MxOkK3PsLsSsi9Njwt9qMx-k2S7g5pTti9PP507SP2OdTasTWSvqfawRUgGo3nVLTF028FLQgu_gpiWnXLGbSDzO0_b1d-3S5TFUMtg5ARm42gn-2DBbWDX42_U892938r1CMZjj8nS3jqYnvDjX4s6Yqvbzv-ungN034k_Vsmd9ckncGgMHEwfP_eUUeNgd2oAO7yRfLm_W5lTQ==
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="32763" itemId="70"/>
+				<Socket nodeId="28475" itemId="24"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="33989" itemId="40"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="34"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="60735" itemId="88"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="16"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="54127" itemId="77"/>
+				<Socket nodeId="6230" itemId="50"/>
+				<Socket nodeId="33631" itemId="77"/>
+				<Socket nodeId="31683" itemId="49"/>
+				<Socket nodeId="34483" itemId="77"/>
+				<Socket nodeId="61834" itemId="79"/>
+			</Sockets>
+		</Spec>
+		<Spec title="[3.8] 64" treeVersion="3_8">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAICAFb6fXUqTRR1jbmGs41973q18qTCN9T9bo2B_o8AXmEQbqoV_XgZePmtwvK4f_tDMTpC2rF-3UrIvTYajfajMfpNku4OaU51yzz-dO0j9jnUvqfawRUgjb8wfP4KYlqgnxm0wuztP29X51QuU9NvLYOQEZuNNZLtg7e2z17YvVPPtMV_KzBxwaA_J0t46mIknSzpWyaKr3b3034ZjtQjJP3-unfXBbWNfhVDe8P_3t2oCC5RRwDu8kXy5gUtZU0=
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="32763" itemId="70"/>
+				<Socket nodeId="28475" itemId="24"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="33989" itemId="40"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="34"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="54127" itemId="77"/>
+				<Socket nodeId="60735" itemId="88"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="16"/>
+				<Socket nodeId="61834" itemId="79"/>
+				<Socket nodeId="34483" itemId="77"/>
+				<Socket nodeId="31683" itemId="49"/>
+				<Socket nodeId="6230" itemId="50"/>
+				<Socket nodeId="33631" itemId="77"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+			</Sockets>
+		</Spec>
+		<Spec title="[3.8] 51" treeVersion="3_8">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAICAFb6fXUqTRR1jbmGs41973rTb6TCN9TPXre2_o8AXmEQbqp4-a3C8rhDMTpC2rF-3UrIvTb-uvajMfpNku4OaU5RR3TtI_Y51L6n2sEVIDB8_gpiWhm0e8MuUy2DkBGbje2D_W5Tz42_fys1krXyPydLeOpioJ_tP9i9iq8ILhmOdvfTfiT9jX531ySdFUMwcdQj_951yyzp51QA7vJF3agFLWVN
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="32763" itemId="70"/>
+				<Socket nodeId="28475" itemId="24"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="34483" itemId="77"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="34"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="54127" itemId="77"/>
+				<Socket nodeId="31683" itemId="49"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="16"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="6230" itemId="50"/>
+				<Socket nodeId="33631" itemId="77"/>
+				<Socket nodeId="60735" itemId="88"/>
+				<Socket nodeId="33989" itemId="40"/>
+				<Socket nodeId="61834" itemId="79"/>
+			</Sockets>
+		</Spec>
+		<Spec title="[3.8] 39" treeVersion="3_8">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAICAFb6fXUqTRR1jbmGs41973q18qTCN9T9bre2_o8AXmEQbqp4-a3C8rhDMdqxft1KyL02_rr2ozH6TZLuDmlO2L107SP2OdS-p9rBFSAILv4KYloZtO0_LlMtg5uN7YNTz38rPyfqYizpdvfTfjWSBS131ySd028VQ41-GY51yzB8UUcA7vJFoJ_PXmVN
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="32763" itemId="70"/>
+				<Socket nodeId="28475" itemId="24"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="34483" itemId="77"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="34"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="31683" itemId="49"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="16"/>
+				<Socket nodeId="61834" itemId="79"/>
+				<Socket nodeId="33989" itemId="40"/>
+				<Socket nodeId="60735" itemId="88"/>
+				<Socket nodeId="6230" itemId="50"/>
+				<Socket nodeId="33631" itemId="77"/>
+				<Socket nodeId="54127" itemId="77"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+			</Sockets>
+		</Spec>
+	</Tree>
+	<Notes>
+		
+	</Notes>
+	<TreeView searchStr="" zoomY="-126.7040010915" showHeatMap="false" zoomLevel="3" showStatDifferences="true" zoomX="-321.75513060443"/>
+	<Items activeItemSet="1" useSecondWeaponSet="false">
+		<Item id="1">
+			Rarity: UNIQUE
+Shroud of the Lightless
+Carnal Armour
+Unique ID: f866f99aaee89ea347ce6a3dfe12b66b4f401b36bb81c5cdeb7494c00e42d200
+Item Level: 85
+Quality: 28
+Sockets: R-B-B-G-G A
+LevelReq: 71
+Implicits: 1
++25 to maximum Mana
+Has 1 Abyssal Socket
+Socketed Gems are Supported by Level 20 Elemental Penetration
+20% chance to Trigger Level 20 Shade Form when you Use a Socketed Skill
+164% increased Evasion and Energy Shield
+10% increased maximum Life
+13% increased maximum Mana
+1% increased Maximum Life per Abyss Jewel affecting you
+1% increased Maximum Mana per Abyss Jewel affecting you
+		</Item>
+		<Item id="2">
+			Rarity: UNIQUE
+The Taming
+Prismatic Ring
+Unique ID: 41d1a5866fa636d970fc82ef6e3be68b694fb17db2d2863d61d070af09a2810a
+Item Level: 54
+LevelReq: 30
+Implicits: 1
++10% to all Elemental Resistances
+20% increased Damage with Hits and Ailments per Freeze, Shock and Ignite on Enemy
++26% to all Elemental Resistances
+30% increased Elemental Damage
+10% chance to Freeze, Shock and Ignite
+30% increased Elemental Damage with Attack Skills
+		</Item>
+		<Item id="4">
+			Rarity: UNIQUE
+Aul&apos;s Uprising
+Onyx Amulet
+Unique ID: 7b95f5c623f0168a844202198da2c6c976f9c46db3a3443548b1177658943e5c
+Item Level: 85
+LevelReq: 20
+Implicits: 1
++16 to all Attributes
++29 to Intelligence
+17% increased maximum Energy Shield
++69 to maximum Life
+Hits against Nearby Enemies have 50% increased Critical Strike Chance
+Wrath Reserves no Mana
+		</Item>
+		<Item id="5">
+			Rarity: RARE
+Morbid Finger
+Two-Stone Ring
+Unique ID: 01ac25adb22ab2bc306282e0f6c9830ff5b180f9808f0ac223a31540a949b352
+Shaper Item
+Item Level: 83
+LevelReq: 64
+Implicits: 1
++16% to Cold and Lightning Resistances
+Grants Level 20 Aspect of the Spider Skill
+Adds 3 to 4 Physical Damage to Attacks
++74 to maximum Life
+Curse Enemies with Level 8 Assassin&apos;s Mark on Hit
+24% increased Elemental Damage with Attack Skills
+{crafted}16% increased Global Critical Strike Chance
+{crafted}+21% to Critical Strike Multiplier if you&apos;ve Shattered an Enemy Recently
+		</Item>
+		<Item id="6">
+			Rarity: UNIQUE
+Tombfist
+Steelscale Gauntlets
+Unique ID: 004511087fe7478a6d8b876c52760c5f049dbfab2ab3131a71ed4c2c8e88e4b8
+Item Level: 75
+Quality: 20
+Sockets: B-B A A
+LevelReq: 36
+Implicits: 1
+{range:0.5}Curse Enemies with Level (10-12) Elemental Weakness on Hit
+Has 2 Abyssal Sockets
+6% increased maximum Life
+With a Murderous Eye Jewel Socketed, Intimidate Enemies for 4 seconds on Hit with Attacks
+With a Searching Eye Jewel Socketed, Maim Enemies for 4 seconds on Hit with Attacks
+Corrupted
+			<ModRange range="0.5" id="1"/>
+		</Item>
+		<Item id="7">
+			Rarity: RARE
+Miracle Harness
+Stygian Vise
+Unique ID: f410d311e3c5a537b399d4f9a50c8ef790d06c4787e34e083b9216268a092184
+Item Level: 86
+Sockets: A
+LevelReq: 67
+Implicits: 1
+Has 1 Abyssal Socket
++95 to maximum Life
++47% to Cold Resistance
+24% increased Life Recovery from Flasks
+42% increased Elemental Damage with Attack Skills
+{crafted}+20% to Cold and Lightning Resistances
+		</Item>
+		<Item id="8">
+			Rarity: UNIQUE
+Hale Negator
+Mind Cage
+Unique ID: 65b9be56dde2b0e4946d8759de2158bbb229d24d66053236f94b99c7b7f790c2
+Item Level: 82
+Quality: 20
+Sockets: B-B A A
+LevelReq: 65
+Implicits: 1
+{crafted}40% increased Kinetic Blast Damage
+Has 2 Abyssal Sockets
+7% increased maximum Life
++1 to Maximum Spirit Charges per Abyss Jewel affecting you
+Gain a Spirit Charge every second
+You lose all Spirit Charges when taking a Savage Hit
+Recover 3% of Life when you lose a Spirit Charge
+Recover 3% of Energy Shield when you lose a Spirit Charge
+		</Item>
+		<Item id="9">
+			Rarity: UNIQUE
+Atziri&apos;s Reflection
+Golden Buckler
+Unique ID: 5b4a1b0e1563bd7f18ff621ff8a3dd1bd3a1e91bc8c901203a1fa88d67c6d380
+Item Level: 71
+Quality: 20
+Sockets: R-R-B
+LevelReq: 54
+Implicits: 1
+6% increased Movement Speed
++55 to Intelligence
+199% increased Evasion Rating
++184 to maximum Energy Shield
++29% to all Elemental Resistances
+Curse Reflection
+Unaffected by Curses
+19% increased Effect of your Curses
+		</Item>
+		<Item id="10">
+			Rarity: UNIQUE
+Bubonic Trail
+Murder Boots
+Unique ID: dda2d184654d9d9525a9b3600bee657c6746e61d34523dd3609571d33700ec99
+Item Level: 79
+Quality: 20
+Sockets: B-G A A
+LevelReq: 69
+Implicits: 1
+{crafted}Damage Penetrates 10% of Enemy Elemental Resistances if you haven&apos;t Killed Recently
+Has 2 Abyssal Sockets
+Triggers Level 20 Death Walk when Equipped
+6% increased maximum Life
+30% increased Movement Speed
+10% increased Damage for each type of Abyss Jewel affecting you
+		</Item>
+		<Item id="11">
+			Rarity: UNIQUE
+Dying Sun
+Ruby Flask
+Unique ID: f5a110514c7f4e3363c1c50f7515217231c9eacaf0b758b24ac4877789b286e3
+Item Level: 86
+Quality: 22
+LevelReq: 18
+Implicits: 0
+2% reduced Charges used
+Skills fire 2 additional Projectiles during Flask Effect
+23% increased Area of Effect during Flask Effect
+		</Item>
+		<Item id="12">
+			Rarity: MAGIC
+Ample Diamond Flask of Heat
+Unique ID: 655d2e68308d8346d929d6aef2b97f3a1dbc54cf4d89022e22cdcd1d9f357ec4
+Item Level: 49
+Quality: 20
+LevelReq: 27
+Implicits: 0
++17 to Maximum Charges
+Immunity to Freeze and Chill during Flask effect
+Removes Freeze and Chill on use
+		</Item>
+		<Item id="13">
+			Rarity: UNIQUE
+Atziri&apos;s Promise
+Amethyst Flask
+Unique ID: 9430dff5b2bf39bf5fa9aa064dd152283bc6f2004e846a669c8c134fb382b008
+Item Level: 72
+Quality: 20
+LevelReq: 18
+Implicits: 0
+2% of Chaos Damage Leeched as Life during Flask effect
+Gain 17% of Physical Damage as Extra Chaos Damage during effect
+Gain 15% of Elemental Damage as Extra Chaos Damage during effect
+		</Item>
+		<Item id="14">
+			Rarity: MAGIC
+Perpetual Quicksilver Flask of Adrenaline
+Unique ID: f85c0ceb204e7df50bb14ae6042664662715cf65bcb2cb3196368ec2706478b8
+Item Level: 42
+Quality: 20
+LevelReq: 4
+Implicits: 0
+22% increased Charge Recovery
+25% increased Movement Speed during Flask effect
+		</Item>
+		<Item id="15">
+			Rarity: MAGIC
+Ample Silver Flask of Staunching
+Unique ID: b3870cb59d9d21f788584ffd267f9d952bda9802d7e5953c9dda9d24e318078f
+Item Level: 39
+Quality: 20
+LevelReq: 22
+Implicits: 0
++10 to Maximum Charges
+Immunity to Bleeding during Flask effect
+Removes Bleeding on use
+		</Item>
+		<Item id="16">
+			Rarity: UNIQUE
+Unnatural Instinct
+Viridian Jewel
+Unique ID: b1aad6cede5b7ccfd7bcbc184e885293689edbf2a1b3e73dd08e7da8a500f5a0
+Item Level: 72
+Radius: Small
+Implicits: 0
+Allocated Small Passive Skills in Radius grant nothing
+Grants all bonuses of Unallocated Small Passive Skills in Radius
+		</Item>
+		<Item id="17">
+			Rarity: RARE
+Foul Globe
+Searching Eye Jewel
+Unique ID: e750a2a1f095ffb26f9af9d506a88c6397f9f7a89fb158af27a48b666c7217c0
+Item Level: 83
+LevelReq: 65
+Implicits: 0
+Adds 12 to 25 Cold Damage to Attacks
+Adds 6 to 66 Lightning Damage to Attacks
++48 to maximum Life
+Adds 10 to 19 Cold Damage to Wand Attacks
+		</Item>
+		<Item id="18">
+			Rarity: RARE
+Ancient Orb
+Searching Eye Jewel
+Unique ID: be9dcc4af02a5d39dc436b005342c6319372ce0fccf1aa4205a5ccdf5881fd3c
+Item Level: 82
+LevelReq: 65
+Implicits: 0
++49 to maximum Life
+Adds 4 to 59 Lightning Damage to Wand Attacks
+7% increased Attack Speed if you&apos;ve dealt a Critical Strike Recently
+		</Item>
+		<Item id="19">
+			Rarity: RARE
+Enthralling Lens
+Searching Eye Jewel
+Unique ID: 7e49b2617c032eddb45b570e988fddc0c51cf7f7b997baef709c87501b88c4bb
+Item Level: 82
+LevelReq: 65
+Implicits: 0
+Adds 3 to 44 Lightning Damage to Attacks
++36 to maximum Life
+Adds 4 to 70 Lightning Damage to Bow Attacks
+		</Item>
+		<Item id="20">
+			Rarity: UNIQUE
+Might of the Meek
+Crimson Jewel
+Unique ID: 33de517f4e4313c6f0b37023634fdd25f8b3fc106239b1cd06157b50306daeba
+Item Level: 82
+Radius: Large
+Implicits: 0
+50% increased Effect of non-Keystone Passive Skills in Radius
+Notable Passive Skills in Radius grant nothing
+		</Item>
+		<Item id="21">
+			Rarity: RARE
+Enthralling Oculus
+Searching Eye Jewel
+Unique ID: d4ab4a16f10054495ad7f60dd4b6dbd5e8ea21b2911513d472b11c1345c0383a
+Item Level: 81
+LevelReq: 60
+Implicits: 0
+Adds 6 to 68 Lightning Damage to Attacks
+Adds 4 to 50 Lightning Damage to Wand Attacks
+Adds 20 to 33 Fire Damage to Wand Attacks
+		</Item>
+		<Item id="22">
+			Rarity: RARE
+Grim Stare
+Searching Eye Jewel
+Unique ID: 3d1d8407d9f8fe996d9e0341fc4b22dd5c12c8ff05116d8f710205411f2b0da2
+Item Level: 83
+LevelReq: 65
+Implicits: 0
+Adds 19 to 38 Fire Damage to Attacks
+Adds 19 to 33 Cold Damage to Attacks
++48 to maximum Life
+Adds 4 to 57 Lightning Damage to Wand Attacks
+		</Item>
+		<Item id="23">
+			Rarity: UNIQUE
+Might of the Meek
+Crimson Jewel
+Unique ID: 718a09d6f410dba3bbd707dd3d7e9024d6782f05d5e5be4a1c7e0888b6b34dc3
+Item Level: 73
+Radius: Large
+Implicits: 0
+50% increased Effect of non-Keystone Passive Skills in Radius
+Notable Passive Skills in Radius grant nothing
+		</Item>
+		<Item id="24">
+			Rarity: RARE
+Whispering Leer
+Searching Eye Jewel
+Unique ID: 8461af16e26a81716a0fe1b5b9e490502d095711b1989241f5973936f8efd71e
+Item Level: 83
+LevelReq: 65
+Implicits: 0
+Adds 15 to 27 Cold Damage to Attacks
++36 to Accuracy Rating
++35 to maximum Life
+Adds 6 to 59 Lightning Damage to Bow Attacks
+		</Item>
+		<Item id="25">
+			Rarity: UNIQUE
+Watcher&apos;s Eye
+Prismatic Jewel
+Unique ID: aaa09fd1c3f29ce637bb6f07a357b9321a1cae0e291ff1e9780737ac2068f0c6
+Item Level: 70
+Implicits: 0
+6% increased maximum Energy Shield
+5% increased maximum Life
+5% increased maximum Mana
+97% increased Critical Strike Chance while affected by Wrath
+-7 to Total Mana Cost of Skills while affected by Clarity
+		</Item>
+		<Item id="26">
+			Rarity: RARE
+Hollow Stare
+Searching Eye Jewel
+Unique ID: 56801549ca27868f04939c8e49b29bb85ecba496082c3711dd7693f75347374e
+Item Level: 83
+LevelReq: 60
+Implicits: 0
+Adds 4 to 65 Lightning Damage to Attacks
++35 to maximum Energy Shield
+Adds 13 to 20 Cold Damage to Wand Attacks
+23% increased Critical Strike Chance if you haven&apos;t dealt a Critical Strike Recently
+		</Item>
+		<Item id="27">
+			Rarity: RARE
+Grim Arbiter
+Searching Eye Jewel
+Unique ID: 009ed2de85c9edd421c3f3bb421d678586b3cc135b7a61a1fd6bc6968bbac45b
+Item Level: 83
+LevelReq: 65
+Implicits: 0
+Adds 18 to 37 Cold Damage to Attacks
++12% to Global Critical Strike Multiplier
++50 to maximum Life
+Adds 2 to 28 Lightning Damage to Wand Attacks
+		</Item>
+		<Item id="28">
+			Rarity: RARE
+Foul Vision
+Murderous Eye Jewel
+Unique ID: 4cbf4049cb9c680b1598846815e642cebfa0cad4555bce3ad1bcf0270d5c9d14
+Item Level: 83
+LevelReq: 66
+Implicits: 1
+4% increased Area of Effect
+Adds 13 to 21 Cold Damage to Attacks
+Adds 2 to 64 Lightning Damage to Attacks
++47 to maximum Life
++46 to maximum Mana
+Corrupted
+		</Item>
+		<Item id="29">
+			Rarity: RARE
+Whispering Oculus
+Searching Eye Jewel
+Unique ID: 4a054794ee55519120fbf85e37146d4e85b6dc00f81dff70b644749b3b0ab323
+Item Level: 83
+LevelReq: 51
+Implicits: 0
+Adds 4 to 55 Lightning Damage to Attacks
+Adds 2 to 49 Lightning Damage to Wand Attacks
+Adds 14 to 28 Cold Damage to Wand Attacks
+27% increased Critical Strike Chance if you haven&apos;t dealt a Critical Strike Recently
+		</Item>
+		<Item id="30">
+			Rarity: RARE
+Hollow Orb
+Searching Eye Jewel
+Unique ID: 888bfff44dd90fd83f042526ffa81e542b74f53408bc0a87d31fedf52362b420
+Item Level: 83
+LevelReq: 66
+Implicits: 0
+Adds 3 to 43 Lightning Damage to Attacks
+Adds 6 to 68 Lightning Damage to Wand Attacks
+Adds 21 to 39 Cold Damage to Wand Attacks
+4% increased Movement Speed if you&apos;ve Killed Recently
+		</Item>
+		<Item id="31">
+			Rarity: RARE
+Morbid Weaver
+Searching Eye Jewel
+Unique ID: 890e0462c5331ee92dd21c88e83c87192abfe8f5f4dd23a1ffb96c53cb94f634
+Item Level: 73
+LevelReq: 57
+Implicits: 0
+Adds 2 to 42 Lightning Damage to Attacks
++52 to Accuracy Rating
+Adds 19 to 36 Fire Damage to Wand Attacks
+Adds 17 to 30 Cold Damage to Wand Attacks
+		</Item>
+		<Item id="32">
+			Rarity: RARE
+Enthralling Scratch
+Searching Eye Jewel
+Unique ID: 9d6a2e7ea356c954cdc2a703a7eefd460a873d36888e02b4638b5d9e1616edb6
+Item Level: 83
+LevelReq: 56
+Implicits: 0
+Adds 16 to 28 Fire Damage to Attacks
+Adds 6 to 60 Lightning Damage to Wand Attacks
+Adds 8 to 17 Cold Damage to Wand Attacks
+28% increased Critical Strike Chance if you haven&apos;t dealt a Critical Strike Recently
+		</Item>
+		<Item id="33">
+			Rarity: RARE
+Morbid Oculus
+Searching Eye Jewel
+Unique ID: eeeb2afc84a323d0d637bcdd4e90bf03497991e73fe43156a8a26a5fade72e01
+Item Level: 83
+LevelReq: 65
+Implicits: 0
+Adds 12 to 24 Cold Damage to Attacks
++35 to maximum Life
+Adds 5 to 69 Lightning Damage to Bow Attacks
+		</Item>
+		<Item id="34">
+			Rarity: RARE
+Hollow Leer
+Searching Eye Jewel
+Unique ID: ad7e50a11ebd4009df170ffeda964c0518a51d61b6571c9eac8d694413560e11
+Item Level: 83
+LevelReq: 65
+Implicits: 0
+Adds 15 to 33 Cold Damage to Attacks
+Adds 2 to 35 Lightning Damage to Attacks
+Adds 7 to 72 Lightning Damage to Wand Attacks
+Adds 10 to 23 Cold Damage to Wand Attacks
+		</Item>
+		<Item id="35">
+			Rarity: RARE
+Demon Veil
+Astral Plate
+Elder Item
+Item Level: 86
+Quality: 20
+Sockets: G-G-B-R-R-R
+LevelReq: 62
+Implicits: 1
++12% to all Elemental Resistances
+Socketed Gems are Supported by Level 1 Maim
+15% increased Armour
++110 to maximum Life
+1% of Life Regenerated per second
+Attacks have +0.93% to Critical Strike Chance
+{crafted}8% increased maximum Life
+{crafted}7% increased maximum Mana
+		</Item>
+		<Item variant="11" id="36">
+			Rarity: UNIQUE
+Vessel of Vinktar
+Topaz Flask
+Variant: Pre 2.2.0 (Penetration)
+Variant: Pre 2.2.0 (Spells)
+Variant: Pre 2.2.0 (Attacks)
+Variant: Pre 2.2.0 (Conversion)
+Variant: Pre 3.0.0 (Penetration)
+Variant: Pre 3.0.0 (Spells)
+Variant: Pre 3.0.0 (Attacks)
+Variant: Pre 3.0.0 (Conversion)
+Variant: Current (Penetration)
+Variant: Current (Spells)
+Variant: Current (Attacks)
+Variant: Current (Conversion)
+Selected Variant: 11
+Quality: 20
+LevelReq: 68
+Implicits: 0
+{variant:5,6,7,8,9,10,11,12}{range:0}(80-100)% increased Charges used
+{variant:1,2,3,4,5,6,7,8}Shocks nearby Enemies during Flask effect
+{variant:11,12,10,9}Shocks nearby Enemies during Flask effect, causing 10% increased Damage taken
+{variant:1,2,3,4,5,6,7,8}You are Shocked during Flask effect
+{variant:11,12,10,9}You are Shocked during Flask effect, causing 50% increased Damage taken
+{variant:1,2,3,4}30% of Lightning Damage Leeched as Life during Flask effect
+{variant:5,6,7,8,9,10,11,12}20% of Lightning Damage Leeched as Life during Flask effect
+{variant:1,2,3,4}30% of Lightning Damage Leeched as Mana during Flask effect
+{variant:5,6,7,8}20% of Lightning Damage Leeched as Mana during Flask effect
+{variant:1,2,3,4}Leech applies instantly during Flask effect
+{variant:1,5,9}Damage Penetrates 10% Lightning Resistance during Flask effect
+{variant:2,10,6}{range:0.5}Adds (15-25) to (70-90) Lightning Damage to Spells during Flask effect
+{variant:7,11,3}{range:0.5}Adds (25-35) to (110-130) Lightning Damage to Attacks during Flask effect
+{variant:8,4,12}20% of Physical Damage Converted to Lightning during Flask effect
+			<ModRange range="0" id="3"/>
+			<ModRange range="0.5" id="14"/>
+			<ModRange range="0.5" id="15"/>
+		</Item>
+		<Item variant="3" id="37">
+			Rarity: UNIQUE
+Piscator&apos;s Vigil
+Tornado Wand
+Variant: Pre 2.3.0
+Variant: Pre 2.6.0
+Variant: Current
+Selected Variant: 3
+Quality: 20
+Sockets: B-B-B
+LevelReq: 65
+Implicits: 2
+{variant:1}{range:0.5}(16-19)% increased Spell Damage
+{variant:2,3}{range:1}(35-39)% increased Spell Damage
+No Physical Damage
+{range:1}(10-18)% increased Attack Speed
+{range:1}+(340-400) to Accuracy Rating
+{range:1}(20-30)% increased Critical Strike Chance
+{range:1}Attacks with this Weapon have (100-115)% increased Elemental Damage
+{variant:3}Attacks with this Weapon Penetrate 5% Elemental Resistances
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="1" id="2"/>
+			<ModRange range="1" id="4"/>
+			<ModRange range="1" id="5"/>
+			<ModRange range="1" id="6"/>
+			<ModRange range="1" id="7"/>
+		</Item>
+		<Item id="38">
+			Rarity: RARE
+Spirit Spire
+Imbued Wand
+Unique ID: 59f00e3380e6637f1ba9fc25caee71b5488034d1ddfa738be03da0ce3f535669
+Shaper Item
+Item Level: 86
+Quality: 20
+Sockets: R R-G
+LevelReq: 59
+Implicits: 1
+33% increased Spell Damage
+Adds 17 to 284 Lightning Damage
+Gain 20% of Elemental Damage as Extra Chaos Damage
+{crafted}Can have multiple Crafted Modifiers
+{crafted}12% increased Attack Speed
+{crafted}25% increased Critical Strike Chance
+{crafted}Attacks with this Weapon Penetrate 14% Elemental Resistances
+		</Item>
+		<Item variant="2" id="39">
+			Rarity: UNIQUE
+The Wise Oak
+Bismuth Flask
+Variant: Pre 3.0.0
+Variant: Current
+Selected Variant: 2
+Quality: 20
+LevelReq: 8
+Implicits: 0
+During Flask Effect, 10% reduced Damage taken of each Element for which your Uncapped
+Elemental Resistance is lowest
+{variant:1}During Flask Effect, Damage Penetrates 20% Resistance of each Element for which your
+Uncapped Elemental Resistance is highest
+{variant:2}{range:0.598}During Flask Effect, Damage Penetrates (10-15)% Resistance of each Element for which your
+Uncapped Elemental Resistance is highest
+			<ModRange range="0.598" id="4"/>
+		</Item>
+		<Item id="40">
+			Rarity: RARE
+Ancient Sight
+Searching Eye Jewel
+Item Level: 69
+LevelReq: 54
+Implicits: 0
+Adds 4 to 10 Cold Damage to Attacks
+Adds 1 to 20 Lightning Damage to Attacks
+Adds 13 to 21 Fire Damage to Bow Attacks
+Adds 12 to 23 Cold Damage to Bow Attacks
+		</Item>
+		<Item id="41">
+			Rarity: RARE
+Whispering Charm
+Searching Eye Jewel
+Item Level: 72
+LevelReq: 47
+Implicits: 0
+Adds 5 to 8 Cold Damage to Attacks
+Adds 3 to 32 Lightning Damage to Attacks
+Adds 7 to 15 Fire Damage to Wand Attacks
+Adds 11 to 19 Cold Damage to Wand Attacks
+		</Item>
+		<Item id="42">
+			Rarity: RARE
+Rage Ward
+Elegant Round Shield
+Unique ID: 8ed9380c7b58842650bb71feb86f491c7507f9c8572d141ca36644b5f660087f
+Item Level: 84
+Quality: 20
+Sockets: G-R-R
+LevelReq: 70
+Implicits: 1
+120% increased Block Recovery
+30% increased Attack Damage
+12% increased Attack Speed
+21% increased Armour and Evasion
++95 to maximum Life
++48% to Lightning Resistance
+{crafted}5% chance to deal Double Damage
+		</Item>
+		<Item id="43">
+			Rarity: RARE
+Rune Noose
+Agate Amulet
+Shaper Item
+Item Level: 82
+LevelReq: 65
+Implicits: 1
++17 to Strength and Intelligence
++41 to Intelligence
+38% increased Global Critical Strike Chance
+Damage Penetrates 10% Elemental Resistances
+		</Item>
+		<Item id="44">
+			Rarity: RARE
+Vortex Clasp
+Lapis Amulet
+Shaper Item
+Item Level: 83
+LevelReq: 65
+Implicits: 1
++23 to Intelligence
++20 to Strength
++55 to Intelligence
+15% increased Spell Damage
+Gain 20% of Physical Damage as Extra Lightning Damage
+Damage Penetrates 8% Elemental Resistances
+{crafted}6% increased Attack and Cast Speed
+		</Item>
+		<Item id="45">
+			Rarity: RARE
+Plague Torc
+Onyx Amulet
+Shaper Item
+Item Level: 83
+LevelReq: 65
+Implicits: 1
++16 to all Attributes
++35 to Intelligence
+Adds 12 to 20 Physical Damage to Attacks
+Damage Penetrates 10% Elemental Resistances
+22% increased Elemental Damage with Attack Skills
+{crafted}+12% to all Elemental Resistances
+		</Item>
+		<Item id="46">
+			Rarity: UNIQUE
+Piscator&apos;s Vigil
+Tornado Wand
+Item Level: 81
+Quality: 0
+Sockets: B
+LevelReq: 65
+Implicits: 1
+Damage Penetrates 9% Elemental Resistances
+No Physical Damage
+16% increased Attack Speed
+26% increased Critical Strike Chance
++375 to Accuracy Rating
+Attacks with this Weapon have 115% increased Elemental Damage
+Damage with Weapons Penetrates 5% Elemental Resistance
+Corrupted
+		</Item>
+		<Item id="47">
+			Rarity: RARE
+Plague Torc
+Onyx Amulet
+Shaper Item
+Item Level: 83
+LevelReq: 65
+Implicits: 1
++16 to all Attributes
++35 to Intelligence
+Adds 12 to 20 Physical Damage to Attacks
+Damage Penetrates 10% Elemental Resistances
+22% increased Elemental Damage with Attack Skills
+{crafted}+12% to all Elemental Resistances
+		</Item>
+		<Item id="48">
+			Rarity: RARE
+Grim Rosary
+Onyx Amulet
+Shaper Item
+Item Level: 100
+LevelReq: 65
+Implicits: 1
++16 to all Attributes
++20 to Intelligence
+Adds 10 to 17 Physical Damage to Attacks
++44% to Fire Resistance
+Gain 15% of Physical Damage as Extra Lightning Damage
+Damage Penetrates 10% Elemental Resistances
+{crafted}27% increased Global Critical Strike Chance
+		</Item>
+		<Item id="49">
+			Rarity: UNIQUE
+Watcher&apos;s Eye
+Prismatic Jewel
+Item Level: 83
+Limited to: 1
+Implicits: 0
+6% increased maximum Energy Shield
+4% increased maximum Life
+4% increased maximum Mana
+90% increased Critical Strike Chance while affected by Wrath
+Damage Penetrates 14% Lightning Resistance while affected by Wrath
+		</Item>
+		<Item id="50">
+			Rarity: UNIQUE
+Watcher&apos;s Eye
+Prismatic Jewel
+Item Level: 86
+Limited to: 1
+Implicits: 0
+6% increased maximum Energy Shield
+5% increased maximum Life
+4% increased maximum Mana
+57% increased Lightning Damage while affected by Wrath
+Gain 17% of Maximum Mana as Extra Maximum Energy Shield while affected by Clarity
+Damage Penetrates 15% Lightning Resistance while affected by Wrath
+		</Item>
+		<Item id="51">
+			Rarity: RARE
+Morbid Idol
+Jade Amulet
+Elder Item
+Item Level: 84
+LevelReq: 64
+Implicits: 1
++21 to Dexterity
+6% increased Cold Damage
+Adds 17 to 29 Cold Damage to Attacks
+Adds 6 to 59 Lightning Damage to Attacks
+Gain 10% of Non-Chaos Damage as extra Chaos Damage
+		</Item>
+		<Item id="52">
+			Rarity: RARE
+Onslaught Locket
+Lapis Amulet
+Elder Item
+Item Level: 86
+LevelReq: 64
+Implicits: 1
++30 to Intelligence
++12 to Strength
++137 to Accuracy Rating
++84 to maximum Life
+Gain 10% of Non-Chaos Damage as extra Chaos Damage
+{crafted}17% increased Elemental Damage with Attack Skills
+		</Item>
+		<Item id="57">
+			Rarity: UNIQUE
+Tombfist
+Steelscale Gauntlets
+Item Level: 81
+Quality: 20
+Sockets: R-R A A
+LevelReq: 36
+Implicits: 2
++2 to Level of Socketed Aura Gems
+Attacks have +0.75% to Critical Strike Chance
+Has 2 Abyssal Sockets
+5% increased maximum Life
+With a Murderous Eye Jewel Socketed, Intimidate Enemies for 4 seconds on Hit with Attacks
+With a Searching Eye Jewel Socketed, Maim Enemies for 4 seconds on Hit with Attacks
+Corrupted
+		</Item>
+		<Item id="58">
+			Rarity: MAGIC
+Chemist&apos;s Quicksilver Flask of the Order
+Item Level: 83
+Quality: 20
+LevelReq: 48
+Implicits: 0
+23% reduced Charges used
+{crafted}70% increased Critical Strike Chance during Flask Effect
+		</Item>
+		<Item variant="4" id="66">
+			Rarity: UNIQUE
+Lioneye&apos;s Glare
+Imperial Bow
+Variant: Pre 2.0.0
+Variant: Pre 2.6.0
+Variant: Pre 3.0.0
+Variant: Current
+Selected Variant: 4
+Quality: 20
+Sockets: G-G-G-G-G-G
+LevelReq: 66
+Implicits: 3
+{variant:2}{range:0.5}(6-12)% increased Elemental Damage with Weapons
+{variant:3}{range:0.5}(20-24)% increased Elemental Damage with Weapons
+{variant:4}{range:0.963}(20-24)% increased Elemental Damage with Attack Skills
+{range:0.841}(150-175)% increased Physical Damage
+{range:1}Adds (6-12) to (20-32) Physical Damage
+{range:0.829}(10-20)% increased Attack Speed
+{range:0.805}+(80-100) to maximum Mana
+Hits can&apos;t be Evaded
+{variant:4}Far Shot
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.963" id="3"/>
+			<ModRange range="0.841" id="4"/>
+			<ModRange range="1" id="5"/>
+			<ModRange range="0.829" id="6"/>
+			<ModRange range="0.805" id="7"/>
+		</Item>
+		<Item id="67">
+			Rarity: UNIQUE
+Hyrri&apos;s Demise
+Sharktooth Arrow Quiver
+LevelReq: 45
+Implicits: 1
+{range:0.671}+(3-4) Life gained for each Enemy hit by your Attacks
+{range:0.793}+(15-30) to all Attributes
+{range:0.902}(7-10)% increased Attack Speed
+{range:0.805}+(2-3) Life gained for each Enemy hit by your Attacks
+10% increased Area of Effect
+Adds 1 to 2 Cold Damage to Attacks per 10 Dexterity
+Adds 1 to 2 Fire Damage to Attacks per 10 Strength
+Adds 0 to 3 Lightning Damage to Attacks per 10 Intelligence
+			<ModRange range="0.671" id="1"/>
+			<ModRange range="0.793" id="2"/>
+			<ModRange range="0.902" id="3"/>
+			<ModRange range="0.805" id="4"/>
+		</Item>
+		<Item id="68">
+			Rarity: UNIQUE
+Devoto&apos;s Devotion
+Nightmare Bascinet
+Item Level: 83
+Quality: 20
+Sockets: G-G-G B
+LevelReq: 67
+Implicits: 1
+40% increased Lightning Arrow Damage
++55 to Dexterity
+10% reduced Global Physical Damage
+16% increased Attack Speed
+157% increased Armour and Evasion
++22% to Chaos Resistance
+20% increased Movement Speed
+Mercury Footprints
+		</Item>
+		<Item id="69">
+			Rarity: UNIQUE
+Mark of the Elder
+Steel Ring
+Elder Item
+LevelReq: 80
+Implicits: 1
+{range:0.5}+(14-16)% to all Elemental Resistances
+{range:0.793}Adds (26-32) to (42-48) Cold Damage to Attacks
+{range:0.951}(6-10)% increased maximum Energy Shield
+{range:0.902}(6-10)% increased maximum Life
+{range:1}(60-80)% increased Attack Damage if your other Ring is a Shaper Item
+Cannot be Stunned by Attacks if your other Ring is an Elder Item
+20% chance to Trigger Level 20 Tentacle Whip on Kill
+Corrupted
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.793" id="2"/>
+			<ModRange range="0.951" id="3"/>
+			<ModRange range="0.902" id="4"/>
+			<ModRange range="1" id="5"/>
+		</Item>
+		<Item id="70">
+			Rarity: UNIQUE
+Lioneye&apos;s Fall
+Viridian Jewel
+Radius: Medium
+Implicits: 0
+Melee and Melee Weapon Type modifiers in Radius are Transformed to Bow Modifiers
+		</Item>
+		<Item variant="5" id="71">
+			Rarity: UNIQUE
+Windripper
+Imperial Bow
+Variant: Pre 2.0.0
+Variant: Pre 2.6.0
+Variant: Pre 3.0.0
+Variant: Pre 3.5.0
+Variant: Current
+Selected Variant: 5
+Quality: 20
+Sockets: G-G-G-G-G-G
+LevelReq: 66
+Implicits: 3
+{variant:2}{range:0.5}(6-12)% increased Elemental Damage with Weapons
+{variant:3}{range:0.5}(20-24)% increased Elemental Damage with Weapons
+{variant:5,4}{range:1}(20-24)% increased Elemental Damage with Attack Skills
+{variant:1,2,3,4}{range:0.5}Adds (32-40) to (48-60) Cold Damage
+{variant:5}{range:1}Adds (48-60) to (72-90) Cold Damage
+{variant:1,2,3,4}{range:0.5}Adds 1 to (80-100) Lightning Damage
+{variant:5}{range:1}Adds 1 to (120-150) Lightning Damage
+{range:1}(10-15)% increased Attack Speed
+{variant:1}{range:0.5}(80-100)% increased Critical Strike Chance
+{variant:2,3,4}{range:0.5}(60-80)% increased Critical Strike Chance
+{variant:5}{range:1}(30-40)% increased Critical Strike Chance
+{variant:1}25% increased Quantity of Items Dropped by Slain Frozen enemies
+{variant:2,3,4,5}15% increased Quantity of Items Dropped by Slain Frozen Enemies
+{variant:1}50% increased Rarity of Items Dropped by Slain Shocked enemies
+{variant:2,3,4,5}30% increased Rarity of Items Dropped by Slain Shocked Enemies
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="1" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="1" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="1" id="7"/>
+			<ModRange range="1" id="8"/>
+			<ModRange range="0.5" id="9"/>
+			<ModRange range="0.5" id="10"/>
+			<ModRange range="1" id="11"/>
+		</Item>
+		<Item variant="2" id="72">
+			Rarity: UNIQUE
+Nuro&apos;s Harp
+Harbinger Bow
+Variant: Pre 2.5.0
+Variant: Current
+Selected Variant: 2
+Quality: 20
+Sockets: G-G-G-G-G-G
+LevelReq: 68
+Implicits: 1
+{range:1}(30-50)% increased Critical Strike Chance
+No Physical Damage
+{range:1}Adds (120-140) to (180-210) Cold Damage
+{range:0.415}(10-15)% increased Attack Speed
+{range:0.5}(10-30)% increased Light Radius
+15% chance to create Chilled Ground when you Freeze an Enemy
+Create Consecrated Ground when you Shatter an Enemy
+{variant:2}40% increased Effect of Chilled Ground
+			<ModRange range="1" id="1"/>
+			<ModRange range="1" id="3"/>
+			<ModRange range="0.415" id="4"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Item variant="5" id="73">
+			Rarity: UNIQUE
+Hyrri&apos;s Ire
+Zodiac Leather
+Variant: Pre 1.0.0
+Variant: Pre 2.0.0
+Variant: Pre 2.6.0
+Variant: Pre 3.5.0
+Variant: Current
+Selected Variant: 5
+Quality: 20
+Sockets: G-G-G-G-G-G
+LevelReq: 65
+Implicits: 0
+{variant:1,2,3}{range:0.5}+(20-30) to Dexterity
+{range:0}+(40-50) to Dexterity
+{variant:1,2,3}Adds 13 to 24 Cold Damage to Attacks
+{variant:4}{range:0.5}Adds (50-60) to (70-80) Cold Damage to Attacks
+{variant:5}{range:1}Adds (173-188) to (240-262) Cold Damage to Bow Attacks
+{variant:1}{range:0.5}(80-120)% increased Evasion Rating
+{variant:2,3,4,5}{range:1}(140-220)% increased Evasion Rating
+25% increased Chill Duration on Enemies
+{variant:1,2}Acrobatics
+{variant:3,4,5}10% chance to Dodge Attacks
+{variant:3,4,5}10% chance to Dodge Spell Damage
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0" id="2"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="1" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="1" id="7"/>
+		</Item>
+		<Item id="3">
+			Rarity: RARE
+Grim Twine
+Searching Eye Jewel
+Item Level: 74
+LevelReq: 59
+Implicits: 0
+Adds 1 to 19 Lightning Damage to Attacks
+8% increased Global Critical Strike Chance
++32 to maximum Life
+Adds 3 to 29 Lightning Damage to Bow Attacks
+		</Item>
+		<Item id="54">
+			Rarity: RARE
+Grim Arbiter
+Searching Eye Jewel
+Item Level: 86
+LevelReq: 65
+Implicits: 1
+6% increased Effect of non-Damaging Ailments on Enemies
+Adds 4 to 38 Lightning Damage to Attacks
++34 to maximum Life
++13% to Lightning Resistance
+Adds 3 to 50 Lightning Damage to Bow Attacks
+Corrupted
+		</Item>
+		<Item variant="4" id="56">
+			Rarity: UNIQUE
+Reach of the Council
+Spine Bow
+Variant: Pre 2.4.0
+Variant: Pre 2.6.0
+Variant: Pre 3.5.0
+Variant: Current
+Selected Variant: 4
+Quality: 20
+Sockets: G-G-G-G-G-G
+LevelReq: 64
+Implicits: 0
+{variant:4}Socketed Gems are Supported by Level 20 Greater Volley
+{variant:1}{range:0.5}(50-70)% increased Physical Damage
+{variant:2,3}{range:0.5}(40-50)% increased Physical Damage
+{variant:4}{range:0.744}(50-75)% increased Physical Damage
+{variant:1}{range:0.5}Adds (25-40) to (100-115) Physical Damage
+{variant:2,3,4}{range:0.878}Adds (15-30) to (70-95) Physical Damage
+{range:1}(8-12)% increased Attack Speed
+{variant:1,2}4 additional Arrows
+{variant:3}2 additional Arrows
+20% reduced Projectile Speed
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.744" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.878" id="6"/>
+			<ModRange range="1" id="7"/>
+		</Item>
+		<Item variant="3" id="59">
+			Rarity: UNIQUE
+Slivertongue
+Harbinger Bow
+Variant: Pre 3.0.0
+Variant: Pre 3.5.0
+Variant: Current
+Selected Variant: 3
+Quality: 20
+Sockets: G-G-G-G-G-G
+LevelReq: 68
+Implicits: 1
+{range:0.89}(30-50)% increased Critical Strike Chance
+{variant:1,2}{range:0.5}Adds (60-75) to (170-220) Physical Damage
+{variant:3}{range:1}Adds (110-125) to (245-265) Physical Damage
+{variant:1,2}{range:0.5}100% increased Critical Strike Chance with arrows that Fork
+{variant:3}{range:0.5}(150-200)% increased Critical Strike Chance with arrows that Fork
+{variant:1}Arrows that Pierce cause Bleeding
+{variant:2}Arrows that Pierce have 50% chance to cause Bleeding
+{variant:3}Arrows that Pierce have +50% to Critical Strike Multiplier
+{variant:1,2}Arrows Pierce all Targets after Chaining
+{variant:3}Arrows Pierce all Targets after Forking
+			<ModRange range="0.89" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="1" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Item id="60">
+			Rarity: RARE
+Hypnotic Reach
+Maraketh Bow
+Unique ID: 84f1b2b55a6cffb14bee1ffdec76990d826a0ca7d7d51cdfffbc988c8cb7b96e
+Shaper Item
+Item Level: 86
+Quality: 30
+Sockets: G-W-W-R-G-W
+LevelReq: 72
+Implicits: 1
+6% increased Movement Speed
+12% increased Attack Speed
++38% to Global Critical Strike Multiplier
+120% increased Elemental Damage
+Attacks with this Weapon Penetrate 19% Elemental Resistances
+Adds 3 to 5 Cold Damage to Attacks with this Weapon per 10 Dexterity
+20% chance to deal Double Damage
+{crafted}27% increased Critical Strike Chance
+		</Item>
+		<Item id="61">
+			Rarity: RARE
+Carrion Twine
+Thicket Bow
+Unique ID: 83bffdcfa65c9ad770cf5a975eab1f2304967edaf0da54f6629abeafc89b8e1b
+Shaper Item
+Item Level: 75
+Quality: 20
+Sockets: G-G-G-G-R-B
+LevelReq: 70
+Implicits: 0
+10% increased Attack Speed
+Adds 2 to 5 Cold Damage to Attacks with this Weapon per 10 Dexterity
+20% chance to deal Double Damage
+{crafted}Can have multiple Crafted Modifiers
+{crafted}75% increased Lightning Damage
+{crafted}25% increased Critical Strike Chance
+{crafted}23% chance to Shock
+{crafted}Attacks with this Weapon Penetrate 16% Elemental Resistances
+		</Item>
+		<Item id="62">
+			Rarity: RARE
+Fate Spike
+Spike-Point Arrow Quiver
+Unique ID: ac31df9c915ba69536ba30c28d5917becd7c2251175d1e1424873f52ea6c0c03
+Item Level: 83
+Quality: 0
+LevelReq: 64
+Implicits: 1
+30% increased Global Critical Strike Chance
+37% increased Global Critical Strike Chance
++31% to Global Critical Strike Multiplier
++70 to maximum Life
++43% to Fire Resistance
+42% increased Elemental Damage with Attack Skills
+{crafted}Adds 7 to 9 Cold Damage
+{crafted}Adds 1 to 15 Lightning Damage
+		</Item>
+		<Item id="63">
+			Rarity: UNIQUE
+Voidfletcher
+Penetrating Arrow Quiver
+Elder Item
+LevelReq: 68
+Implicits: 1
+Arrows Pierce an additional Target
+{range:0.5}Consumes a Void Charge to Trigger Level 20 Void Shot when you fire Arrows
+{range:1}Adds (30-40) to (80-100) Cold Damage to Attacks
+{range:1}+(80-120) to maximum Energy Shield
+{range:0.878}+(20-30)% to Cold Resistance
+{range:0.5}+(20-40) Mana gained on Kill
+30% increased Projectile Speed
+5 Maximum Void Charges
+Gain a Void Charge every 0.5 seconds
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="1" id="3"/>
+			<ModRange range="1" id="4"/>
+			<ModRange range="0.878" id="5"/>
+			<ModRange range="0.5" id="6"/>
+		</Item>
+		<Item id="53">
+			Rarity: UNIQUE
+Fractal Thoughts
+Vaal Mask
+Item Level: 75
+Quality: 9
+Sockets: W-B-B-G
+LevelReq: 62
+Implicits: 0
+142% increased Evasion and Energy Shield
++40% to Critical Strike Multiplier if Dexterity is higher than Intelligence
+15% increased Dexterity if Strength is higher than Intelligence
+1% increased Elemental Damage per 10 Dexterity
++2 to Maximum Life per 10 Intelligence
+Corrupted
+		</Item>
+		<Item id="55">
+			Rarity: UNIQUE
+Fractal Thoughts EDITED
+Vaal Mask
+Item Level: 75
+Quality: 20
+Sockets: W-B-B-G
+LevelReq: 62
+Implicits: 1
+{crafted}40% increased Lightning Arrow Damage
+142% increased Evasion and Energy Shield
++40% to Critical Strike Multiplier
+15% increased Dexterity
+1% increased Elemental Damage per 10 Dexterity
++2 to Maximum Life per 10 Intelligence
+		</Item>
+		<Item id="64">
+			Rarity: RARE
+Plague Fletch
+Maraketh Bow
+Unique ID: bba0d34e02478f716af6ab8a4697765c8f4251168bc90cdcba8313058471080a
+Shaper Item
+Item Level: 77
+Quality: 20
+Sockets: R-B-G-G-G-G
+LevelReq: 72
+Implicits: 1
+6% increased Movement Speed
+120% increased Elemental Damage
+Adds 3 to 5 Cold Damage to Attacks with this Weapon per 10 Dexterity
+{crafted}Can have multiple Crafted Modifiers
+{crafted}77% increased Lightning Damage
+{crafted}11% increased Attack Speed
+{crafted}26% increased Critical Strike Chance
+{crafted}23% chance to Shock
+		</Item>
+		<Item id="65">
+			Rarity: UNIQUE
+Fractal Thoughts EDITED BARRAGE
+Vaal Mask
+Item Level: 75
+Quality: 20
+Sockets: W-B-B-G
+LevelReq: 62
+Implicits: 1
+{crafted}Barrage fires an additional Projectile
+142% increased Evasion and Energy Shield
++40% to Critical Strike Multiplier
+15% increased Dexterity
+1% increased Elemental Damage per 10 Dexterity
++2 to Maximum Life per 10 Intelligence
+		</Item>
+		<Item id="74">
+			Rarity: RARE
+Rage Mark
+Imperial Bow
+Shaper Item
+Item Level: 86
+Quality: 20
+Sockets: R-G-G-G-G-G
+LevelReq: 66
+Implicits: 1
+24% increased Elemental Damage with Attack Skills
+10% increased Attack Speed
+Adds 3 to 5 Cold Damage to Attacks with this Weapon per 10 Dexterity
+20% chance to deal Double Damage
+{crafted}Can have multiple Crafted Modifiers
+{crafted}78% increased Cold Damage
+{crafted}22% chance to Freeze
+{crafted}Attacks with this Weapon Penetrate 16% Elemental Resistances
+{crafted}10% chance to deal Double Damage
+		</Item>
+		<Item id="75">
+			Rarity: RARE
+Fate Trap
+Stygian Vise
+Item Level: 86
+Sockets: A
+Implicits: 1
+Has 1 Abyssal Socket
+Grants Level 20 Aspect of the Spider Skill
+28% increased Cold Damage
++93 to maximum Life
++43% to Cold Resistance
++39% to Lightning Resistance
+{crafted}32% increased Elemental Damage with Attack Skills
+		</Item>
+		<Item id="76">
+			Rarity: RARE
+Kraken Thread
+Stygian Vise
+Item Level: 85
+Sockets: A
+Implicits: 1
+Has 1 Abyssal Socket
+Grants Level 20 Aspect of the Spider Skill
+25% increased Lightning Damage
++72 to maximum Life
++26% to Fire Resistance
++46% to Cold Resistance
+41% increased Elemental Damage with Attack Skills
+		</Item>
+		<Item id="77">
+			Rarity: RARE
+Foul Strike
+Searching Eye Jewel
+Item Level: 86
+LevelReq: 65
+Implicits: 0
+Adds 4 to 9 Cold Damage to Attacks
+Adds 3 to 48 Lightning Damage to Attacks
++36 to maximum Life
+Adds 3 to 42 Lightning Damage to Bow Attacks
+		</Item>
+		<Item id="78">
+			Rarity: RARE
+Dragon Fletch
+Thicket Bow
+Unique ID: d408e4a1a8852cd82bee2ce932af32a1a4818954279072c7d39adb20e2770250
+Elder Item
+Item Level: 84
+Quality: 29
+Sockets: B-G-G-R-G-R
+LevelReq: 72
+Implicits: 0
++1 to Level of Socketed Gems
+Socketed Gems are Supported by Level 20 Vicious Projectiles
+132% increased Physical Damage
+{crafted}Can have multiple Crafted Modifiers
+{crafted}+2 to Level of Socketed Support Gems
+{crafted}13% increased Attack Speed
+{crafted}21% increased Attack Speed while a Rare or Unique Enemy is Nearby
+		</Item>
+		<Item id="79">
+			Rarity: RARE
+Foul Gaze
+Searching Eye Jewel
+Item Level: 78
+LevelReq: 59
+Implicits: 0
+Adds 4 to 38 Lightning Damage to Attacks
++35 to maximum Life
+Adds 1 to 24 Lightning Damage to Bow Attacks
+Damage Penetrates 2% Elemental Resistance if you haven&apos;t Killed Recently
+Corrupted
+		</Item>
+		<Item id="80">
+			Rarity: RARE
+Bramble Breeze
+Imperial Bow
+Shaper Item
+Item Level: 86
+Quality: 20
+Sockets: G-G-G-R-G-G
+LevelReq: 66
+Implicits: 1
+24% increased Elemental Damage with Attack Skills
+12% increased Attack Speed
+Adds 3 to 5 Cold Damage to Attacks with this Weapon per 10 Dexterity
+20% chance to deal Double Damage
+{crafted}Can have multiple Crafted Modifiers
+{crafted}77% increased Cold Damage
+{crafted}26% increased Critical Strike Chance
+{crafted}21% chance to Freeze
+{crafted}Attacks with this Weapon Penetrate 15% Elemental Resistances
+		</Item>
+		<Item id="81">
+			Rarity: RARE
+Demon Breeze
+Thicket Bow
+Shaper Item
+Item Level: 85
+Quality: 20
+Sockets: G-R-G-B-G-G
+LevelReq: 56
+Implicits: 0
+10% increased Attack Speed
+Adds 3 to 5 Cold Damage to Attacks with this Weapon per 10 Dexterity
+20% chance to deal Double Damage
+{crafted}Can have multiple Crafted Modifiers
+{crafted}26% increased Critical Strike Chance
+{crafted}Gain 14% of Cold Damage as Extra Chaos Damage
+{crafted}Attacks with this Weapon Penetrate 16% Elemental Resistances
+		</Item>
+		<Item variant="6" id="82">
+			Rarity: UNIQUE
+Cinderswallow Urn
+Silver Flask
+League: Betrayal
+Variant: Crit Chance
+Variant: Damage Taken is Leeched as Life
+Variant: Item Rarity
+Variant: Reduced Mana Cost
+Variant: Movement Speed/Stun Avoidance
+Variant: Life Regen
+Selected Variant: 6
+Quality: 20
+LevelReq: 22
+Implicits: 0
+Recharges 1 Charge when you consume an Ignited Corpse
+Enemies Ignited by you during Flask Effect take 10% increased Damage
+Recover (1-3)% of Life when you Kill an Enemy during Flask Effect
+Recover (1-3)% of Mana when you Kill an Enemy during Flask Effect
+Recover (1-3)% of Energy Shield when you Kill an Enemy during Flask Effect
+{variant:1}{crafted}{range:0.5}(60-80)% increased Critical Strike Chance during Flask Effect
+{variant:2}{crafted}{range:0.5}15% of Damage Taken from Hits is Leeched as Life during Flask Effect
+{variant:3}{crafted}{range:0.5}(20-30)% increased Rarity of Items found during Flask Effect
+{variant:4}{crafted}{range:0.5}(25-20)% reduced Mana Cost of Skills during Flask Effect
+{variant:5}{crafted}{range:0.5}(8-12)% increased Movement Speed during Flask effect
+{variant:5}{crafted}50% Chance to avoid being Stunned during Flask Effect
+{variant:6}{crafted}3% of Life Regenerated per second during Flask Effect
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="8"/>
+			<ModRange range="0.5" id="9"/>
+			<ModRange range="0.5" id="10"/>
+			<ModRange range="0.5" id="11"/>
+		</Item>
+		<Item id="83">
+			Rarity: RARE
+Sorrow Wind
+Highborn Bow
+Shaper Item
+Item Level: 86
+Quality: 20
+Sockets: W-W-G-G-B-G
+LevelReq: 50
+Implicits: 2
+24% increased Elemental Damage with Attack Skills
+Item sells for much more to vendors
++2 to Level of Socketed Bow Gems
+9% increased Attack Speed
+Adds 3 to 5 Cold Damage to Attacks with this Weapon per 10 Dexterity
+20% chance to deal Double Damage
+{crafted}Can have multiple Crafted Modifiers
+{crafted}+23 to Dexterity
+{crafted}78% increased Cold Damage
+{crafted}21% chance to Freeze
+{crafted}+15% to Quality
+		</Item>
+		<Item id="84">
+			Rarity: RARE
+Hypnotic Thirst
+Thicket Bow
+Shaper Item
+Item Level: 79
+Quality: 20
+Sockets: R-B-G-G-R-R
+LevelReq: 56
+Implicits: 0
+Socketed Skills deal 20% more Attack Damage
+12% increased Attack Speed
+20% chance to deal Double Damage
+{crafted}Can have multiple Crafted Modifiers
+{crafted}10% chance to deal Double Damage
+{crafted}{range:0.5}Attacks with this Weapon Penetrate (14-16)% Elemental Resistances
+{crafted}{range:0.5}(25-27)% increased Critical Strike Chance
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+		</Item>
+		<Item id="85">
+			Rarity: RARE
+Sol Wind
+Thicket Bow
+Shaper Item
+Item Level: 86
+Quality: 20
+Sockets: B-B-G-R-G-G
+LevelReq: 56
+Implicits: 0
+12% increased Attack Speed
+Adds 3 to 5 Cold Damage to Attacks with this Weapon per 10 Dexterity
+20% chance to deal Double Damage
+{crafted}Can have multiple Crafted Modifiers
+{crafted}76% increased Lightning Damage
+{crafted}22% chance to Shock
+{crafted}Attacks with this Weapon Penetrate 14% Elemental Resistances
+{crafted}9% chance to deal Double Damage
+		</Item>
+		<Item id="86">
+			Rarity: RARE
+Whispering Gaze
+Murderous Eye Jewel
+Item Level: 82
+LevelReq: 59
+Implicits: 0
++33 to maximum Life
+4% chance to gain Onslaught for 4 seconds on Kill
+6% chance to Blind Enemies on Hit with Attacks
+		</Item>
+		<Item id="87">
+			Rarity: RARE
+Hollow Stare
+Hypnotic Eye Jewel
+Item Level: 85
+LevelReq: 59
+Implicits: 0
+12% increased Global Critical Strike Chance
++11% to Global Critical Strike Multiplier
++31 to maximum Life
+2 Mana Regenerated per second
+		</Item>
+		<Item id="88">
+			Rarity: RARE
+Ancient Stare
+Searching Eye Jewel
+Item Level: 83
+LevelReq: 65
+Implicits: 0
++16 to Strength
+Adds 3 to 36 Lightning Damage to Attacks
++40 to maximum Life
+Adds 2 to 40 Lightning Damage to Bow Attacks
+		</Item>
+		<Item id="89">
+			Rarity: RARE
+Grim Arbiter
+Searching Eye Jewel
+Item Level: 83
+LevelReq: 60
+Implicits: 0
+Adds 4 to 46 Lightning Damage to Attacks
++35 to maximum Life
+Adds 2 to 24 Lightning Damage to Bow Attacks
+		</Item>
+		<Item id="90">
+			Rarity: RARE
+Hate Volley
+Thicket Bow
+Shaper Item
+Item Level: 85
+Quality: 20
+Sockets: G-G-R G-G G
+LevelReq: 56
+Implicits: 0
+Socketed Skills deal 20% more Attack Damage
+Adds 5 to 61 Lightning Damage
+10% increased Attack Speed
+28% increased Projectile Speed
+Damage Penetrates 18% Lightning Resistance
+20% chance to deal Double Damage
+{crafted}{range:1}(8-10)% chance to deal Double Damage
+			<ModRange range="1" id="7"/>
+		</Item>
+		<Item id="91">
+			Rarity: MAGIC
+Cautious Divine Life Flask of Staunching
+Item Level: 65
+Quality: 20
+LevelReq: 60
+Implicits: 0
+100% increased Recovery when on Low Life
+Immunity to Bleeding during Flask effect
+Removes Bleeding on use
+		</Item>
+		<Item id="92">
+			Rarity: RARE
+Kraken Thread
+Stygian Vise
+Item Level: 85
+Sockets: A
+Implicits: 1
+Has 1 Abyssal Socket
+Grants Level 20 Aspect of the Spider Skill
+25% increased Lightning Damage
++72 to maximum Life
++26% to Fire Resistance
++46% to Cold Resistance
+41% increased Elemental Damage with Attack Skills
+		</Item>
+		<Item variant="2" id="93">
+			Rarity: UNIQUE
+Death&apos;s Opus
+Death Bow
+Variant: Pre 3.0.0
+Variant: Current
+Selected Variant: 2
+Quality: 20
+Sockets: G-G-G-G-G-G
+LevelReq: 44
+Implicits: 1
+{range:1}(30-50)% increased Critical Strike Chance
+{range:1}(100-125)% increased Physical Damage
+{range:1}Adds (10-20) to (30-35) Physical Damage
+10% increased Attack Speed
+{variant:1}+150% to Global Critical Strike Multiplier
+{variant:2}+100% to Global Critical Strike Multiplier
+2 additional Arrows
+			<ModRange range="1" id="1"/>
+			<ModRange range="1" id="2"/>
+			<ModRange range="1" id="3"/>
+		</Item>
+		<Slot name="Gloves" itemId="57"/>
+		<Slot name="Weapon 1" itemId="85"/>
+		<Slot active="true" name="Flask 3" itemId="91"/>
+		<Slot name="Amulet" itemId="4"/>
+		<Slot active="true" name="Flask 1" itemId="13"/>
+		<Slot active="true" name="Flask 5" itemId="58"/>
+		<Slot name="Belt Abyssal Socket 1" itemId="40"/>
+		<Slot active="true" name="Flask 2" itemId="11"/>
+		<Slot name="Helmet Abyssal Socket 2" itemId="32"/>
+		<Slot name="Weapon 2" itemId="67"/>
+		<Slot name="Body Armour" itemId="1"/>
+		<Slot active="true" name="Flask 4" itemId="12"/>
+		<Slot name="Ring 2" itemId="5"/>
+		<Slot name="Boots Abyssal Socket 2" itemId="77"/>
+		<Slot name="Gloves Abyssal Socket 2" itemId="87"/>
+		<Slot name="Body Armour Abyssal Socket 1" itemId="88"/>
+		<Slot name="Gloves Abyssal Socket 1" itemId="86"/>
+		<Slot name="Helmet Abyssal Socket 1" itemId="31"/>
+		<Slot name="Boots" itemId="10"/>
+		<Slot name="Ring 1" itemId="69"/>
+		<Slot name="Helmet" itemId="65"/>
+		<Slot name="Boots Abyssal Socket 1" itemId="77"/>
+		<Slot name="Belt" itemId="92"/>
+		<ItemSet useSecondWeaponSet="false" id="1">
+			<Slot name="Gloves" itemId="57"/>
+			<Slot name="Weapon 1" itemId="85"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 2" itemId="0"/>
+			<Slot name="Belt Abyssal Socket 2" itemId="0"/>
+			<Slot active="true" name="Flask 3" itemId="91"/>
+			<Slot name="Body Armour Abyssal Socket 2" itemId="0"/>
+			<Slot name="Amulet" itemId="4"/>
+			<Slot active="true" name="Flask 1" itemId="13"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 1" itemId="0"/>
+			<Slot active="true" name="Flask 5" itemId="58"/>
+			<Slot name="Belt Abyssal Socket 1" itemId="40"/>
+			<Slot active="true" name="Flask 2" itemId="11"/>
+			<Slot name="Helmet Abyssal Socket 2" itemId="32"/>
+			<Slot name="Weapon 2 Swap" itemId="0"/>
+			<Slot name="Weapon 1 Abyssal Socket 1" itemId="0"/>
+			<Slot name="Weapon 2" itemId="67"/>
+			<Slot name="Body Armour" itemId="1"/>
+			<Slot active="true" name="Flask 4" itemId="12"/>
+			<Slot name="Weapon 1 Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 2 Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 1 Swap" itemId="0"/>
+			<Slot name="Ring 2" itemId="5"/>
+			<Slot name="Boots Abyssal Socket 2" itemId="77"/>
+			<Slot name="Gloves Abyssal Socket 2" itemId="87"/>
+			<Slot name="Body Armour Abyssal Socket 1" itemId="88"/>
+			<Slot name="Gloves Abyssal Socket 1" itemId="86"/>
+			<Slot name="Helmet Abyssal Socket 1" itemId="31"/>
+			<Slot name="Weapon 2 Abyssal Socket 1" itemId="0"/>
+			<Slot name="Boots" itemId="10"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 1" itemId="0"/>
+			<Slot name="Ring 1" itemId="69"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 2" itemId="0"/>
+			<Slot name="Helmet" itemId="65"/>
+			<Slot name="Boots Abyssal Socket 1" itemId="77"/>
+			<Slot name="Belt" itemId="92"/>
+		</ItemSet>
+	</Items>
+	<Config>
+		<Input name="buffTailwind" boolean="true"/>
+		<Input name="conditionCritRecently" boolean="true"/>
+		<Input name="conditionEnemyChilled" boolean="true"/>
+		<Input name="enemyIsBoss" string="SHAPER"/>
+		<Input name="projectileDistance" number="10"/>
+		<Input name="buffOnslaught" boolean="true"/>
+		<Input name="brandAttachedToEnemy" boolean="true"/>
+		<Input name="conditionEnemyIntimidated" boolean="true"/>
+		<Input name="conditionLeechingEnergyShield" boolean="true"/>
+		<Input name="conditionEnemyIgnited" boolean="true"/>
+		<Input name="conditionEnemyBleeding" boolean="true"/>
+		<Input name="multiplierSkillUsedRecently" number="5"/>
+		<Input name="conditionEnemyMaimed" boolean="true"/>
+		<Input name="aspectOfTheSpiderWebStacks" number="3"/>
+	</Config>
+</PathOfBuilding>
