@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="94" targetVersion="3_0" banditNormal="None" bandit="Alira" banditMerciless="None" className="Ranger" ascendClassName="Deadeye" mainSocketGroup="8" viewMode="ITEMS" banditCruel="None">
-		<PlayerStat stat="AverageDamage" value="36214.286484782"/>
+	<Build level="94" targetVersion="3_0" banditNormal="None" bandit="Alira" banditMerciless="None" className="Ranger" ascendClassName="Deadeye" mainSocketGroup="8" viewMode="SKILLS" banditCruel="None">
+		<PlayerStat stat="AverageDamage" value="36065.955138774"/>
 		<PlayerStat stat="Speed" value="6.585979"/>
 		<PlayerStat stat="Speed" value="6.585979"/>
-		<PlayerStat stat="PreEffectiveCritChance" value="78.5547"/>
-		<PlayerStat stat="CritChance" value="95.4009910791"/>
+		<PlayerStat stat="PreEffectiveCritChance" value="77.4003"/>
+		<PlayerStat stat="CritChance" value="94.8925355991"/>
 		<PlayerStat stat="CritMultiplier" value="4.48"/>
 		<PlayerStat stat="HitChance" value="100"/>
-		<PlayerStat stat="TotalDPS" value="238506.53028876"/>
+		<PlayerStat stat="TotalDPS" value="237529.62315891"/>
 		<PlayerStat stat="TotalDot" value="0"/>
 		<PlayerStat stat="IgniteDPS" value="29.25"/>
-		<PlayerStat stat="WithPoisonDPS" value="238506.53028876"/>
+		<PlayerStat stat="WithPoisonDPS" value="237529.62315891"/>
 		<PlayerStat stat="ManaCost" value="78"/>
 		<PlayerStat stat="Str" value="134"/>
 		<PlayerStat stat="ReqStr" value="114"/>
@@ -39,9 +39,9 @@
 		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
 		<PlayerStat stat="Evasion" value="62923"/>
 		<PlayerStat stat="Spec:EvasionInc" value="244"/>
-		<PlayerStat stat="MeleeEvadeChance" value="77"/>
-		<PlayerStat stat="MeleeEvadeChance" value="77"/>
-		<PlayerStat stat="ProjectileEvadeChance" value="77"/>
+		<PlayerStat stat="MeleeEvadeChance" value="82"/>
+		<PlayerStat stat="MeleeEvadeChance" value="82"/>
+		<PlayerStat stat="ProjectileEvadeChance" value="82"/>
 		<PlayerStat stat="Armour" value="317"/>
 		<PlayerStat stat="Spec:ArmourInc" value="24"/>
 		<PlayerStat stat="PhysicalDamageReduction" value="3"/>
@@ -94,55 +94,57 @@
 	</Calcs>
 	<Skills defaultGemQuality="20" defaultGemLevel="21" sortGemsByDPS="true">
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Ring 2" mainActiveSkill="1">
-			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemGrace" enableGlobal2="false" quality="0" skillId="Grace" enabled="true" nameSpec="Grace"/>
+			<Gem enableGlobal2="false" quality="0" level="21" gemId="Metadata/Items/Gems/SkillGemGrace" skillId="Grace" enableGlobal1="true" enabled="true" nameSpec="Grace"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Ring 1" mainActiveSkill="1">
-			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemBloodRage" enableGlobal2="false" quality="20" skillId="BloodRage" enabled="true" nameSpec="Blood Rage"/>
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SkillGemBloodRage" skillId="BloodRage" enableGlobal1="true" enabled="true" nameSpec="Blood Rage"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
-			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemBlinkArrow" skillMinionSkill="1" enableGlobal2="false" quality="20" skillMinionSkillCalcs="1" skillId="BlinkArrow" enabled="true" nameSpec="Blink Arrow" skillMinion="Clone"/>
-			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemBloodMagic" enableGlobal2="false" quality="20" skillId="SupportBloodMagic" enabled="true" nameSpec="Blood Magic"/>
-			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemSummonLightningGolem" skillMinionSkill="1" enableGlobal2="false" quality="0" skillMinionSkillCalcs="1" skillId="SummonLightningGolem" enabled="true" nameSpec="Summon Lightning Golem" skillMinion="SummonedLightningGolem"/>
-			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemFasterAttack" enableGlobal2="false" quality="20" skillId="SupportFasterAttack" enabled="true" nameSpec="Faster Attacks"/>
+			<Gem enableGlobal2="false" skillMinionSkillCalcs="1" quality="20" level="20" gemId="Metadata/Items/Gems/SkillGemBlinkArrow" skillId="BlinkArrow" skillMinionSkill="1" enableGlobal1="true" enabled="true" nameSpec="Blink Arrow" skillMinion="Clone"/>
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SupportGemBloodMagic" skillId="SupportBloodMagic" enableGlobal1="true" enabled="true" nameSpec="Blood Magic"/>
+			<Gem enableGlobal2="false" skillMinionSkillCalcs="1" quality="0" level="21" gemId="Metadata/Items/Gems/SkillGemSummonLightningGolem" skillId="SummonLightningGolem" skillMinionSkill="1" enableGlobal1="true" enabled="true" nameSpec="Summon Lightning Golem" skillMinion="SummonedLightningGolem"/>
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SupportGemFasterAttack" skillId="SupportFasterAttack" enableGlobal1="true" enabled="true" nameSpec="Faster Attacks"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Body Armour" mainActiveSkill="1">
-			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemCriticalWeakness" enableGlobal2="false" quality="23" skillId="AssassinsMark" enabled="true" nameSpec="Assassin&apos;s Mark"/>
-			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemCurseOnHit" enableGlobal2="false" quality="23" skillId="SupportCurseOnHit" enabled="true" nameSpec="Curse On Hit"/>
-			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemHeraldOfIce" enableGlobal2="false" quality="20" skillId="HeraldOfIce" enabled="true" nameSpec="Herald of Ice" skillMinion="SummonedPhantasm"/>
-			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemOnslaughtOnSlayingShockedEnemy" enableGlobal2="false" quality="0" skillId="SupportOnslaughtOnSlayingShockedEnemy" enabled="true" nameSpec="Innervate"/>
-			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemOnslaught" enableGlobal2="false" quality="20" skillId="SupportOnslaught" enabled="true" nameSpec="Onslaught"/>
-			<Gem level="13" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemPrecision" enableGlobal2="false" quality="0" skillPart="1" skillId="AccuracyAndCritsAura" enabled="true" nameSpec="Precision" skillMinion="SummonedChaosGolem"/>
+			<Gem enableGlobal2="false" quality="23" level="20" gemId="Metadata/Items/Gems/SkillGemCriticalWeakness" skillId="AssassinsMark" enableGlobal1="true" enabled="true" nameSpec="Assassin&apos;s Mark"/>
+			<Gem enableGlobal2="false" quality="23" level="20" gemId="Metadata/Items/Gems/SupportGemCurseOnHit" skillId="SupportCurseOnHit" enableGlobal1="true" enabled="true" nameSpec="Curse On Hit"/>
+			<Gem enableGlobal2="false" quality="20" level="21" gemId="Metadata/Items/Gems/SkillGemHeraldOfIce" skillId="HeraldOfIce" enableGlobal1="true" enabled="true" nameSpec="Herald of Ice" skillMinion="SummonedPhantasm"/>
+			<Gem enableGlobal2="false" quality="0" level="21" gemId="Metadata/Items/Gems/SupportGemOnslaughtOnSlayingShockedEnemy" skillId="SupportOnslaughtOnSlayingShockedEnemy" enableGlobal1="true" enabled="true" nameSpec="Innervate"/>
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SupportGemOnslaught" skillId="SupportOnslaught" enableGlobal1="true" enabled="true" nameSpec="Onslaught"/>
+			<Gem enableGlobal2="false" quality="0" level="13" gemId="Metadata/Items/Gems/SkillGemPrecision" skillId="AccuracyAndCritsAura" skillPart="1" enableGlobal1="true" enabled="true" nameSpec="Precision" skillMinion="SummonedChaosGolem"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Helmet" mainActiveSkill="1">
-			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemNewPhaseRun" enableGlobal2="false" quality="20" skillId="NewPhaseRun" enabled="true" nameSpec="Phase Run"/>
-			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemBloodMagic" enableGlobal2="false" quality="20" skillId="SupportBloodMagic" enabled="true" nameSpec="Blood Magic"/>
-			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemIncreasedDuration" enableGlobal2="false" quality="20" skillId="SupportIncreasedDuration" enabled="true" nameSpec="Increased Duration"/>
-			<Gem level="4" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemAdditionalQuality" enableGlobal2="false" quality="0" skillId="SupportAdditionalQuality" enabled="true" nameSpec="Enhance"/>
+			<Gem enableGlobal2="false" quality="20" level="21" gemId="Metadata/Items/Gems/SkillGemNewPhaseRun" skillId="NewPhaseRun" enableGlobal1="true" enabled="true" nameSpec="Phase Run"/>
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SupportGemBloodMagic" skillId="SupportBloodMagic" enableGlobal1="true" enabled="true" nameSpec="Blood Magic"/>
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SupportGemIncreasedDuration" skillId="SupportIncreasedDuration" enableGlobal1="true" enabled="true" nameSpec="Increased Duration"/>
+			<Gem enableGlobal2="false" quality="0" level="4" gemId="Metadata/Items/Gems/SupportGemAdditionalQuality" skillId="SupportAdditionalQuality" enableGlobal1="true" enabled="true" nameSpec="Enhance"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Boots" mainActiveSkill="1">
-			<Gem level="1" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemPortal" enableGlobal2="false" quality="20" skillId="Portal" enabled="true" nameSpec="Portal"/>
-			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemVaalHaste" enableGlobal2="false" quality="0" skillId="VaalHaste" enabled="true" nameSpec="Vaal Haste"/>
+			<Gem enableGlobal2="false" quality="20" level="1" gemId="Metadata/Items/Gems/SkillGemPortal" skillId="Portal" enableGlobal1="true" enabled="true" nameSpec="Portal"/>
+			<Gem enableGlobal2="false" quality="0" level="21" gemId="Metadata/Items/Gems/SkillGemVaalHaste" skillId="VaalHaste" enableGlobal1="true" enabled="true" nameSpec="Vaal Haste"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Boots" mainActiveSkill="1">
-			<Gem level="1" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemPortal" enableGlobal2="false" quality="9" skillId="Portal" enabled="true" nameSpec="Portal"/>
-			<Gem level="1" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemCastOnDeath" enableGlobal2="false" quality="0" skillId="SupportCastOnDeath" enabled="true" nameSpec="Cast on Death"/>
+			<Gem enableGlobal2="false" quality="9" level="1" gemId="Metadata/Items/Gems/SkillGemPortal" skillId="Portal" enableGlobal1="true" enabled="true" nameSpec="Portal"/>
+			<Gem enableGlobal2="false" quality="0" level="1" gemId="Metadata/Items/Gems/SupportGemCastOnDeath" skillId="SupportCastOnDeath" enableGlobal1="true" enabled="true" nameSpec="Cast on Death"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 1" mainActiveSkill="1">
-			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemTornadoShot" enableGlobal2="false" quality="20" skillId="TornadoShot" enabled="true" nameSpec="Tornado Shot" skillMinion="SummonedPhantasm"/>
-			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemChain" enableGlobal2="false" quality="20" skillId="SupportChain" enabled="true" nameSpec="Chain"/>
-			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemBloodMagic" enableGlobal2="false" quality="20" skillId="SupportBloodMagic" enabled="true" nameSpec="Blood Magic"/>
-			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemMirageArcher" enableGlobal2="false" quality="20" skillId="SupportGemMirageArcher" enabled="true" nameSpec="Mirage Archer"/>
-			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemGreaterMultipleProjectiles" enableGlobal2="false" quality="20" skillId="SupportGreaterMultipleProjectiles" enabled="true" nameSpec="Greater Multiple Projectiles"/>
-			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemAddedColdDamage" enableGlobal2="false" quality="20" skillId="SupportAddedColdDamage" enabled="true" nameSpec="Added Cold Damage"/>
+			<Gem enableGlobal2="false" quality="20" level="21" gemId="Metadata/Items/Gems/SkillGemTornadoShot" skillId="TornadoShot" enableGlobal1="true" enabled="true" nameSpec="Tornado Shot" skillMinion="SummonedPhantasm"/>
+			<Gem enableGlobal2="false" quality="20" level="21" gemId="Metadata/Items/Gems/SupportGemChain" skillId="SupportChain" enableGlobal1="true" enabled="true" nameSpec="Chain"/>
+			<Gem enableGlobal2="false" quality="20" level="21" gemId="Metadata/Items/Gems/SupportGemBloodMagic" skillId="SupportBloodMagic" enableGlobal1="true" enabled="true" nameSpec="Blood Magic"/>
+			<Gem enableGlobal2="false" quality="20" level="21" gemId="Metadata/Items/Gems/SupportGemMirageArcher" skillId="SupportGemMirageArcher" enableGlobal1="true" enabled="true" nameSpec="Mirage Archer"/>
+			<Gem enableGlobal2="false" quality="20" level="21" gemId="Metadata/Items/Gems/SupportGemGreaterMultipleProjectiles" skillId="SupportGreaterMultipleProjectiles" enableGlobal1="true" enabled="true" nameSpec="Greater Multiple Projectiles"/>
+			<Gem enableGlobal2="false" quality="20" level="21" gemId="Metadata/Items/Gems/SupportGemAddedColdDamage" skillId="SupportAddedColdDamage" enableGlobal1="true" enabled="true" nameSpec="Added Cold Damage"/>
+			<Gem enableGlobal2="nil" quality="20" level="21" gemId="Metadata/Items/Gems/SupportGemWeaponElementalDamage" skillId="SupportWeaponElementalDamage" enableGlobal1="true" enabled="false" nameSpec="Elemental Damage with Attacks"/>
+			<Gem enableGlobal2="nil" quality="20" level="21" gemId="Metadata/Items/Gems/SupportGemDamageAgainstChilled" skillId="SupportDamageAgainstChilled" enableGlobal1="true" enabled="false" nameSpec="Hypothermia"/>
 		</Skill>
 		<Skill source="Item:19:Ghoul Scarab, Onyx Amulet" mainActiveSkillCalcs="1" label="" enabled="false" slot="Amulet" mainActiveSkill="1">
-			<Gem level="22" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemClarity" enableGlobal2="false" quality="0" skillId="Clarity" enabled="true" nameSpec="Clarity"/>
+			<Gem enableGlobal2="false" quality="0" level="22" gemId="Metadata/Items/Gems/SkillGemClarity" skillId="Clarity" enableGlobal1="true" enabled="true" nameSpec="Clarity"/>
 		</Skill>
 	</Skills>
 	<Tree activeSpec="1">
 		<Spec treeVersion="3_8">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAICAFb6BX2NuWVNgxa95tnGhrONfWwIE9rEog2Njb878DfUoJ-Nge960ExirAiJYRBsjBX99Ph4GXj5idNxoaJAJpUG5-4OKgt-3fK4XfK9Nv1uJJ0aja_r9qOn1DH6f_vKqQqbTZIfQZUFDPLTflFHPP6MNl5FfwIj9u0_OdTxio9Pvqd1yxUgA6L-yLkCXWg90TB8JjpiWrUIGbSHds_dmvEWv-pioSLpvd-YtUiv6VsmDWDBoKXLz17C7H8r8LtwUmHiLYN469vnpAX66z7PVUuYU3b31CMk_RvI51QFtQHRFUMylP_esQG0xcEzDO0WqizpSn38xQ==
+				https://www.pathofexile.com/passive-skill-tree/AAAABAICAFb6BX2NufzF0Ey95tnGhrONfWwIE9rEog2NokA78DfUoJ-NgSzpFqpirAiJYRBsjBX9DO14GXj5idNxobTFJpUG5-4OXfJ-3fK4FUO9NvT4BbUaja_r9qOn1DH651QbyAqbTZIfQZUFj0_UI1FHPP6MNnXLfwIj9gOiOdTxilVLvqc-zxUgDPL-yLkCXkU90TB8JjpiWvrrGbSHdu0_pAXb53jroSLpvS2DtUiv6VsmDWDBoH8rwuzPXqXL8LtwUmHi35jqYha_mvHP3bUIXWiYU3b3034k_cqpjb8knQHRKgsylP_esQF_-8Ez_W6DFu96Sn1lTQ==
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -158,21 +160,21 @@
 				<Socket nodeId="6230" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="41263" itemId="5"/>
+				<Socket nodeId="60735" itemId="23"/>
+				<Socket nodeId="33631" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
 				<Socket nodeId="61834" itemId="1"/>
 				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="60735" itemId="23"/>
-				<Socket nodeId="33631" itemId="0"/>
-				<Socket nodeId="41263" itemId="5"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="33989" itemId="0"/>
 			</Sockets>
 		</Spec>
 	</Tree>
 	<Notes>
 		
 	</Notes>
-	<TreeView searchStr="froz" zoomY="-36.893791825587" showHeatMap="false" zoomLevel="1" showStatDifferences="true" zoomX="-280.72424369948"/>
+	<TreeView searchStr="cold" zoomY="-156.07016672954" showHeatMap="false" zoomLevel="5" showStatDifferences="true" zoomX="-627.16739173524"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item id="1">
 			Rarity: UNIQUE
@@ -571,9 +573,9 @@ Adds 4 to 50 Lightning Damage to Bow Attacks
 		<Input name="projectileDistance" number="70"/>
 		<Input name="buffOnslaught" boolean="true"/>
 		<Input name="usePowerCharges" boolean="true"/>
-		<Input name="innervateInnervation" boolean="true"/>
-		<Input name="multiplierSkillUsedRecently" number="3"/>
 		<Input name="enemyLevel" number="83"/>
+		<Input name="multiplierSkillUsedRecently" number="3"/>
 		<Input name="skillChainCount" number="0"/>
+		<Input name="innervateInnervation" boolean="true"/>
 	</Config>
 </PathOfBuilding>
