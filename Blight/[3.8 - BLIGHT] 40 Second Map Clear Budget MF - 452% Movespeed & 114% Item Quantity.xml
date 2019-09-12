@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="94" targetVersion="3_0" banditNormal="None" bandit="Alira" banditMerciless="None" className="Ranger" ascendClassName="Deadeye" mainSocketGroup="8" viewMode="SKILLS" banditCruel="None">
+	<Build level="94" targetVersion="3_0" banditNormal="None" bandit="Alira" banditMerciless="None" className="Ranger" ascendClassName="Deadeye" mainSocketGroup="8" viewMode="TREE" banditCruel="None">
 		<PlayerStat stat="AverageDamage" value="36065.955138774"/>
 		<PlayerStat stat="Speed" value="6.585979"/>
 		<PlayerStat stat="Speed" value="6.585979"/>
@@ -134,8 +134,8 @@
 			<Gem enableGlobal2="false" quality="20" level="21" gemId="Metadata/Items/Gems/SupportGemMirageArcher" skillId="SupportGemMirageArcher" enableGlobal1="true" enabled="true" nameSpec="Mirage Archer"/>
 			<Gem enableGlobal2="false" quality="20" level="21" gemId="Metadata/Items/Gems/SupportGemGreaterMultipleProjectiles" skillId="SupportGreaterMultipleProjectiles" enableGlobal1="true" enabled="true" nameSpec="Greater Multiple Projectiles"/>
 			<Gem enableGlobal2="false" quality="20" level="21" gemId="Metadata/Items/Gems/SupportGemAddedColdDamage" skillId="SupportAddedColdDamage" enableGlobal1="true" enabled="true" nameSpec="Added Cold Damage"/>
-			<Gem enableGlobal2="nil" quality="20" level="21" gemId="Metadata/Items/Gems/SupportGemWeaponElementalDamage" skillId="SupportWeaponElementalDamage" enableGlobal1="true" enabled="false" nameSpec="Elemental Damage with Attacks"/>
-			<Gem enableGlobal2="nil" quality="20" level="21" gemId="Metadata/Items/Gems/SupportGemDamageAgainstChilled" skillId="SupportDamageAgainstChilled" enableGlobal1="true" enabled="false" nameSpec="Hypothermia"/>
+			<Gem enableGlobal2="false" quality="20" level="21" gemId="Metadata/Items/Gems/SupportGemWeaponElementalDamage" skillId="SupportWeaponElementalDamage" enableGlobal1="true" enabled="false" nameSpec="Elemental Damage with Attacks"/>
+			<Gem enableGlobal2="false" quality="20" level="21" gemId="Metadata/Items/Gems/SupportGemDamageAgainstChilled" skillId="SupportDamageAgainstChilled" enableGlobal1="true" enabled="false" nameSpec="Hypothermia"/>
 		</Skill>
 		<Skill source="Item:19:Ghoul Scarab, Onyx Amulet" mainActiveSkillCalcs="1" label="" enabled="false" slot="Amulet" mainActiveSkill="1">
 			<Gem enableGlobal2="false" quality="0" level="22" gemId="Metadata/Items/Gems/SkillGemClarity" skillId="Clarity" enableGlobal1="true" enabled="true" nameSpec="Clarity"/>
@@ -144,7 +144,7 @@
 	<Tree activeSpec="1">
 		<Spec treeVersion="3_8">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAICAFb6BX2NufzF0Ey95tnGhrONfWwIE9rEog2NokA78DfUoJ-NgSzpFqpirAiJYRBsjBX9DO14GXj5idNxobTFJpUG5-4OXfJ-3fK4FUO9NvT4BbUaja_r9qOn1DH651QbyAqbTZIfQZUFj0_UI1FHPP6MNnXLfwIj9gOiOdTxilVLvqc-zxUgDPL-yLkCXkU90TB8JjpiWvrrGbSHdu0_pAXb53jroSLpvS2DtUiv6VsmDWDBoH8rwuzPXqXL8LtwUmHi35jqYha_mvHP3bUIXWiYU3b3034k_cqpjb8knQHRKgsylP_esQF_-8Ez_W6DFu96Sn1lTQ==
+				https://www.pathofexile.com/passive-skill-tree/AAAABAICAFb6BX2NuWVNjYHQTIMWhrONfWwIE9rEog2NokA78DfUoJ_0-O96veZirAiJYRBsjBX9LOl4GXj5j09xofK4JpUG54nT51QM7QqbKgu9Nu4OJJ0aja_r9qOn1DH6FUPKqT7PTZIfQZUFwuzTflVLPP6MNlFHfwIj9v1uOdTxihaqvqe1CBUgDPL-yLkCXWg90TB8JjpiWl5FGbSHds_d7T-a8epipAUtgxa_35i1SFsmDWCv6aXLz17BoH8r8LtwUmHi6b146_rroSLb5wOi2caYU3b31CMk_RvIXfIFtQHRtMUylP_esQF-3cEzf_t1y42_Sn38xQ==
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -160,21 +160,49 @@
 				<Socket nodeId="6230" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="33989" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="41263" itemId="5"/>
-				<Socket nodeId="60735" itemId="23"/>
-				<Socket nodeId="33631" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
 				<Socket nodeId="61834" itemId="1"/>
 				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="60735" itemId="23"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="41263" itemId="5"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+			</Sockets>
+		</Spec>
+		<Spec title="Char" treeVersion="3_8">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAICAFb6fXWNub3mhrOTJ-96E9rEog2Njb878DfUz15eRdBMVUtirAiJYRBsjMLs5wo7fHj57-vyuOdUf_sG5-4OD8R-3QzyXfJQQjH6LR_-ulFH9qOn1InTG8j9bj7PpzQfQZUFdvcAXnXLwJyMNkyztQjB1QguOdTxio9Pvqcs6RUgA6L-yJUgXWh46zB8tMV_xgqbGbSv6e0_pAV_K5rx-uvpvS2Dm42hL-2DoqNVhVsmNj0qC6XL8LtwUmHiH0zqYs_duMq7476K3viYUxmO0B8k_cqptUgFtXGhFUMajf_esQFTNdQjwfPTfqR4oJ_8xQ==
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="32763" itemId="22"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="41263" itemId="5"/>
+				<Socket nodeId="60735" itemId="23"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="61419" itemId="6"/>
+				<Socket nodeId="34483" itemId="3"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="61834" itemId="1"/>
 			</Sockets>
 		</Spec>
 	</Tree>
 	<Notes>
 		
 	</Notes>
-	<TreeView searchStr="cold" zoomY="-156.07016672954" showHeatMap="false" zoomLevel="5" showStatDifferences="true" zoomX="-627.16739173524"/>
+	<TreeView searchStr="qua" zoomY="98.666033983537" showHeatMap="false" zoomLevel="7" showStatDifferences="true" zoomX="-825.8252737284"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item id="1">
 			Rarity: UNIQUE
@@ -573,9 +601,9 @@ Adds 4 to 50 Lightning Damage to Bow Attacks
 		<Input name="projectileDistance" number="70"/>
 		<Input name="buffOnslaught" boolean="true"/>
 		<Input name="usePowerCharges" boolean="true"/>
-		<Input name="enemyLevel" number="83"/>
-		<Input name="multiplierSkillUsedRecently" number="3"/>
-		<Input name="skillChainCount" number="0"/>
 		<Input name="innervateInnervation" boolean="true"/>
+		<Input name="multiplierSkillUsedRecently" number="3"/>
+		<Input name="enemyLevel" number="83"/>
+		<Input name="skillChainCount" number="0"/>
 	</Config>
 </PathOfBuilding>
