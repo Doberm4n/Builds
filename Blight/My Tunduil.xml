@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="71" targetVersion="3_0" banditNormal="None" bandit="Alira" banditMerciless="None" className="Ranger" ascendClassName="Deadeye" mainSocketGroup="1" viewMode="CALCS" banditCruel="None">
+	<Build level="71" targetVersion="3_0" banditNormal="None" bandit="Alira" banditMerciless="None" className="Ranger" ascendClassName="Deadeye" mainSocketGroup="1" viewMode="NOTES" banditCruel="None">
 		<PlayerStat stat="AverageDamage" value="6954.3818115625"/>
 		<PlayerStat stat="Speed" value="2.576"/>
 		<PlayerStat stat="Speed" value="2.576"/>
@@ -97,8 +97,8 @@
 			<Gem enableGlobal2="false" quality="0" level="16" gemId="Metadata/Items/Gems/SupportGemGreaterMultipleProjectiles" skillId="SupportGreaterMultipleProjectiles" enableGlobal1="true" enabled="true" nameSpec="Greater Multiple Projectiles"/>
 			<Gem enableGlobal2="false" quality="0" level="17" gemId="Metadata/Items/Gems/SupportGemAddedColdDamage" skillId="SupportAddedColdDamage" enableGlobal1="true" enabled="true" nameSpec="Added Cold Damage"/>
 			<Gem enableGlobal2="false" quality="0" level="17" gemId="Metadata/Items/Gems/SupportGemMirageArcher" skillId="SupportGemMirageArcher" enableGlobal1="true" enabled="true" nameSpec="Mirage Archer"/>
-			<Gem enableGlobal2="nil" quality="0" level="20" gemId="Metadata/Items/Gems/SupportGemDamageAgainstChilled" skillId="SupportDamageAgainstChilled" enableGlobal1="true" enabled="false" nameSpec="Hypothermia"/>
-			<Gem enableGlobal2="nil" quality="0" level="20" gemId="Metadata/Items/Gems/SupportGemWeaponElementalDamage" skillId="SupportWeaponElementalDamage" enableGlobal1="true" enabled="true" nameSpec="Elemental Damage with Attacks"/>
+			<Gem enableGlobal2="false" quality="0" level="20" gemId="Metadata/Items/Gems/SupportGemDamageAgainstChilled" skillId="SupportDamageAgainstChilled" enableGlobal1="true" enabled="false" nameSpec="Hypothermia"/>
+			<Gem enableGlobal2="false" quality="0" level="20" gemId="Metadata/Items/Gems/SupportGemWeaponElementalDamage" skillId="SupportWeaponElementalDamage" enableGlobal1="true" enabled="true" nameSpec="Elemental Damage with Attacks"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
 			<Gem enableGlobal2="false" quality="0" level="10" gemId="Metadata/Items/Gems/SkillGemCriticalWeakness" skillId="AssassinsMark" enableGlobal1="true" enabled="true" nameSpec="Assassin&apos;s Mark"/>
@@ -127,7 +127,7 @@
 	<Tree activeSpec="1">
 		<Spec treeVersion="3_8">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAICAFb6jbnQTNnGjX1sCBPaxKINjaJAoJ_0-GKsCIlsjHj5caEmlZrxft3fmBqNr-v2o6fU51QKm02S7g51y2VNjDbb538CI_YG5znU8YpeRb6nDO0VIAOi_si5Al1o73owfCY6Ylpd8hm0h3bP3ZUFgxb9bvrrLYMqC702BbVVSxvIwuzTfo2_tQh_K_C7cFJh4lFH6mIVQ6EiMfqPT3jrmFN299QjJP3Kqc9eJJ0B0bTFMpT_3rEBidPBM6_p6b2kBUp9_MU=
+				https://www.pathofexile.com/passive-skill-tree/AAAABAICAFb6jbnQTNnGjX1sCBPaxKINjaJAoJ_0-GKsCIlsjHj5caEmlZrxft29NhqNr-v2o6fU51QKm02SlQVVS_zFjDaDFn8CI_akBTnU8Yrpvb6nr-kVIAOi_si5Al5FXWgwfCY6YlqJ0xm0h3bP3e4OBud1y_rrLYO0xdvnJJ3PXsqpwuzUI42_tQh_K_C7cFJh4njr6mKPTzH6oSIVQ1FHmFN299N-JP0byP1uBbUB0SoLMpT_3rEBDO3BM-9635hd8kp9ZU0=
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -139,23 +139,23 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="61419" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
 				<Socket nodeId="6230" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="61834" itemId="17"/>
-				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="33631" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="34483" itemId="0"/>
-				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="61834" itemId="17"/>
 			</Sockets>
 		</Spec>
 	</Tree>
 	<Notes>
-		
+		https://www.pathofexile.com/forum/view-thread/2509129
 	</Notes>
 	<TreeView searchStr="" zoomY="0" showHeatMap="false" zoomLevel="3" showStatDifferences="true" zoomX="0"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
