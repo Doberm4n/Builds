@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="90" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Necromancer" mainSocketGroup="6" viewMode="TREE" banditCruel="None">
+	<Build level="90" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Necromancer" mainSocketGroup="6" viewMode="SKILLS" banditCruel="None">
 		<Spectre id="Metadata/Monsters/TemplarSlaveDriver/TemplarSlaveDriver"/>
 		<PlayerStat stat="ActiveMinionLimit" value="4"/>
 		<PlayerStat stat="AverageHit" value="0"/>
@@ -14,34 +14,34 @@
 		<PlayerStat stat="TotalDPS" value="0"/>
 		<PlayerStat stat="TotalDot" value="0"/>
 		<PlayerStat stat="WithPoisonDPS" value="0"/>
-		<PlayerStat stat="ManaCost" value="124"/>
-		<PlayerStat stat="Str" value="236"/>
+		<PlayerStat stat="ManaCost" value="105"/>
+		<PlayerStat stat="Str" value="226"/>
 		<PlayerStat stat="ReqStr" value="142"/>
-		<PlayerStat stat="Dex" value="167"/>
+		<PlayerStat stat="Dex" value="157"/>
 		<PlayerStat stat="ReqDex" value="155"/>
 		<PlayerStat stat="Int" value="292"/>
 		<PlayerStat stat="ReqInt" value="155"/>
-		<PlayerStat stat="Life" value="5335"/>
-		<PlayerStat stat="Spec:LifeInc" value="161"/>
-		<PlayerStat stat="LifeUnreserved" value="5335"/>
+		<PlayerStat stat="Life" value="5050"/>
+		<PlayerStat stat="Spec:LifeInc" value="146"/>
+		<PlayerStat stat="LifeUnreserved" value="5050"/>
 		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
-		<PlayerStat stat="LifeRegen" value="293.425"/>
+		<PlayerStat stat="LifeRegen" value="277.75"/>
 		<PlayerStat stat="LifeLeechGainRate" value="0"/>
-		<PlayerStat stat="Mana" value="2365"/>
-		<PlayerStat stat="Spec:ManaInc" value="48"/>
-		<PlayerStat stat="ManaUnreserved" value="63"/>
-		<PlayerStat stat="ManaUnreservedPercent" value="2.6638477801268"/>
-		<PlayerStat stat="ManaRegen" value="81.7"/>
+		<PlayerStat stat="Mana" value="2471"/>
+		<PlayerStat stat="Spec:ManaInc" value="68"/>
+		<PlayerStat stat="ManaUnreserved" value="67"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="2.7114528530959"/>
+		<PlayerStat stat="ManaRegen" value="85.1"/>
 		<PlayerStat stat="ManaLeechGainRate" value="0"/>
-		<PlayerStat stat="EnergyShield" value="478"/>
+		<PlayerStat stat="EnergyShield" value="548"/>
 		<PlayerStat stat="Spec:EnergyShieldInc" value="0"/>
 		<PlayerStat stat="EnergyShieldRegen" value="0"/>
 		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
-		<PlayerStat stat="Evasion" value="9611"/>
+		<PlayerStat stat="Evasion" value="9251"/>
 		<PlayerStat stat="Spec:EvasionInc" value="0"/>
-		<PlayerStat stat="MeleeEvadeChance" value="43"/>
-		<PlayerStat stat="MeleeEvadeChance" value="43"/>
-		<PlayerStat stat="ProjectileEvadeChance" value="43"/>
+		<PlayerStat stat="MeleeEvadeChance" value="42"/>
+		<PlayerStat stat="MeleeEvadeChance" value="42"/>
+		<PlayerStat stat="ProjectileEvadeChance" value="42"/>
 		<PlayerStat stat="Armour" value="3234"/>
 		<PlayerStat stat="Spec:ArmourInc" value="0"/>
 		<PlayerStat stat="PhysicalDamageReduction" value="21"/>
@@ -53,10 +53,10 @@
 		<PlayerStat stat="FireResist" value="75"/>
 		<PlayerStat stat="ColdResist" value="75"/>
 		<PlayerStat stat="LightningResist" value="75"/>
-		<PlayerStat stat="ChaosResist" value="-8"/>
-		<PlayerStat stat="FireResistOverCap" value="44"/>
-		<PlayerStat stat="ColdResistOverCap" value="52"/>
-		<PlayerStat stat="LightningResistOverCap" value="16"/>
+		<PlayerStat stat="ChaosResist" value="-28"/>
+		<PlayerStat stat="FireResistOverCap" value="60"/>
+		<PlayerStat stat="ColdResistOverCap" value="44"/>
+		<PlayerStat stat="LightningResistOverCap" value="48"/>
 		<PlayerStat stat="ChaosResistOverCap" value="0"/>
 		<PlayerStat stat="PowerCharges" value="0"/>
 		<PlayerStat stat="PowerChargesMax" value="3"/>
@@ -65,14 +65,14 @@
 		<PlayerStat stat="EnduranceCharges" value="0"/>
 		<PlayerStat stat="EnduranceChargesMax" value="3"/>
 		<PlayerStat stat="ActiveMinionLimit" value="4"/>
-		<MinionStat stat="AverageDamage" value="267564.536085"/>
+		<MinionStat stat="AverageDamage" value="250705.2523"/>
 		<MinionStat stat="Speed" value="7.3"/>
-		<MinionStat stat="TotalDPS" value="1953221.1134205"/>
+		<MinionStat stat="TotalDPS" value="1830148.34179"/>
 		<MinionStat stat="TotalDot" value="0"/>
-		<MinionStat stat="WithPoisonDPS" value="1953221.1134205"/>
+		<MinionStat stat="WithPoisonDPS" value="1830148.34179"/>
 		<MinionStat stat="Life" value="44127"/>
 		<MinionStat stat="LifeRegen" value="0"/>
-		<MinionStat stat="LifeLeechGainRate" value="3906.442226841"/>
+		<MinionStat stat="LifeLeechGainRate" value="3660.29668358"/>
 	</Build>
 	<Import lastAccountHash="1b5a76475d50524e5964817b9242ecfcfc9431c1" lastRealm="PC" lastCharacterHash="c5c9127a111503f3f25eb36774245d2a5abdef43"/>
 	<Calcs>
@@ -145,11 +145,14 @@
 			<Gem enableGlobal2="false" quality="0" level="2" gemId="Metadata/Items/Gems/SkillGemDesecrate" skillId="Desecrate" enableGlobal1="true" enabled="true" nameSpec="Desecrate"/>
 			<Gem enableGlobal2="false" quality="0" level="19" gemId="Metadata/Items/Gems/SupportGemDeathmark" skillId="SupportMinionFocusFire" enableGlobal1="true" enabled="true" nameSpec="Deathmark"/>
 		</Skill>
+		<Skill source="Item:33:Carrion Nails, Samite Gloves" mainActiveSkillCalcs="nil" label="" enabled="true" slot="Gloves" mainActiveSkill="nil">
+			<Gem enableGlobal2="nil" quality="0" level="1" skillId="EnchantmentOfForceOnHit3" enableGlobal1="true" enabled="true" nameSpec=""/>
+		</Skill>
 	</Skills>
 	<Tree activeSpec="1">
 		<Spec treeVersion="3_8">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzcm6FZ848alG_56Gdx99d3wsBmmK064WZUuJOqxK1I7-uSwaX1FSfZXprgSi5G_jrGRZ3BflYuGjjMvJyLBAcqmN-wJJrsg6h9MtGQVTrp-tJjQXHzpldN48Hz8kXr7kqfFm9akWpDogCnpTWS_o8XL5AzgKTGrhodtz7T-4LH7Io8LWqsqqlyxXyDYvTYvS0fTLNg-IhAaHSsmBps049NuSj6OQs26dkL_gqD26DmCPQkqiSwg18YVicvcg86WEGHpqyFYFXWcbJHhdWL42raYhEtxooLYYt2U1LQH46-Zp5r24yx8B9FR3l_g8wEsx7ulSD-gSycVcYeCLzq
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzcm6FZ848alG-86mdx99d3wsBmmK064WZUuJOqxK1I7-uSwaX1BLPZXjbpSi5G_tpiRZ1mno6-GjgYVpyLBAcqmN-wxooRLTLRkFU66eNqY0Fx8zkLKPrB8_JF6-6u9EqfFm_g3WpDogAeCDWSGmwXL5AzgKRVxrc-LJyCx5UgqqlyxXyDeX-Ldi0fTLOnpWD4iEAJLGh0rJj-j9OPTbli9DpYmuAksCcvJKr-CoNfg9ug5nIPCPTZC6as-tJV1nGyR4XsgySaQYfMvFYuwX6FYFNS0B86xtWLa9uMsdi9RUcVJ4PMPC3siv6BGh356B7u
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -161,25 +164,25 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="61419" itemId="20"/>
-				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
 				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="6230" itemId="29"/>
 				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="33631" itemId="30"/>
-				<Socket nodeId="6230" itemId="29"/>
-				<Socket nodeId="33989" itemId="0"/>
-				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
 			</Sockets>
 		</Spec>
 	</Tree>
 	<Notes>
 		
 	</Notes>
-	<TreeView searchStr="jewe" zoomY="167.72290452675" showHeatMap="false" zoomLevel="5" showStatDifferences="true" zoomX="184.74530514403"/>
+	<TreeView searchStr="minions" zoomY="222.13650680156" showHeatMap="false" zoomLevel="4" showStatDifferences="true" zoomX="156.36351207895"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item id="1">
 			Rarity: UNIQUE
@@ -631,7 +634,25 @@ Implicits: 1
 +19 to Accuracy Rating
 6% chance to Ignite
 		</Item>
-		<Slot name="Gloves" itemId="7"/>
+		<Item id="33">
+			Rarity: RARE
+Carrion Nails
+Samite Gloves
+Item Level: 81
+Quality: 20
+Sockets: B-B-B-B
+LevelReq: 47
+Implicits: 1
+Trigger Decree of Force on Hit
++26 to maximum Energy Shield
++21 to maximum Life
++32% to Fire Resistance
++15% to Cold Resistance
++48% to Lightning Resistance
+48% increased Critical Strike Chance against Shocked Enemies
+{crafted}+69 to maximum Life
+		</Item>
+		<Slot name="Gloves" itemId="33"/>
 		<Slot name="Weapon 1" itemId="19"/>
 		<Slot active="true" name="Flask 3" itemId="18"/>
 		<Slot name="Amulet" itemId="13"/>
@@ -648,7 +669,7 @@ Implicits: 1
 		<Slot name="Helmet" itemId="5"/>
 		<Slot name="Belt" itemId="9"/>
 		<ItemSet useSecondWeaponSet="false" id="1">
-			<Slot name="Gloves" itemId="7"/>
+			<Slot name="Gloves" itemId="33"/>
 			<Slot name="Weapon 1" itemId="19"/>
 			<Slot name="Weapon 2Swap Abyssal Socket 2" itemId="0"/>
 			<Slot name="Belt Abyssal Socket 2" itemId="0"/>
@@ -686,10 +707,10 @@ Implicits: 1
 		</ItemSet>
 	</Items>
 	<Config>
-		<Input name="enemyIsBoss" string="SHAPER"/>
+		<Input name="overridePowerCharges" number="0"/>
 		<Input name="feedingFrenzyFeedingFrenzyActive" boolean="true"/>
 		<Input name="multiplierNearbyCorpse" number="0"/>
-		<Input name="overridePowerCharges" number="0"/>
+		<Input name="enemyIsBoss" string="SHAPER"/>
 		<Input name="enemyConditionHitByFireDamage" boolean="true"/>
 	</Config>
 </PathOfBuilding>
