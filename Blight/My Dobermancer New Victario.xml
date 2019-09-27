@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="90" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Necromancer" mainSocketGroup="6" viewMode="TREE" banditCruel="None">
+	<Build level="90" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Necromancer" mainSocketGroup="6" viewMode="CONFIG" banditCruel="None">
 		<Spectre id="Metadata/Monsters/TemplarSlaveDriver/TemplarSlaveDriver"/>
 		<PlayerStat stat="ActiveMinionLimit" value="4"/>
 		<PlayerStat stat="AverageHit" value="0"/>
@@ -187,7 +187,7 @@
 	<Notes>
 		
 	</Notes>
-	<TreeView searchStr="maximum life" zoomY="318.53027952677" showHeatMap="false" zoomLevel="5" showStatDifferences="true" zoomX="163.46578795154"/>
+	<TreeView searchStr="maximum life" zoomY="312.44189960564" showHeatMap="false" zoomLevel="4" showStatDifferences="true" zoomX="197.38815662628"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item id="1">
 			Rarity: UNIQUE
