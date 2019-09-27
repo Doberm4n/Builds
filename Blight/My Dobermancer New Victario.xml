@@ -21,16 +21,16 @@
 		<PlayerStat stat="ReqDex" value="155"/>
 		<PlayerStat stat="Int" value="262"/>
 		<PlayerStat stat="ReqInt" value="155"/>
-		<PlayerStat stat="Life" value="5076"/>
-		<PlayerStat stat="Spec:LifeInc" value="146"/>
-		<PlayerStat stat="LifeUnreserved" value="5076"/>
+		<PlayerStat stat="Life" value="5172"/>
+		<PlayerStat stat="Spec:LifeInc" value="151"/>
+		<PlayerStat stat="LifeUnreserved" value="5172"/>
 		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
-		<PlayerStat stat="LifeRegen" value="279.18"/>
+		<PlayerStat stat="LifeRegen" value="284.46"/>
 		<PlayerStat stat="LifeLeechGainRate" value="0"/>
 		<PlayerStat stat="Mana" value="2430"/>
 		<PlayerStat stat="Spec:ManaInc" value="68"/>
-		<PlayerStat stat="ManaUnreserved" value="1427"/>
-		<PlayerStat stat="ManaUnreservedPercent" value="58.724279835391"/>
+		<PlayerStat stat="ManaUnreserved" value="66"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="2.716049382716"/>
 		<PlayerStat stat="ManaRegen" value="83.8"/>
 		<PlayerStat stat="ManaLeechGainRate" value="0"/>
 		<PlayerStat stat="EnergyShield" value="528"/>
@@ -65,14 +65,14 @@
 		<PlayerStat stat="EnduranceCharges" value="0"/>
 		<PlayerStat stat="EnduranceChargesMax" value="3"/>
 		<PlayerStat stat="ActiveMinionLimit" value="4"/>
-		<MinionStat stat="AverageDamage" value="111001.95141"/>
-		<MinionStat stat="Speed" value="5.3"/>
-		<MinionStat stat="TotalDPS" value="588310.342473"/>
+		<MinionStat stat="AverageDamage" value="290142.53667"/>
+		<MinionStat stat="Speed" value="7.04"/>
+		<MinionStat stat="TotalDPS" value="2042603.4581568"/>
 		<MinionStat stat="TotalDot" value="0"/>
-		<MinionStat stat="WithPoisonDPS" value="588310.342473"/>
-		<MinionStat stat="Life" value="42424"/>
+		<MinionStat stat="WithPoisonDPS" value="2042603.4581568"/>
+		<MinionStat stat="Life" value="44127"/>
 		<MinionStat stat="LifeRegen" value="0"/>
-		<MinionStat stat="LifeLeechGainRate" value="3529.862054838"/>
+		<MinionStat stat="LifeLeechGainRate" value="4085.2069163136"/>
 	</Build>
 	<Import lastAccountHash="1b5a76475d50524e5964817b9242ecfcfc9431c1" lastRealm="PC" lastCharacterHash="c5c9127a111503f3f25eb36774245d2a5abdef43"/>
 	<Calcs>
@@ -110,17 +110,17 @@
 			<Gem enableGlobal2="false" quality="20" level="18" gemId="Metadata/Items/Gems/SkillGemEnfeeble" skillId="Enfeeble" enableGlobal1="true" enabled="true" nameSpec="Enfeeble"/>
 			<Gem enableGlobal2="false" quality="20" level="19" gemId="Metadata/Items/Gems/SupportGemBlasphemy" skillId="SupportBlasphemy" enableGlobal1="true" enabled="true" nameSpec="Blasphemy"/>
 			<Gem enableGlobal2="false" quality="20" level="19" gemId="Metadata/Items/Gems/SkillGemTemporalChains" skillId="TemporalChains" enableGlobal1="true" enabled="true" nameSpec="Temporal Chains"/>
-			<Gem enableGlobal2="false" quality="20" level="19" gemId="Metadata/Items/Gems/SkillGemWrath" skillId="Wrath" enableGlobal1="false" enabled="true" nameSpec="Wrath"/>
+			<Gem enableGlobal2="false" quality="20" level="19" gemId="Metadata/Items/Gems/SkillGemWrath" skillId="Wrath" enableGlobal1="true" enabled="true" nameSpec="Wrath"/>
 			<Gem enableGlobal2="false" quality="20" level="3" gemId="Metadata/Items/Gems/SupportGemAdditionalXP" skillId="SupportAdditionalXP" enableGlobal1="true" enabled="true" nameSpec="Enlighten"/>
-			<Gem enableGlobal2="false" quality="0" level="18" gemId="Metadata/Items/Gems/SkillGemVaalHaste" skillId="VaalHaste" enableGlobal1="false" enabled="true" nameSpec="Vaal Haste"/>
+			<Gem enableGlobal2="true" quality="0" level="18" gemId="Metadata/Items/Gems/SkillGemVaalHaste" skillId="VaalHaste" enableGlobal1="false" enabled="true" nameSpec="Vaal Haste"/>
 			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SkillGemConductivity" skillId="Conductivity" enableGlobal1="false" enabled="false" nameSpec="Conductivity"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Helmet" mainActiveSkill="1">
 			<Gem enableGlobal2="false" quality="0" level="18" gemId="Metadata/Items/Gems/SkillGemSteelskin" skillId="QuickGuard" enableGlobal1="true" enabled="true" nameSpec="Steelskin"/>
 			<Gem enableGlobal2="false" quality="0" level="15" gemId="Metadata/Items/Gems/SupportGemCastOnDamageTaken" skillId="SupportCastOnDamageTaken" enableGlobal1="true" enabled="true" nameSpec="Cast when Damage Taken"/>
 			<Gem enableGlobal2="false" quality="9" level="15" gemId="Metadata/Items/Gems/SupportGemIncreasedDuration" skillId="SupportIncreasedDuration" enableGlobal1="true" enabled="true" nameSpec="Increased Duration"/>
-			<Gem enableGlobal2="nil" quality="0" level="20" gemId="Metadata/Items/Gems/SkillGemTemporalChains" skillId="TemporalChains" enableGlobal1="false" enabled="false" nameSpec="Temporal Chains"/>
-			<Gem enableGlobal2="nil" quality="0" level="20" gemId="Metadata/Items/Gems/SupportGemBlasphemy" skillId="SupportBlasphemy" enableGlobal1="true" enabled="false" nameSpec="Blasphemy"/>
+			<Gem enableGlobal2="false" quality="0" level="20" gemId="Metadata/Items/Gems/SkillGemTemporalChains" skillId="TemporalChains" enableGlobal1="false" enabled="false" nameSpec="Temporal Chains"/>
+			<Gem enableGlobal2="false" quality="0" level="20" gemId="Metadata/Items/Gems/SupportGemBlasphemy" skillId="SupportBlasphemy" enableGlobal1="true" enabled="false" nameSpec="Blasphemy"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Boots" mainActiveSkill="1">
 			<Gem enableGlobal2="false" quality="0" level="20" gemId="Metadata/Items/Gems/SkillGemNewPhaseRun" skillId="NewPhaseRun" enableGlobal1="true" enabled="true" nameSpec="Phase Run"/>
@@ -157,7 +157,7 @@
 	<Tree activeSpec="1">
 		<Spec treeVersion="3_8">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzcWfOPGpRv-ehncXfCwGaYrTrhZlS4k61I7-uSwaX1FSfZXgZJNulG_jrGRZ3BflYuGjiciwQHKpjfsCSa7IOofTLRmE3jamNBcfM5Cyj6wfPyRevurvRKnxZv4N1akWpDogCnpTWSGmwXL5AzgKTGrlXGtz4snILH7IpqrKqpcsV8g3l_2L0tH0yzYPgksIhAC2HT-2h0g9v-ChBR048I9LzqQYfZC5rgi3Zi9DrYJKpmnoNfjr4aHXIPHu7GigksU1JV1keFoOamrDpY-tI66ZBVES0nL9AfcbIYVmvbjLHaYkVHSi6DzNWLBLOVIP6BPC3-jx4I
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzcm6FZ848alG_56Gdx99d3wsBmmK2FYGZUuJOqxO_rksGl9QSz2V426Ub-2mJFnWaejr4aOBhWnIsEByqY37Dsg6h9MtGYTTrp42pjQXHzOQso-vJF6-6u9EqfFm_g3VqRakOiAB4INZIabBcvkDOApMautz4snILH7Io8LWqsqql8g2L02L3Vi0yzYPiIQDrhaHT-CkGH049Nuf6PVcbwHzpYeX8VJ5rgOtgkqjrGg19KLlYucg_BflNSpqzMvFXWcbJHhfrSES2g5pBVxooJLNkLJy_QH6yYg9tr24yxi3ZFRwthg8zT-wj0vOr-gRBRp6UksB7u
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -165,29 +165,29 @@
 				<Socket nodeId="28475" itemId="0"/>
 				<Socket nodeId="26196" itemId="2"/>
 				<Socket nodeId="36634" itemId="28"/>
-				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="61419" itemId="20"/>
 				<Socket nodeId="54127" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="6230" itemId="27"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="33989" itemId="0"/>
-				<Socket nodeId="6230" itemId="27"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
 				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="33631" itemId="30"/>
-				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
 			</Sockets>
 		</Spec>
 	</Tree>
 	<Notes>
 		
 	</Notes>
-	<TreeView searchStr="minions lee" zoomY="124.63976018329" showHeatMap="false" zoomLevel="3" showStatDifferences="true" zoomX="-109.92180010987"/>
+	<TreeView searchStr="life" zoomY="264.71569910838" showHeatMap="false" zoomLevel="5" showStatDifferences="true" zoomX="6.9892745084583"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item id="1">
 			Rarity: UNIQUE
@@ -709,7 +709,7 @@ Gain Shaper&apos;s Presence for 10 seconds when you kill a Rare or Unique Enemy
 		<Slot name="Gloves" itemId="33"/>
 		<Slot name="Weapon 1" itemId="19"/>
 		<Slot active="true" name="Flask 3" itemId="18"/>
-		<Slot name="Amulet" itemId="35"/>
+		<Slot name="Amulet" itemId="34"/>
 		<Slot active="true" name="Flask 1" itemId="15"/>
 		<Slot active="true" name="Flask 5" itemId="31"/>
 		<Slot name="Belt Abyssal Socket 1" itemId="8"/>
@@ -729,7 +729,7 @@ Gain Shaper&apos;s Presence for 10 seconds when you kill a Rare or Unique Enemy
 			<Slot name="Belt Abyssal Socket 2" itemId="0"/>
 			<Slot active="true" name="Flask 3" itemId="18"/>
 			<Slot name="Body Armour Abyssal Socket 2" itemId="0"/>
-			<Slot name="Amulet" itemId="35"/>
+			<Slot name="Amulet" itemId="34"/>
 			<Slot active="true" name="Flask 1" itemId="15"/>
 			<Slot name="Weapon 2Swap Abyssal Socket 1" itemId="0"/>
 			<Slot active="true" name="Flask 5" itemId="31"/>
@@ -761,10 +761,11 @@ Gain Shaper&apos;s Presence for 10 seconds when you kill a Rare or Unique Enemy
 		</ItemSet>
 	</Items>
 	<Config>
+		<Input name="deathmarkDeathmarkActive" boolean="true"/>
 		<Input name="enemyIsBoss" string="SHAPER"/>
 		<Input name="feedingFrenzyFeedingFrenzyActive" boolean="true"/>
 		<Input name="multiplierNearbyCorpse" number="0"/>
 		<Input name="overridePowerCharges" number="0"/>
-		<Input name="deathmarkDeathmarkActive" boolean="true"/>
+		<Input name="enemyConditionHitByFireDamage" boolean="true"/>
 	</Config>
 </PathOfBuilding>
