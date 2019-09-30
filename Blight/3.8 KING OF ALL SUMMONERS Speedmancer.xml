@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="93" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Necromancer" mainSocketGroup="8" viewMode="SKILLS" banditCruel="None">
+	<Build level="93" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Necromancer" mainSocketGroup="5" viewMode="SKILLS" banditCruel="None">
 		<Spectre id="Metadata/Monsters/BloodChieftain/MonkeyChiefBloodEnrage"/>
 		<Spectre id="Metadata/Monsters/Undying/CityStalkerMaleCasterArmour"/>
 		<Spectre id="Metadata/Monsters/TemplarSlaveDriver/TemplarSlaveDriver"/>
-		<PlayerStat stat="ActiveMinionLimit" value="12"/>
+		<PlayerStat stat="ActiveMinionLimit" value="15"/>
 		<PlayerStat stat="AverageHit" value="0"/>
 		<PlayerStat stat="AverageDamage" value="0"/>
-		<PlayerStat stat="Speed" value="2.54"/>
-		<PlayerStat stat="Speed" value="2.54"/>
+		<PlayerStat stat="Speed" value="1.4941176470588"/>
+		<PlayerStat stat="Speed" value="1.4941176470588"/>
 		<PlayerStat stat="PreEffectiveCritChance" value="0"/>
 		<PlayerStat stat="CritChance" value="0"/>
 		<PlayerStat stat="CritMultiplier" value="1.5"/>
@@ -16,7 +16,7 @@
 		<PlayerStat stat="TotalDPS" value="0"/>
 		<PlayerStat stat="TotalDot" value="0"/>
 		<PlayerStat stat="WithPoisonDPS" value="0"/>
-		<PlayerStat stat="ManaCost" value="43"/>
+		<PlayerStat stat="ManaCost" value="189"/>
 		<PlayerStat stat="Str" value="1004"/>
 		<PlayerStat stat="ReqStr" value="180"/>
 		<PlayerStat stat="Dex" value="142"/>
@@ -66,16 +66,17 @@
 		<PlayerStat stat="FrenzyChargesMax" value="3"/>
 		<PlayerStat stat="EnduranceCharges" value="0"/>
 		<PlayerStat stat="EnduranceChargesMax" value="3"/>
-		<PlayerStat stat="ActiveMinionLimit" value="12"/>
-		<MinionStat stat="AverageDamage" value="38072.4373575"/>
-		<MinionStat stat="Speed" value="2.9125"/>
-		<MinionStat stat="TotalDPS" value="110885.97380372"/>
+		<PlayerStat stat="ActiveMinionLimit" value="15"/>
+		<MinionStat stat="AverageDamage" value="53998.0674975"/>
+		<MinionStat stat="Speed" value="2.2222222222222"/>
+		<MinionStat stat="TotalDPS" value="119995.70555"/>
 		<MinionStat stat="TotalDot" value="0"/>
-		<MinionStat stat="BleedDPS" value="3700.2291666667"/>
-		<MinionStat stat="WithPoisonDPS" value="110885.97380372"/>
-		<MinionStat stat="Life" value="9647"/>
+		<MinionStat stat="BleedDPS" value="5738.9791666667"/>
+		<MinionStat stat="WithPoisonDPS" value="119995.70555"/>
+		<MinionStat stat="Cooldown" value="2.0408163265306"/>
+		<MinionStat stat="Life" value="66481"/>
 		<MinionStat stat="LifeRegen" value="0"/>
-		<MinionStat stat="LifeLeechGainRate" value="765.11321924566"/>
+		<MinionStat stat="LifeLeechGainRate" value="827.970368295"/>
 	</Build>
 	<Import lastAccountHash="daaa977a76365c9e94aa2dc66b6bc3eb2b9b0a9b" lastRealm="PC" lastCharacterHash="568fb6aa75d153e73a0830eb39a909da6057bd4e"/>
 	<Calcs>
@@ -157,7 +158,7 @@
 	<Tree activeSpec="1">
 		<Spec treeVersion="3_8">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzc2WGboRRNAedfP1nzjxq86vxLlG9akRiRakOiABUnaGWQM64-OuFncdP799fsiriTpldNrHfCwGaqqYIHhWDGrlXGOlK3PmZULJzzm6rE0iHwHzwtfINi9O_rFm-a4GqsksHvDtAfBLMLYbyf2L3ZXlNSTLNQRzrGZ5tg-Dbp-tI5C9SPZp6IQFcNjr6nMM9-cbKsmN-w049NuRo4zLyezYPbaPKmrGO7KpgkqhEtg19yD-yDqH0y0ZBVoOYb-jpY42pHhWNBGS7kUXHzRZ3-CgQHJy-vbEqfGmxr24yx8kFFR62Ng8wo-iXfwmz-gfJFFCDr7qQZ
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzc2WGboRRNAef-ClnzjxpoZfxLlG9akRiRakOiAASzFCA64a4-0_tnccJs99fsiu_rg8xNrHfCwGaqqfObhWDGrlXGOlK3PmZULJy4k4IHplfwHzwtfINi9F8_GmxKn2qsksHvDq9sFScLYbyf2L3ZXicvTLNQRwQHZ5tg-JrgRZ1xstSP04-IQDrGTbljQZ7N42qsmDpYZp6Ovho4zLzPfoPbG_qg5iSqKpjfsOyDg1-ofREtcg8y0ZBVpqxju2jy-tJHhacwGS7kUXHzVw05CzbpU1LQH7zqkDNr24yx8kFFR62N0iEo-iXfqsT-gfJFFm_r7qQZ
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -169,18 +170,18 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="61419" itemId="2"/>
-				<Socket nodeId="41263" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="26725" itemId="6"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="61834" itemId="0"/>
 				<Socket nodeId="33631" itemId="3"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="34483" itemId="0"/>
-				<Socket nodeId="26725" itemId="6"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
 			</Sockets>
 		</Spec>
 	</Tree>
