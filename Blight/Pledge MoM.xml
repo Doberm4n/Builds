@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="99" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Necromancer" mainSocketGroup="8" viewMode="SKILLS" banditCruel="None">
+	<Build level="99" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Necromancer" mainSocketGroup="8" viewMode="ITEMS" banditCruel="None">
 		<Spectre id="Metadata/Monsters/TemplarSlaveDriver/TemplarSlaveDriver"/>
 		<PlayerStat stat="ActiveMinionLimit" value="5"/>
 		<PlayerStat stat="AverageHit" value="0"/>
@@ -65,14 +65,14 @@
 		<PlayerStat stat="EnduranceCharges" value="0"/>
 		<PlayerStat stat="EnduranceChargesMax" value="3"/>
 		<PlayerStat stat="ActiveMinionLimit" value="5"/>
-		<MinionStat stat="AverageDamage" value="164179.3243"/>
-		<MinionStat stat="Speed" value="8.42"/>
-		<MinionStat stat="TotalDPS" value="1382389.910606"/>
+		<MinionStat stat="AverageDamage" value="106384.2067"/>
+		<MinionStat stat="Speed" value="6.12"/>
+		<MinionStat stat="TotalDPS" value="651071.345004"/>
 		<MinionStat stat="TotalDot" value="0"/>
-		<MinionStat stat="WithPoisonDPS" value="1382389.910606"/>
+		<MinionStat stat="WithPoisonDPS" value="651071.345004"/>
 		<MinionStat stat="Life" value="39236"/>
 		<MinionStat stat="LifeRegen" value="0"/>
-		<MinionStat stat="LifeLeechGainRate" value="7847.2"/>
+		<MinionStat stat="LifeLeechGainRate" value="7682.6418710472"/>
 	</Build>
 	<Import lastAccountHash="2386c6710fc2d8c718849c5d3a9d9e6dbc8b6466" lastRealm="PC" lastCharacterHash="3308a015f39ba9a12e8ca6977a62c6752a405727"/>
 	<Calcs>
@@ -163,15 +163,15 @@
 	<Tree activeSpec="1">
 		<Spec title="Full tree (100)" treeVersion="3_8">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzcm6EI9FnzjxqUb_notfJnceq699enK3fCwGaYrTrhZlS4k6rE7-uhLx1PV8m9gjbpytOFMlSu18--ir0nRZ1mnho4zLwEByqYDXzsgzLRkFVvO2NBcfOKr6ZXKPrB8_JF6-6TJ0qfFm_AGn0YakOiADWS_o9sCxcvbqqQM4CkVca3PkrIgsfwH5UgqqkYPNi9jHZMs2a6SbFo8rQMiEC3MSSwrJhTUtOPTbk8LXvD42qD20GHEVBN45ARJKp90oNf_gpyDzpYGmymrBhWVdY1uV2OLOInL4VgYPhHhfrSoOb5N9AfmuBqG2vbjLF5f0VHbRmDzHgNFSffiv6B74gi9LzqBLM=
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzcm6FBh1nzjxqUb_notfJnceq699enK3fCwGaYrTrhZlS4k6rE7-uhLxUnV8m9gprgytOFMlSu18--ir0nRZ1mnho4GFYEByqYDXzsgzLRkFX60mNBcfOKr33STePB8_JF6-6TJ0qfFm_AGt-KakMRUDWS_o9sCxcvbqqQM4CkVca3PkrIgsfwH5Ugqql5f9i9jHZMs2a6SbFo8rQMiEA1uQSz_gq86tOPTbki9HvD74htGQj0ogAo-iziJKqmV4Nf42pyD4PbGmyg5sy8Vda3MUeFkBFTUqyYPC1djm87pqx4DdAfOlhqG2vbjLE26UVHJy-DzBg8HU-FYP6BYPj5NySwfRg=
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
 				<Socket nodeId="32763" itemId="0"/>
 				<Socket nodeId="28475" itemId="24"/>
 				<Socket nodeId="26196" itemId="6"/>
-				<Socket nodeId="36634" itemId="11"/>
-				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="36634" itemId="3"/>
+				<Socket nodeId="33989" itemId="0"/>
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="61419" itemId="2"/>
@@ -179,14 +179,14 @@
 				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="31683" itemId="5"/>
+				<Socket nodeId="54127" itemId="0"/>
 				<Socket nodeId="6230" itemId="1"/>
 				<Socket nodeId="33631" itemId="26"/>
-				<Socket nodeId="54127" itemId="0"/>
-				<Socket nodeId="31683" itemId="5"/>
-				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
 			</Sockets>
 		</Spec>
 	</Tree>
@@ -672,9 +672,9 @@ Minions deal 840 to 2517 additional Lightning Damage
 		<Input name="deathmarkDeathmarkActive" boolean="true"/>
 		<Input name="conditionMinionsKilledRecently" boolean="true"/>
 		<Input name="conditionKilledRecently" boolean="true"/>
-		<Input name="enemyLightningResist" number="0"/>
 		<Input name="feedingFrenzyFeedingFrenzyActive" boolean="true"/>
-		<Input name="raiseSpectreSpectreLevel" number="84"/>
 		<Input name="enemyConditionHitByFireDamage" boolean="true"/>
+		<Input name="raiseSpectreSpectreLevel" number="84"/>
+		<Input name="enemyLightningResist" number="0"/>
 	</Config>
 </PathOfBuilding>
