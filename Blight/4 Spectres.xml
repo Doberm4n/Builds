@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="93" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Necromancer" mainSocketGroup="3" viewMode="SKILLS" banditCruel="None">
+	<Build level="93" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Necromancer" mainSocketGroup="3" viewMode="ITEMS" banditCruel="None">
 		<Spectre id="Metadata/Monsters/TemplarSlaveDriver/TemplarSlaveDriver"/>
 		<PlayerStat stat="ActiveMinionLimit" value="4"/>
 		<PlayerStat stat="AverageHit" value="0"/>
@@ -21,11 +21,11 @@
 		<PlayerStat stat="ReqDex" value="146"/>
 		<PlayerStat stat="Int" value="329"/>
 		<PlayerStat stat="ReqInt" value="155"/>
-		<PlayerStat stat="Life" value="5065"/>
+		<PlayerStat stat="Life" value="5085"/>
 		<PlayerStat stat="Spec:LifeInc" value="141"/>
-		<PlayerStat stat="LifeUnreserved" value="5065"/>
+		<PlayerStat stat="LifeUnreserved" value="5085"/>
 		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
-		<PlayerStat stat="LifeRegen" value="278.575"/>
+		<PlayerStat stat="LifeRegen" value="279.675"/>
 		<PlayerStat stat="LifeLeechGainRate" value="0"/>
 		<PlayerStat stat="Mana" value="2075"/>
 		<PlayerStat stat="Spec:ManaInc" value="48"/>
@@ -65,14 +65,14 @@
 		<PlayerStat stat="EnduranceCharges" value="0"/>
 		<PlayerStat stat="EnduranceChargesMax" value="3"/>
 		<PlayerStat stat="ActiveMinionLimit" value="4"/>
-		<MinionStat stat="AverageDamage" value="112390.02495"/>
+		<MinionStat stat="AverageDamage" value="139363.630938"/>
 		<MinionStat stat="Speed" value="5.16"/>
-		<MinionStat stat="TotalDPS" value="579932.528742"/>
+		<MinionStat stat="TotalDPS" value="719116.33564008"/>
 		<MinionStat stat="TotalDot" value="0"/>
-		<MinionStat stat="WithPoisonDPS" value="579932.528742"/>
+		<MinionStat stat="WithPoisonDPS" value="719116.33564008"/>
 		<MinionStat stat="Life" value="35353"/>
 		<MinionStat stat="LifeRegen" value="0"/>
-		<MinionStat stat="LifeLeechGainRate" value="4639.460229936"/>
+		<MinionStat stat="LifeLeechGainRate" value="5752.9306851206"/>
 	</Build>
 	<Import lastAccountHash="1b5a76475d50524e5964817b9242ecfcfc9431c1" lastRealm="PC" lastCharacterHash="c5c9127a111503f3f25eb36774245d2a5abdef43"/>
 	<Calcs>
@@ -166,35 +166,35 @@
 	<Tree activeSpec="1">
 		<Spec treeVersion="3_8">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzcm6G18kqfp6XT-1nzjxqu9BZvlG9akbzqakOiAB4I4N0YajWSLJz-j_no99cXL26qBLOQM3fCwGaYrYCkhWDGrlXGguS3PmZUSsi4k6rEgsfsijwtYvTYve_rZroI9GqsksFBh0WdFSd8g3l_i3aOvtWLTLMJLFNSBklg-JrgSi6QEf4KVi7MvIhA2mIYVgQHaHQ66ayYLOJmnk25Gjh7w-NqOljfsOyDpqwqmCSqmE2DX6h9ES1yDzLRkFWg5lgHVdZxskeFY0GD2_rScfOKr9OPZOcnL9AfOsY26WvbjLEabEVHC2GDzCj6Z3Gqqf6B8kU5UuvuEFE=
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzcm6G18kqfvOo5Ulnz4N2iACyclG9akfnoakMQUaelqqkYajWSGmxncQj099cXL26qBLOQM3fCwGaYrYCkhWDGrlXGguS3PmZUSsi4k6rEgsfsijwtC2HYve_rHgiPGmqsksGu9JrgFSd8g3l_i3baYtWLTLN7wycvBklg-DbpSi6g5maekBFNuYhAOsZxsgQHaHQJLP4KLOLTj1YuGjjMvPrSOlgkqoNfOukqmN-wkFVYB3IPES2ofTLRmE2mrOyDVdbjakeFY0GD2xhWcfOKr0WdZOdTUtAfjr6smGvbjLH-j0VHYvSDzCj6ZrpBh_6B8kXT--vuFm8=
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
 				<Socket nodeId="32763" itemId="0"/>
 				<Socket nodeId="28475" itemId="25"/>
 				<Socket nodeId="26196" itemId="2"/>
-				<Socket nodeId="36634" itemId="28"/>
+				<Socket nodeId="36634" itemId="64"/>
 				<Socket nodeId="33989" itemId="0"/>
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="61419" itemId="1"/>
-				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
 				<Socket nodeId="6230" itemId="29"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="34483" itemId="0"/>
-				<Socket nodeId="31683" itemId="52"/>
-				<Socket nodeId="60735" itemId="0"/>
-				<Socket nodeId="33631" itemId="30"/>
-				<Socket nodeId="54127" itemId="0"/>
 				<Socket nodeId="2491" itemId="0"/>
 				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="33631" itemId="30"/>
+				<Socket nodeId="31683" itemId="52"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
 			</Sockets>
 		</Spec>
 		<Spec title="Speedmancer" treeVersion="3_8">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzc2WGboUqfAec26VnzjxoUTfxLlG9akRiRakOiABv6FCAEs64-Taxncbc-99csnIIHg8yQM3fCwGbwH18_OuHGrlXGOlLCbGZU0_u4k6rEplfsijwtksHzm-_rC2Fi9GqsqqnvDtAfFSd8g7yf2L3ZXicvTLNQR2hlZ5tg-JrgFm_Tj9SP42qIQFcNrJinMGO7-tJFnY6-Zp5NuRo4zLzPfjpYns2mrCSqKpjfsOyDg1-ofREtcg8y0ZBVoOaD2wQHcbJHhWNBGS7kUXHz_go6xmjyU1KvbLzq0iFr24yx8kFFR62NOQso-iXfhWD-gfJFGmzr7qQZ
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzc2WGboUqfAedXDVnzjxoUTfxLlG8b-hiRaGWiAFqRGmwVJ64-kDNncYVg99csnPAf0iFNrHfCwGbv67iTOuHGrlXGOlLCbGZU0_vzm6rEksHsijwtggemV18_OQtqQ2qsqqnvDq9sBLN8g7yf2L3ZXlNSTLNQRzbpZ5tg-JrgRZ3Tj9SP42qIQDrG_gpjQWO7-tKsmDpYZp5NuRo4zLzPfgQHg9ug5t-wKpgkqhEtg19yD-yDqH0y0ZBVpqyezY6-cbJHhacwGS7kUXHzFm9o8rzqJy_QH2L0C2Fr24yx8kFFR62Ng8wo-iXftz7-gfJFFCDr7qQZ
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -206,18 +206,18 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
 				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="61419" itemId="20"/>
-				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
 				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
 				<Socket nodeId="33989" itemId="0"/>
 				<Socket nodeId="33631" itemId="30"/>
-				<Socket nodeId="54127" itemId="0"/>
 				<Socket nodeId="6230" itemId="27"/>
-				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="61419" itemId="20"/>
 			</Sockets>
 		</Spec>
 	</Tree>
@@ -1173,6 +1173,22 @@ Implicits: 0
 			<ModRange range="0.5" id="2"/>
 			<ModRange range="0.5" id="3"/>
 		</Item>
+		<Item id="64">
+			Rarity: UNIQUE
+Anatomical Knowledge
+Cobalt Jewel
+Unique ID: c4839f354658380f99411a3b519fa4d533fbabe50fe1304542f777958d8e6418
+Item Level: 76
+Radius: Large
+Implicits: 0
+8% increased maximum Life
+Adds 1 to Maximum Life per 3 Intelligence Allocated in Radius
+# SKITTERBOT WORKAROUND
+# Skitterbots apply a non-hit shock aura
+# which applies a debuff of increase damage taken by 20%
+# This is increased to 23.8% on a 20/20 gem
+Enemies Taunted by you take 24% increased Damage
+		</Item>
 		<Slot name="Gloves" itemId="33"/>
 		<Slot name="Weapon 1" itemId="19"/>
 		<Slot active="true" name="Flask 3" itemId="18"/>
@@ -1230,9 +1246,10 @@ Implicits: 0
 	</Items>
 	<Config>
 		<Input name="enemyIsBoss" string="SHAPER"/>
-		<Input name="feedingFrenzyFeedingFrenzyActive" boolean="true"/>
 		<Input name="multiplierNearbyCorpse" number="1"/>
-		<Input name="overridePowerCharges" number="0"/>
+		<Input name="conditionEnemyTaunted" boolean="true"/>
 		<Input name="deathmarkDeathmarkActive" boolean="true"/>
+		<Input name="overridePowerCharges" number="0"/>
+		<Input name="feedingFrenzyFeedingFrenzyActive" boolean="true"/>
 	</Config>
 </PathOfBuilding>
