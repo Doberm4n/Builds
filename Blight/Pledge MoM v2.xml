@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="100" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Necromancer" mainSocketGroup="9" viewMode="ITEMS" banditCruel="None">
+	<Build level="100" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Necromancer" mainSocketGroup="9" viewMode="SKILLS" banditCruel="None">
 		<Spectre id="Metadata/Monsters/TemplarSlaveDriver/TemplarSlaveDriver"/>
 		<Spectre id="Metadata/Monsters/Guardians/GuardianFire_BlueMaps"/>
 		<PlayerStat stat="ActiveMinionLimit" value="5"/>
@@ -17,7 +17,7 @@
 		<PlayerStat stat="WithPoisonDPS" value="0"/>
 		<PlayerStat stat="ManaCost" value="124"/>
 		<PlayerStat stat="Str" value="254"/>
-		<PlayerStat stat="ReqStr" value="113"/>
+		<PlayerStat stat="ReqStr" value="142"/>
 		<PlayerStat stat="Dex" value="177"/>
 		<PlayerStat stat="ReqDex" value="155"/>
 		<PlayerStat stat="Int" value="358"/>
@@ -30,8 +30,8 @@
 		<PlayerStat stat="LifeLeechGainRate" value="0"/>
 		<PlayerStat stat="Mana" value="2066"/>
 		<PlayerStat stat="Spec:ManaInc" value="28"/>
-		<PlayerStat stat="ManaUnreserved" value="588"/>
-		<PlayerStat stat="ManaUnreservedPercent" value="28.460793804453"/>
+		<PlayerStat stat="ManaUnreserved" value="72"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="3.4849951597289"/>
 		<PlayerStat stat="ManaRegen" value="65.7"/>
 		<PlayerStat stat="ManaLeechGainRate" value="0"/>
 		<PlayerStat stat="EnergyShield" value="2875"/>
@@ -130,9 +130,9 @@
 			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SupportGemGenerosity" skillId="SupportGenerosity" enableGlobal1="true" enabled="true" nameSpec="Generosity"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="Helmet: Skitterbots" enabled="true" slot="Helmet" mainActiveSkill="1">
-			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SkillGemSummonSkitterbots" skillId="Skitterbots" enableGlobal1="false" enabled="true" nameSpec="Summon Skitterbots"/>
+			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SkillGemSummonSkitterbots" skillId="Skitterbots" enableGlobal1="true" enabled="true" nameSpec="Summon Skitterbots"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="1" label="Gloves: Arma Brand + Curse" enabled="false" slot="Gloves" mainActiveSkill="1">
+		<Skill mainActiveSkillCalcs="1" label="Gloves: Arma Brand + Curse" enabled="true" slot="Gloves" mainActiveSkill="1">
 			<Gem enableGlobal2="false" quality="0" level="1" gemId="Metadata/Items/Gems/SkillGemArmageddonBrand" skillId="CataclysmSigil" enableGlobal1="true" enabled="true" nameSpec="Armageddon Brand"/>
 			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SupportGemCurseOnHit" skillId="SupportCurseOnHit" enableGlobal1="true" enabled="true" nameSpec="Curse On Hit"/>
 			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SkillGemElementalWeakness" skillId="ElementalWeakness" enableGlobal1="false" enabled="true" nameSpec="Elemental Weakness"/>
@@ -148,23 +148,23 @@
 			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SupportGemDeathmark" skillId="SupportMinionFocusFire" skillPart="1" enableGlobal1="true" enabled="false" nameSpec="Deathmark"/>
 			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SupportGemFeedingFrenzy" skillId="SupportMinionOffensiveStance" enableGlobal1="true" enabled="true" nameSpec="Feeding Frenzy"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="1" label="Unset Ring: Convocation" enabled="false" slot="Ring 2" mainActiveSkill="1">
+		<Skill mainActiveSkillCalcs="1" label="Unset Ring: Convocation" enabled="true" slot="Ring 2" mainActiveSkill="1">
 			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SkillGemConvocation" skillId="Convocation" enableGlobal1="true" enabled="true" nameSpec="Convocation"/>
 		</Skill>
-		<Skill mainActiveSkillCalcs="1" label="Boots: CWDT" enabled="false" slot="Boots" mainActiveSkill="1">
+		<Skill mainActiveSkillCalcs="1" label="Boots: CWDT" enabled="true" slot="Boots" mainActiveSkill="1">
 			<Gem enableGlobal2="false" quality="20" level="16" gemId="Metadata/Items/Gems/SkillGemImmortalCall" skillId="ImmortalCall" enableGlobal1="true" enabled="true" nameSpec="Immortal Call"/>
 			<Gem enableGlobal2="false" quality="20" level="20" gemId="Metadata/Items/Gems/SkillGemDesecrate" skillId="Desecrate" enableGlobal1="true" enabled="true" nameSpec="Desecrate"/>
 			<Gem enableGlobal2="false" quality="20" level="11" gemId="Metadata/Items/Gems/SkillGemFrostWall" skillId="FrostWall" enableGlobal1="true" enabled="true" nameSpec="Frost Wall"/>
 			<Gem enableGlobal2="false" quality="0" level="14" gemId="Metadata/Items/Gems/SupportGemCastOnDamageTaken" skillId="SupportCastOnDamageTaken" enableGlobal1="true" enabled="true" nameSpec="Cast when Damage Taken"/>
 		</Skill>
-		<Skill source="Item:19:Damnation Hold, Assassin&apos;s Mitts" mainActiveSkillCalcs="nil" label="" enabled="true" slot="Gloves" mainActiveSkill="nil">
-			<Gem enableGlobal2="nil" skillMinionSkillCalcs="1" quality="0" level="1" skillId="EnchantmentOfReflectionWhenHit4" skillMinionSkill="1" enableGlobal1="true" enabled="true" nameSpec="" skillMinion="Clone"/>
+		<Skill source="Item:19:Damnation Hold, Assassin&apos;s Mitts" mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
+			<Gem enableGlobal2="false" skillMinionSkillCalcs="1" quality="0" level="1" skillId="EnchantmentOfReflectionWhenHit4" skillMinionSkill="1" enableGlobal1="true" enabled="true" nameSpec="Commandment of Reflection" skillMinion="Clone"/>
 		</Skill>
 	</Skills>
 	<Tree activeSpec="1">
 		<Spec title="Full tree (100)" treeVersion="3_8">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzcm6FZ848alG-86mdxoqN3wsBmmK064WZUuJPviK1I7-uhLwSzV8ma4MrThTJUrtfPlS6-ikWdf8ZmnlYuGjjMvAQHKpgNfCSa7IOofTLRkFWPRuNqY0Fx869sfdJN48Hz8kXr7pMnSp8Wb1qRakOiAB4INZIabGwLFy-QM4Ckxq5Vxrc-0_vwHzwtaqyqqXLFfIPYvYx2TLNmumD4aPK0DIhAtzEHHtOPTbmFYBodbRn5N_DVC2Es4iSqKPqDX6ZX34pyD_4KNummrKDmVdYRlkeFOlinCCcvJLCqxF2O-tJTUtAfSbE66WvbjLFJUUVHIvSDzIPbi3YVJ_6BCPT-j-q6fRg=
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzcm6FZ848alG-86mdxoqN3wsBmmK064SL0uJPviK1I7-uhLxUnV8ma4MrThTJUrtfPlS6-ikWdf8ZmnlYuGjjMvAQHKpgNfCSa7IOofTLRkFWPRuNqY0Fx869sfdJN48Hz8kXr7pMnSp8Wb1qRakOiAB4INZKnCGwLFy-QM4Ckxq5Vxrc-0_vwHzwtaqyqqXLFfIPYvYx2TLNmukmxaPK0DIhAtzEHHtOPTblmVKrEOlgEsySwC2Es4iSqKPqDX6ZXhWByD_4KNumg5qasVdYRlkeFfRjquvk3_o8I9F2O-tInL9AfYPg66WvbjLFJUUVHGh2DzIPbi3ZtGf6B8NVTUt-KGmw=
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -172,27 +172,27 @@
 				<Socket nodeId="28475" itemId="0"/>
 				<Socket nodeId="26196" itemId="3"/>
 				<Socket nodeId="36634" itemId="4"/>
-				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="61419" itemId="5"/>
-				<Socket nodeId="41263" itemId="2"/>
-				<Socket nodeId="60735" itemId="0"/>
-				<Socket nodeId="55190" itemId="0"/>
-				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="33989" itemId="0"/>
-				<Socket nodeId="6230" itemId="0"/>
-				<Socket nodeId="33631" itemId="1"/>
 				<Socket nodeId="54127" itemId="0"/>
 				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="33631" itemId="1"/>
+				<Socket nodeId="41263" itemId="2"/>
+				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="2491" itemId="0"/>
 			</Sockets>
 		</Spec>
 		<Spec title="95" treeVersion="3_8">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzc_gqboUWdFm9KnwQH8NVZ848a_oGnCJRvfRi86mpDogAksCj6fdI1kqKjGmzqumwLFy864RUnkDN3wsBmmK2ApIVgxq5Vxgthtz4i9NP7uJOqxK1I8B88Lf6PU1Lv66EvZ3FqrKqp0B9yxQSzV8n5N9i9aPKMdkyz189tGWa6YPia4LQMytOFMlSuiECVLmaevoq3MYPbBx5_xtOPTbkaOMy8DXw6WF2OEZZyDyziJKokmoNfpqzsg6h9MtGQVaDmj0ZV1vrSR4VjQSqY42px80lRSbEI9Ccvr2w26Roda9uMsaZXRUfviIPMTeNmVN-KwfPyRVqR6-6TJw==
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzc04-boQj0_o9KnxZvpwjfilnzjxr-gTrhlG99GLzqakOiAGdxKPp90jWSC2Hw1aKjbAsXL6rEFSeQM3fCwGaYrYCkhWDGrhod6rq3PiL00_u4k--IrUjwHzwtGmwksO_roS_QH2qsqqn5N3LFBLNXyZrg2L2IQIx2TLOD2_4KZrpJsTbptAzK04UyVK7Xz5UuOli-ircxLOJFnX_GZp5NuRo4zLxdjgQHEZYNfKDmKpgkqiSag1-mrOyDqH0y0ZBVj0ZyD1XW42pHhWNB-tJtGXHzaPJg-ElRJy-vbIPMa9uMsVNSRUcHHqZXTeNmVFXGwfPyRVqR6-6TJw==
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -200,22 +200,22 @@
 				<Socket nodeId="28475" itemId="0"/>
 				<Socket nodeId="26196" itemId="3"/>
 				<Socket nodeId="36634" itemId="4"/>
-				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="61419" itemId="5"/>
-				<Socket nodeId="41263" itemId="2"/>
-				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
 				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="41263" itemId="2"/>
 				<Socket nodeId="6230" itemId="0"/>
 				<Socket nodeId="33631" itemId="1"/>
-				<Socket nodeId="34483" itemId="0"/>
-				<Socket nodeId="26725" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
 				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
 			</Sockets>
 		</Spec>
 	</Tree>
