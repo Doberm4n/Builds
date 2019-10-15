@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="93" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Necromancer" mainSocketGroup="4" viewMode="SKILLS" banditCruel="None">
+	<Build level="93" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Necromancer" mainSocketGroup="4" viewMode="TREE" banditCruel="None">
 		<Spectre id="Metadata/Monsters/TemplarSlaveDriver/TemplarSlaveDriver"/>
 		<PlayerStat stat="ActiveMinionLimit" value="4"/>
 		<PlayerStat stat="AverageHit" value="0"/>
@@ -15,25 +15,25 @@
 		<PlayerStat stat="TotalDot" value="0"/>
 		<PlayerStat stat="WithPoisonDPS" value="0"/>
 		<PlayerStat stat="ManaCost" value="113"/>
-		<PlayerStat stat="Str" value="290"/>
+		<PlayerStat stat="Str" value="280"/>
 		<PlayerStat stat="ReqStr" value="142"/>
 		<PlayerStat stat="Dex" value="152"/>
-		<PlayerStat stat="ReqDex" value="155"/>
-		<PlayerStat stat="Int" value="365"/>
+		<PlayerStat stat="ReqDex" value="151"/>
+		<PlayerStat stat="Int" value="355"/>
 		<PlayerStat stat="ReqInt" value="155"/>
-		<PlayerStat stat="Life" value="5003"/>
-		<PlayerStat stat="Spec:LifeInc" value="151"/>
-		<PlayerStat stat="LifeUnreserved" value="5003"/>
+		<PlayerStat stat="Life" value="5082"/>
+		<PlayerStat stat="Spec:LifeInc" value="156"/>
+		<PlayerStat stat="LifeUnreserved" value="5082"/>
 		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
-		<PlayerStat stat="LifeRegen" value="240.144"/>
+		<PlayerStat stat="LifeRegen" value="243.936"/>
 		<PlayerStat stat="LifeLeechGainRate" value="0"/>
-		<PlayerStat stat="Mana" value="2113"/>
+		<PlayerStat stat="Mana" value="2100"/>
 		<PlayerStat stat="Spec:ManaInc" value="48"/>
 		<PlayerStat stat="ManaUnreserved" value="77"/>
-		<PlayerStat stat="ManaUnreservedPercent" value="3.6441079034548"/>
-		<PlayerStat stat="ManaRegen" value="57.1"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="3.6666666666667"/>
+		<PlayerStat stat="ManaRegen" value="56.8"/>
 		<PlayerStat stat="ManaLeechGainRate" value="0"/>
-		<PlayerStat stat="EnergyShield" value="2228"/>
+		<PlayerStat stat="EnergyShield" value="2207"/>
 		<PlayerStat stat="Spec:EnergyShieldInc" value="35"/>
 		<PlayerStat stat="EnergyShieldRegen" value="0"/>
 		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
@@ -45,7 +45,7 @@
 		<PlayerStat stat="Armour" value="4320"/>
 		<PlayerStat stat="Spec:ArmourInc" value="44"/>
 		<PlayerStat stat="PhysicalDamageReduction" value="26"/>
-		<PlayerStat stat="EffectiveMovementSpeedMod" value="1.96"/>
+		<PlayerStat stat="EffectiveMovementSpeedMod" value="1.95"/>
 		<PlayerStat stat="BlockChance" value="50"/>
 		<PlayerStat stat="SpellBlockChance" value="33"/>
 		<PlayerStat stat="AttackDodgeChance" value="0"/>
@@ -123,7 +123,7 @@
 			<Gem enableGlobal2="false" quality="0" level="20" gemId="Metadata/Items/Gems/SupportGemBlasphemy" skillId="SupportBlasphemy" skillPart="1" enableGlobal1="true" enabled="false" nameSpec="Blasphemy"/>
 			<Gem enableGlobal2="false" quality="0" level="20" gemId="Metadata/Items/Gems/SkillGemEnfeeble" skillId="Enfeeble" enableGlobal1="true" enabled="false" nameSpec="Enfeeble"/>
 			<Gem enableGlobal2="false" quality="0" level="20" gemId="Metadata/Items/Gems/SkillGemWrath" skillId="Wrath" enableGlobal1="true" enabled="true" nameSpec="Wrath"/>
-			<Gem enableGlobal2="false" quality="0" level="20" gemId="Metadata/Items/Gems/SkillGemNewPhaseRun" skillId="NewPhaseRun" enableGlobal1="true" enabled="true" nameSpec="Phase Run"/>
+			<Gem enableGlobal2="false" quality="0" level="18" gemId="Metadata/Items/Gems/SkillGemNewPhaseRun" skillId="NewPhaseRun" enableGlobal1="true" enabled="true" nameSpec="Phase Run"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 1" mainActiveSkill="1">
 			<Gem enableGlobal2="false" skillMinionSkillCalcs="1" skillMinionCalcs="Metadata/Monsters/TemplarSlaveDriver/TemplarSlaveDriver" quality="20" level="20" gemId="Metadata/Items/Gems/SkillGemRaiseSpectre" skillId="RaiseSpectre" skillMinionSkill="2" enableGlobal1="true" enabled="true" nameSpec="Raise Spectre" skillMinion="Metadata/Monsters/TemplarSlaveDriver/TemplarSlaveDriver"/>
@@ -173,13 +173,13 @@
 	<Tree activeSpec="1">
 		<Spec treeVersion="3_8">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzcCPRZ848alG-86rXyZ3Gio3fCwGaYrWZUuJOtSO_roS-SwQSzBklJUUouhTJG_pUuvopFnX_GZp6Ovho4nIsEByqY37DGiuyDqH0y0ZBV42pjQXHziq-vbCj6wfPr7pMnSp8Wb8AaWpFqQ6IAHgg1khpsFy9uqpAzgKTGrhodtz4snPAflSBqrKqpcsULYWfZi3bVi0yzZrpg-GjyiEAHHtOPHu7w1XvDg9tKyHyDLOIkqnl_g1_60lNScg8VJ_4KpqyQEVXWEZZHhV2ObzstHzrpES0kmmTnJy_QH6DmVi5r24yxp6VFRzbpg8zYvXgNmuD-gTwt7IrT-1XG
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzcCPRZ848alG-86rXyZ3Gio3fCwGaYrWZUuJPviK1I7-uhL5LBBLMGSUouhTJG_tfPvopFnX_GZp6Ovho4nIsEByqY37DGiuyDqH0y0ZBV42pjQXHziq-vbCj6wfPyRevukydKnxZvwBpakWpDogAeCDWSGmwXL26qkDOApMauGh23Piyc8B-VIGqsqqlyxQthZ9mLdtWLTLNmumD4aPKIQP6P-TdJsdOPHu57w4PbSsh8gyziJKp5f4Nf-tJTUnIPFSf-CqaskBFV1keFXY5vOy0fOukRLSSaZOcnL9AfoOZWLmvbjLGnpUVHNumDzNi9eA2a4P6BPC3sitP7VcY=
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
 				<Socket nodeId="32763" itemId="0"/>
 				<Socket nodeId="28475" itemId="71"/>
-				<Socket nodeId="26196" itemId="71"/>
+				<Socket nodeId="26196" itemId="48"/>
 				<Socket nodeId="36634" itemId="64"/>
 				<Socket nodeId="33989" itemId="0"/>
 				<Socket nodeId="21984" itemId="71"/>
@@ -191,7 +191,7 @@
 				<Socket nodeId="48768" itemId="0"/>
 				<Socket nodeId="2491" itemId="0"/>
 				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="41263" itemId="48"/>
+				<Socket nodeId="41263" itemId="71"/>
 				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="33631" itemId="66"/>
 				<Socket nodeId="31683" itemId="71"/>
@@ -231,7 +231,7 @@
 	<Notes>
 		
 	</Notes>
-	<TreeView searchStr="" zoomY="265.64320771606" showHeatMap="false" zoomLevel="5" showStatDifferences="true" zoomX="203.84648074988"/>
+	<TreeView searchStr="" zoomY="270.64320771606" showHeatMap="false" zoomLevel="5" showStatDifferences="true" zoomX="-121.15351925012"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item id="1">
 			Rarity: UNIQUE
