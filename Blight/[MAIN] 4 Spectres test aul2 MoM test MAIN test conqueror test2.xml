@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="93" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Necromancer" mainSocketGroup="4" viewMode="ITEMS" banditCruel="None">
+	<Build level="93" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Necromancer" mainSocketGroup="4" viewMode="TREE" banditCruel="None">
 		<Spectre id="Metadata/Monsters/TemplarSlaveDriver/TemplarSlaveDriver"/>
 		<PlayerStat stat="ActiveMinionLimit" value="4"/>
 		<PlayerStat stat="AverageHit" value="0"/>
@@ -21,11 +21,11 @@
 		<PlayerStat stat="ReqDex" value="151"/>
 		<PlayerStat stat="Int" value="355"/>
 		<PlayerStat stat="ReqInt" value="155"/>
-		<PlayerStat stat="Life" value="4884"/>
-		<PlayerStat stat="Spec:LifeInc" value="151"/>
-		<PlayerStat stat="LifeUnreserved" value="4884"/>
+		<PlayerStat stat="Life" value="5253"/>
+		<PlayerStat stat="Spec:LifeInc" value="171"/>
+		<PlayerStat stat="LifeUnreserved" value="5253"/>
 		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
-		<PlayerStat stat="LifeRegen" value="234.432"/>
+		<PlayerStat stat="LifeRegen" value="252.144"/>
 		<PlayerStat stat="LifeLeechGainRate" value="0"/>
 		<PlayerStat stat="Mana" value="2151"/>
 		<PlayerStat stat="Spec:ManaInc" value="48"/>
@@ -169,7 +169,7 @@
 	<Tree activeSpec="1">
 		<Spec treeVersion="3_8">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzcCPRZ848alG-86rXyZ3F3wsBmmK1mVLiT74itSO_roS-SwQSzBkma4EouhTJG_tfPvopFnWaeVi4aOJyLBAcqmN-wJJoRLah9MtGQVTrpbztjQXHzr2wo-sHz6-6TJ0qfFm_AGlqRakOiAB4INZIabGwLFy-QM4Ckxq4aHbc-0_vsijwtaqyqqXLFC2Fn2di91YtMs2a6SbFo8ohAIvT-CtOPbRmD21XGi3Ykqi0fg1-OvlNScg8e7vk3oObsg1XWXY58gyziR4XjavrSpqxk53gN0B_GihUna9uMsXl_RUdg-IPMJy-VIPAf_oEsnP6Pp6U26Q==
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzcCPRZ848alG-86rXyZ3F3wsBmmK064WZUuJPviK1I7-uhL5LBBLMGSZrgSi6FMkb-18--ikWdZp5WLho4nIsEByqY37AkmhEtqH0y0ZBVOulvO2NBcfOvbKZXKPrB8_JF6-6TJ0qfFm_AGlqRakOiAB4INZIabGwLFy-QM4Ckxq4aHbc-0_vsijwtaqyqqXLFC2Fn2di91YtMs2a6SbFo8k3jiEAi9P4K049tGYPbVcaLdiSqLR-DX46-U1JyDx7u-Teg5uyDVdZdjnyDLOJHheNq-tKmrGTneA3QH8aKFSdr24yxeX9FR2D4g8wnL5Ug8B_-gSyc_o-npTbp
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -227,7 +227,7 @@
 	<Notes>
 		
 	</Notes>
-	<TreeView searchStr="" zoomY="84.64320771606" showHeatMap="false" zoomLevel="5" showStatDifferences="true" zoomX="-61.15351925012"/>
+	<TreeView searchStr="" zoomY="29.64320771606" showHeatMap="false" zoomLevel="5" showStatDifferences="true" zoomX="-189.15351925012"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item id="1">
 			Rarity: UNIQUE
