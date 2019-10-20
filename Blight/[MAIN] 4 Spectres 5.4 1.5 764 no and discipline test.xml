@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PathOfBuilding>
-	<Build level="96" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Necromancer" mainSocketGroup="3" viewMode="SKILLS" banditCruel="None">
+	<Build level="96" targetVersion="3_0" banditNormal="None" bandit="None" banditMerciless="None" className="Witch" ascendClassName="Necromancer" mainSocketGroup="3" viewMode="TREE" banditCruel="None">
 		<Spectre id="Metadata/Monsters/TemplarSlaveDriver/TemplarSlaveDriver"/>
 		<PlayerStat stat="ActiveMinionLimit" value="4"/>
 		<PlayerStat stat="AverageHit" value="0"/>
 		<PlayerStat stat="AverageDamage" value="0"/>
-		<PlayerStat stat="Speed" value="2.5176470588235"/>
-		<PlayerStat stat="Speed" value="2.5176470588235"/>
+		<PlayerStat stat="Speed" value="2.4588235294118"/>
+		<PlayerStat stat="Speed" value="2.4588235294118"/>
 		<PlayerStat stat="PreEffectiveCritChance" value="0"/>
 		<PlayerStat stat="CritChance" value="0"/>
 		<PlayerStat stat="CritMultiplier" value="1.5"/>
@@ -33,7 +33,7 @@
 		<PlayerStat stat="ManaUnreservedPercent" value="2.5974025974026"/>
 		<PlayerStat stat="ManaRegen" value="58.2"/>
 		<PlayerStat stat="ManaLeechGainRate" value="0"/>
-		<PlayerStat stat="EnergyShield" value="2556"/>
+		<PlayerStat stat="EnergyShield" value="1822"/>
 		<PlayerStat stat="Spec:EnergyShieldInc" value="60"/>
 		<PlayerStat stat="EnergyShieldRegen" value="0"/>
 		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
@@ -65,14 +65,14 @@
 		<PlayerStat stat="EnduranceCharges" value="0"/>
 		<PlayerStat stat="EnduranceChargesMax" value="3"/>
 		<PlayerStat stat="ActiveMinionLimit" value="4"/>
-		<MinionStat stat="AverageDamage" value="121889.6430444"/>
-		<MinionStat stat="Speed" value="5.16"/>
-		<MinionStat stat="TotalDPS" value="628950.5581091"/>
+		<MinionStat stat="AverageDamage" value="151143.15737506"/>
+		<MinionStat stat="Speed" value="5.06"/>
+		<MinionStat stat="TotalDPS" value="764784.37631778"/>
 		<MinionStat stat="TotalDot" value="0"/>
-		<MinionStat stat="WithPoisonDPS" value="628950.5581091"/>
+		<MinionStat stat="WithPoisonDPS" value="764784.37631778"/>
 		<MinionStat stat="Life" value="33933"/>
 		<MinionStat stat="LifeRegen" value="0"/>
-		<MinionStat stat="LifeLeechGainRate" value="3773.7033486546"/>
+		<MinionStat stat="LifeLeechGainRate" value="4588.7062579067"/>
 	</Build>
 	<Import lastAccountHash="1b5a76475d50524e5964817b9242ecfcfc9431c1" lastRealm="PC" lastCharacterHash="c5c9127a111503f3f25eb36774245d2a5abdef43"/>
 	<Calcs>
@@ -108,7 +108,7 @@
 			<Gem enableGlobal2="false" skillMinionSkillCalcs="1" quality="0" level="20" gemId="Metadata/Items/Gems/SkillGemRaiseZombie" skillId="RaiseZombie" skillPart="1" skillMinionSkill="2" enableGlobal1="true" enabled="true" nameSpec="Raise Zombie" skillMinion="RaisedZombie"/>
 			<Gem enableGlobal2="false" quality="0" level="20" gemId="Metadata/Items/Gems/SupportGemSummonElementalResistance" skillId="SupportSummonElementalResistances" enableGlobal1="true" enabled="false" nameSpec="Elemental Army"/>
 			<Gem enableGlobal2="false" quality="0" level="20" gemId="Metadata/Items/Gems/SupportGemMeatShield" skillId="SupportMinionDefensiveStance" enableGlobal1="true" enabled="true" nameSpec="Meat Shield"/>
-			<Gem enableGlobal2="false" quality="0" level="20" gemId="Metadata/Items/Gems/SkillGemDiscipline" skillId="Discipline" skillPart="1" enableGlobal1="true" enabled="true" nameSpec="Discipline"/>
+			<Gem enableGlobal2="false" quality="0" level="20" gemId="Metadata/Items/Gems/SkillGemDiscipline" skillId="Discipline" skillPart="1" enableGlobal1="false" enabled="true" nameSpec="Discipline"/>
 			<Gem enableGlobal2="false" quality="0" level="3" gemId="Metadata/Items/Gems/SupportGemAdditionalXP" skillId="SupportAdditionalXP" enableGlobal1="true" enabled="true" nameSpec="Enlighten"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Body Armour" mainActiveSkill="1">
@@ -117,7 +117,7 @@
 			<Gem enableGlobal2="false" quality="0" level="20" gemId="Metadata/Items/Gems/SkillGemWrath" skillId="Wrath" enableGlobal1="true" enabled="true" nameSpec="Wrath"/>
 			<Gem enableGlobal2="false" quality="0" level="20" gemId="Metadata/Items/Gems/SupportGemBlasphemy" skillId="SupportBlasphemy" skillPart="1" enableGlobal1="true" enabled="true" nameSpec="Blasphemy"/>
 			<Gem enableGlobal2="false" quality="0" level="20" gemId="Metadata/Items/Gems/SkillGemEnfeeble" skillId="Enfeeble" enableGlobal1="true" enabled="true" nameSpec="Enfeeble"/>
-			<Gem enableGlobal2="false" skillMinionSkillCalcs="1" quality="0" level="20" gemId="Metadata/Items/Gems/SkillGemSummonSkitterbots" skillId="Skitterbots" skillMinionSkill="1" enableGlobal1="false" enabled="true" nameSpec="Summon Skitterbots" skillMinion="SummonedPhantasm"/>
+			<Gem enableGlobal2="false" skillMinionSkillCalcs="1" quality="0" level="20" gemId="Metadata/Items/Gems/SkillGemSummonSkitterbots" skillId="Skitterbots" skillMinionSkill="1" enableGlobal1="true" enabled="true" nameSpec="Summon Skitterbots" skillMinion="SummonedPhantasm"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 1" mainActiveSkill="1">
 			<Gem enableGlobal2="false" skillMinionSkillCalcs="1" skillMinionCalcs="Metadata/Monsters/TemplarSlaveDriver/TemplarSlaveDriver" quality="20" level="20" gemId="Metadata/Items/Gems/SkillGemRaiseSpectre" skillId="RaiseSpectre" skillMinionSkill="2" enableGlobal1="true" enabled="true" nameSpec="Raise Spectre" skillMinion="Metadata/Monsters/TemplarSlaveDriver/TemplarSlaveDriver"/>
@@ -162,7 +162,7 @@
 	<Tree activeSpec="1">
 		<Spec treeVersion="3_8">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzcWfOPGpRvvOq18mdxoqN3wsBmmK1mVLiT74itSO_roS-SwRUnBkma4EouhTJG_tfPlS6-ikWdf8Zmno6-GjiciwQHKpjfsMaK7IOofTLRkFU66eNqY0Fx84qvr2wo-sHz6-6TJ0qfFm9akWpDogCnpTWSGmwXL26qkDOApMauGh23PtP78B-VIGqsqqlyxXyDeX-Ldi0fTLNmukmxaPKIQAce0497w4PbJy9n2UlRkBEkqjwtg1_-ClNScg_YvSzipqwLYVXWEZZdjkeF-tIRLQSzJJqg5mTn-TfQH1YuNulr24yxYPhFR9WLg8zsikrIVcb-gfDVHggsnB7u
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzcWfOPGpRvvOq18mdxoqN3wsBmmK1mVLiT74itSO_roS-SwQSzBkma4EouhTJG_tfPlS6-ikWdf8ZmnlYuGjiciwQHKpjfsMaK7IOofTLRkFU66eNqY0Fx84qvr2wo-sHz6-6TJ0qfFm9akWpDogCnpTWSGmwXL26qkDOApMauGh23PkrI8B-VIGqsqqlyxQtheX-LdtWLTLNmumD4aPKIQAce0497w4PbFScs4v4KkBEkqjbpg188LS0fcg9JsVNSpqwkmlXWEZZdjo6-R4X60klRES0nL2Tn-TfQH6DmZ9lr24yx2L1FR3yDg8zsiiycVcb-gfDVHgjT-x7u
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -170,27 +170,27 @@
 				<Socket nodeId="28475" itemId="29"/>
 				<Socket nodeId="26196" itemId="2"/>
 				<Socket nodeId="36634" itemId="64"/>
-				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
 				<Socket nodeId="21984" itemId="71"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="61419" itemId="1"/>
-				<Socket nodeId="54127" itemId="0"/>
-				<Socket nodeId="6230" itemId="71"/>
+				<Socket nodeId="41263" itemId="27"/>
+				<Socket nodeId="31683" itemId="52"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="2491" itemId="0"/>
 				<Socket nodeId="61834" itemId="0"/>
-				<Socket nodeId="41263" itemId="27"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
 				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="33631" itemId="80"/>
-				<Socket nodeId="31683" itemId="52"/>
-				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="6230" itemId="71"/>
+				<Socket nodeId="33989" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
 			</Sockets>
 		</Spec>
 		<Spec title="Speedmancer" treeVersion="3_8">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzc2WGboUqfAedXDVnzjxoUTfxLlG8b-rzqakOiAGhlGmwVJ64-kDNncYVg99csnPAf0iFNrHfCwGbv67iTOuHGrlXGOlLCbGZU0_vzm6rEksHsijwtggemV18_OQsYkWqsqqnvDq9sBLN8g7yf2L3ZXlNSTLNQR2jyZ5tg-DbpRZ1ju9SP-tKIQDrG_gpjQWaecbKsmDpY049NuRo4zLzPfgQHg9ug5t-wKpgkqhEtg19yD-yDqH0y0ZBVpqyezY6-42pHhacwGS7kUXHzFm-a4FqRJy_QH2L0C2Fr24yx8kFFR62Ng8wo-iXftz7-gfJFFCDr7qQZ
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzc2WGboUqfAec6xlnzjxoUTfxLlG9akbzqakOiABv6GmwVJ64-kDNncYVg99csnPAfOQtNrHfCwGbv6_ObOuHGrlXGOlLCbGZU0_u4k4IHksHsijwtqsSDzF8_0iFoZWqsqqnvDq9sFCB8g7yf2L3ZXlNSTLNQRzbpZ5tg-Jrg_grTj9SP42qIQFcNRZ1jQWO7-tKsmAQHZp6Ovho4zLzPfjpYg9ug5t-wKpgkqhEtg19yD-yDqH0y0ZBVpqyezU25cbJHhacwGS7kUXHzFm9o8hiRJy_QH2L0C2Fr24yx8kFFR62Nplco-iXftz7-gfJFBLPr7qQZ
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -202,25 +202,25 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
-				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
 				<Socket nodeId="2491" itemId="0"/>
-				<Socket nodeId="6230" itemId="27"/>
-				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
 				<Socket nodeId="33989" itemId="0"/>
 				<Socket nodeId="33631" itemId="30"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="6230" itemId="27"/>
 				<Socket nodeId="61419" itemId="20"/>
+				<Socket nodeId="32763" itemId="0"/>
 			</Sockets>
 		</Spec>
 	</Tree>
 	<Notes>
 		
 	</Notes>
-	<TreeView searchStr="dexter" zoomY="79.90500535838" showHeatMap="false" zoomLevel="3" showStatDifferences="true" zoomX="-145.52327725703"/>
+	<TreeView searchStr="dexter" zoomY="87.90500535838" showHeatMap="false" zoomLevel="3" showStatDifferences="true" zoomX="-87.52327725703"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item id="1">
 			Rarity: UNIQUE
@@ -1513,6 +1513,56 @@ Cannot be Frozen
 			<ModRange range="0.5" id="2"/>
 			<ModRange range="0.5" id="3"/>
 		</Item>
+		<Item id="84">
+			Rarity: RARE
+Beast Visor
+Bone Helmet
+Item Level: 81
+Quality: 20
+Sockets: R-R R-B
+LevelReq: 73
+Implicits: 1
+150% increased Effect of the Buff granted by your Stone Golems
+Minions deal 19% increased Damage
++37 to Armour
++121 to maximum Life
++36 to maximum Mana
++20% to Fire Resistance
++42% to Lightning Resistance
+{crafted}Minions have 19% increased maximum Life
+		</Item>
+		<Item id="85">
+			Rarity: RARE
+Woe Crest
+Hubris Circlet
+Item Level: 76
+Quality: 20
+Sockets: R-B-B
+LevelReq: 69
+Implicits: 0
++25 to maximum Energy Shield
+73% increased Energy Shield
++122 to maximum Life
+21% increased Rarity of Items found
++22% to Fire Resistance
++31% to Lightning Resistance
+		</Item>
+		<Item id="86">
+			Rarity: RARE
+Woe Crest
+Hubris Circlet
+Item Level: 76
+Quality: 20
+Sockets: R-B-B-B
+LevelReq: 69
+Implicits: 0
++25 to maximum Energy Shield
+73% increased Energy Shield
++122 to maximum Life
+21% increased Rarity of Items found
++22% to Fire Resistance
++31% to Lightning Resistance
+		</Item>
 		<Slot name="Gloves" itemId="74"/>
 		<Slot name="Weapon 1" itemId="19"/>
 		<Slot active="true" name="Flask 3" itemId="18"/>
@@ -1575,6 +1625,7 @@ Cannot be Frozen
 		<Input name="enemyIsBoss" string="SHAPER"/>
 		<Input name="feedingFrenzyFeedingFrenzyActive" boolean="true"/>
 		<Input name="multiplierNearbyCorpse" number="1"/>
+		<Input name="conditionEnemyTaunted" boolean="true"/>
 		<Input name="enemyLightningResist" number="0"/>
 	</Config>
 </PathOfBuilding>
