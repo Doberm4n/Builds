@@ -18,23 +18,23 @@
 		<PlayerStat stat="Str" value="280"/>
 		<PlayerStat stat="ReqStr" value="142"/>
 		<PlayerStat stat="Dex" value="157"/>
-		<PlayerStat stat="ReqDex" value="151"/>
+		<PlayerStat stat="ReqDex" value="146"/>
 		<PlayerStat stat="Int" value="355"/>
 		<PlayerStat stat="ReqInt" value="155"/>
-		<PlayerStat stat="Life" value="6061"/>
+		<PlayerStat stat="Life" value="6003"/>
 		<PlayerStat stat="Spec:LifeInc" value="181"/>
-		<PlayerStat stat="LifeUnreserved" value="6061"/>
+		<PlayerStat stat="LifeUnreserved" value="6003"/>
 		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
-		<PlayerStat stat="LifeRegen" value="290.928"/>
+		<PlayerStat stat="LifeRegen" value="288.144"/>
 		<PlayerStat stat="LifeLeechGainRate" value="0"/>
-		<PlayerStat stat="Mana" value="2214"/>
+		<PlayerStat stat="Mana" value="2285"/>
 		<PlayerStat stat="Spec:ManaInc" value="48"/>
-		<PlayerStat stat="ManaUnreserved" value="58"/>
-		<PlayerStat stat="ManaUnreservedPercent" value="2.6196928635953"/>
-		<PlayerStat stat="ManaRegen" value="59.6"/>
+		<PlayerStat stat="ManaUnreserved" value="61"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="2.6695842450766"/>
+		<PlayerStat stat="ManaRegen" value="61.4"/>
 		<PlayerStat stat="ManaLeechGainRate" value="0"/>
-		<PlayerStat stat="EnergyShield" value="1898"/>
-		<PlayerStat stat="Spec:EnergyShieldInc" value="60"/>
+		<PlayerStat stat="EnergyShield" value="1748"/>
+		<PlayerStat stat="Spec:EnergyShieldInc" value="35"/>
 		<PlayerStat stat="EnergyShieldRegen" value="0"/>
 		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
 		<PlayerStat stat="Evasion" value="9290"/>
@@ -54,9 +54,9 @@
 		<PlayerStat stat="ColdResist" value="75"/>
 		<PlayerStat stat="LightningResist" value="75"/>
 		<PlayerStat stat="ChaosResist" value="-34"/>
-		<PlayerStat stat="FireResistOverCap" value="52"/>
+		<PlayerStat stat="FireResistOverCap" value="62"/>
 		<PlayerStat stat="ColdResistOverCap" value="20"/>
-		<PlayerStat stat="LightningResistOverCap" value="32"/>
+		<PlayerStat stat="LightningResistOverCap" value="22"/>
 		<PlayerStat stat="ChaosResistOverCap" value="0"/>
 		<PlayerStat stat="PowerCharges" value="0"/>
 		<PlayerStat stat="PowerChargesMax" value="3"/>
@@ -65,14 +65,14 @@
 		<PlayerStat stat="EnduranceCharges" value="0"/>
 		<PlayerStat stat="EnduranceChargesMax" value="3"/>
 		<PlayerStat stat="ActiveMinionLimit" value="4"/>
-		<MinionStat stat="AverageDamage" value="146491.51657829"/>
-		<MinionStat stat="Speed" value="5.28"/>
-		<MinionStat stat="TotalDPS" value="773475.20753336"/>
+		<MinionStat stat="AverageDamage" value="142577.47508256"/>
+		<MinionStat stat="Speed" value="5.2"/>
+		<MinionStat stat="TotalDPS" value="741402.87042931"/>
 		<MinionStat stat="TotalDot" value="0"/>
-		<MinionStat stat="WithPoisonDPS" value="773475.20753336"/>
+		<MinionStat stat="WithPoisonDPS" value="741402.87042931"/>
 		<MinionStat stat="Life" value="33933"/>
 		<MinionStat stat="LifeRegen" value="0"/>
-		<MinionStat stat="LifeLeechGainRate" value="4640.8512452002"/>
+		<MinionStat stat="LifeLeechGainRate" value="4448.4172225759"/>
 	</Build>
 	<Import lastAccountHash="1b5a76475d50524e5964817b9242ecfcfc9431c1" lastRealm="PC" lastCharacterHash="c5c9127a111503f3f25eb36774245d2a5abdef43"/>
 	<Calcs>
@@ -138,7 +138,7 @@
 			<Gem enableGlobal2="false" skillMinionSkillCalcs="1" quality="0" level="20" gemId="Metadata/Items/Gems/SkillGemArmageddonBrand" skillId="CataclysmSigil" skillPart="1" skillMinionSkill="2" enableGlobal1="true" enabled="true" nameSpec="Armageddon Brand" skillMinion="SummonedPhantasm"/>
 			<Gem enableGlobal2="false" quality="0" level="11" gemId="Metadata/Items/Gems/SkillGemConvocation" skillId="Convocation" skillPart="1" enableGlobal1="true" enabled="true" nameSpec="Convocation" skillMinion="SummonedChaosGolem"/>
 			<Gem enableGlobal2="false" quality="0" level="20" gemId="Metadata/Items/Gems/SkillGemFlameDash" skillId="FlameDash" skillPart="1" enableGlobal1="true" enabled="true" nameSpec="Flame Dash" skillMinion="SummonedPhantasm"/>
-			<Gem enableGlobal2="false" quality="0" level="18" gemId="Metadata/Items/Gems/SkillGemNewPhaseRun" skillId="NewPhaseRun" enableGlobal1="true" enabled="true" nameSpec="Phase Run"/>
+			<Gem enableGlobal2="false" quality="0" level="17" gemId="Metadata/Items/Gems/SkillGemNewPhaseRun" skillId="NewPhaseRun" enableGlobal1="true" enabled="true" nameSpec="Phase Run"/>
 		</Skill>
 		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 2 Swap" mainActiveSkill="1">
 			<Gem enableGlobal2="false" quality="0" level="19" gemId="Metadata/Items/Gems/SkillGemHaste" skillId="Haste" enableGlobal1="true" enabled="true" nameSpec="Haste"/>
@@ -161,35 +161,35 @@
 	<Tree activeSpec="1">
 		<Spec treeVersion="3_8">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzcCPRZ848alG-86rXyZ3Gio3fCwGaYrWZUuJPviK1I7-uhL5LBBLMGSZrgSi5G_tfPlS6-ikWdf8ZmnlYuGjiciwQHKpjfsCSaES2ofTLRkFU66W87Y0Fx869splco-sHz6-6TJ0qfFm_AGlqRakOiAB4INZLw1RcvkDOApMauVca3PtP77IqVIGqsqqlyxQtheX_YvdWLTLNmumD4aPKIQP4K048abE3jg9se7kmxNuks4iSqp6WDXycvjr5yDwceSVGg5l2OVdYRlkeF-tLjauyD-TfGimfZZOd4DdAfPC2mrGvbjLEtH0VHi3aDzHyDFSdTUv6B8B8snBod_o8=
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzcCPRZ848alG-86rXyZ3Gio3fCwGaYrTrhZlS4k61I7-uhL5LBBLMGSZrgSi5G_pUuvopFnX_GZp6Ovho4nIsEByqY37AkmhEtqH0y0ZBVOulvO2NBcfOvbKZXKPrB8_JF6-6TJ0qfFm_AGlqRakOiAB4INZLw1RcvkDOApMauGh23PtP77IqVIGqsqqlyxQtheX-LdtWLTLNmumD4aPKIQFXG_grTj4PbTeMHHhpsLOIkqlYug186WCcvcg8e7ti9oOb60lXWEZZdjkeF42r-j-yDSVHGimTneA3QH6asNulr24yxLR9FR2fZg8x8gxUnU1L-gTwt8B8snKel
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
 				<Socket nodeId="32763" itemId="0"/>
-				<Socket nodeId="28475" itemId="26"/>
+				<Socket nodeId="28475" itemId="2"/>
 				<Socket nodeId="26196" itemId="2"/>
 				<Socket nodeId="36634" itemId="64"/>
-				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
 				<Socket nodeId="21984" itemId="71"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="61419" itemId="1"/>
-				<Socket nodeId="54127" itemId="0"/>
-				<Socket nodeId="31683" itemId="52"/>
+				<Socket nodeId="41263" itemId="8"/>
+				<Socket nodeId="6230" itemId="71"/>
 				<Socket nodeId="55190" itemId="0"/>
 				<Socket nodeId="48768" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="33989" itemId="0"/>
-				<Socket nodeId="6230" itemId="71"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="31683" itemId="27"/>
 				<Socket nodeId="60735" itemId="0"/>
 				<Socket nodeId="33631" itemId="80"/>
-				<Socket nodeId="41263" itemId="88"/>
-				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
 				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
 			</Sockets>
 		</Spec>
 		<Spec title="Speedmancer" treeVersion="3_8">
 			<URL>
-				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzc2WGboUqfAeea4FnzjxoUTfxLlG9akRiRaGWiALzqBLMUIK4-Taxncbc-99csnKrEpleQM3fCwGbwH18_OuHGrlXGOlLCbGZU0_vzm4IHg8zsijwtksG4k-_rC2Fi9GqsqqnvDtAfFSd8g7yf2L3ZXicvTLNQRxv6Z5tg-GjyFm9mntSPcbKIQDrGrJinMNOP42r-Ck25Y7uOvho4zLzPfgQHns2mrCSqKpjfsOyDg1-ofREtcg8y0ZBVoOaD2zpY-tJHhWNBGS7kUXHzRZ1XDTbpU1KvbGpDOQtr24yx8kFFR62N0iEo-iXfhWD-gfJFGmzr7qQZ
+				https://www.pathofexile.com/passive-skill-tree/AAAABAMDABzc2WGboUqfAedo8lnzjxoUTfxLlG8b-hiRaGWiAGpDFCAEs64-Taxncbc-99csnIIHg8yQM3fCwGbwH18_OuHGrlXGOlLCbGZU0_u4k6rEplfsijwtksHzm-_rC2Fi9GqsqqnvDtAfFSd8g7yf2L3ZXicvTLNQR7zqZ5tg-DbpFm9ju9SP-tKIQFcNrJinMGaecbJFnY6-049NuRo4zLzPfjpYns2mrCSqKpjfsOyDg1-ofREtcg8y0ZBVoOaD2wQH42pHhWNBGS7kUXHz_go6xprgU1KvbFqR0iFr24yx8kFFR62NOQso-iXfhWD-gfJFGmzr7qQZ
 			</URL>
 			<Sockets>
 				<Socket nodeId="7960" itemId="0"/>
@@ -201,17 +201,17 @@
 				<Socket nodeId="21984" itemId="0"/>
 				<Socket nodeId="46882" itemId="0"/>
 				<Socket nodeId="26725" itemId="0"/>
-				<Socket nodeId="54127" itemId="0"/>
-				<Socket nodeId="6230" itemId="27"/>
-				<Socket nodeId="55190" itemId="0"/>
-				<Socket nodeId="48768" itemId="0"/>
-				<Socket nodeId="32763" itemId="0"/>
-				<Socket nodeId="61419" itemId="20"/>
-				<Socket nodeId="31683" itemId="0"/>
-				<Socket nodeId="33989" itemId="0"/>
-				<Socket nodeId="33631" itemId="30"/>
 				<Socket nodeId="41263" itemId="0"/>
 				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="61419" itemId="20"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="6230" itemId="27"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="33631" itemId="30"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
 				<Socket nodeId="2491" itemId="0"/>
 			</Sockets>
 		</Spec>
@@ -219,7 +219,7 @@
 	<Notes>
 		
 	</Notes>
-	<TreeView searchStr="" zoomY="172.38231162553" showHeatMap="false" zoomLevel="5" showStatDifferences="true" zoomX="-102.00347912667"/>
+	<TreeView searchStr="maximum life" zoomY="161.39103815159" showHeatMap="false" zoomLevel="4" showStatDifferences="true" zoomX="-23.620569025308"/>
 	<Items activeItemSet="1" useSecondWeaponSet="false">
 		<Item id="1">
 			Rarity: UNIQUE
@@ -1587,6 +1587,20 @@ Implicits: 0
 +10% to Cold and Lightning Resistances
 Minions have 4% increased Attack Speed
 Minions have 6% increased Cast Speed
+		</Item>
+		<Item id="89">
+			Rarity: RARE
+Pain Hold
+Unset Ring
+Item Level: 85
+Sockets: R
+LevelReq: 5
+Implicits: 1
+Has 1 Socket
++34 to Dexterity
++46 to maximum Energy Shield
++77 to maximum Life
++40% to Fire Resistance
 		</Item>
 		<Slot name="Gloves" itemId="74"/>
 		<Slot name="Weapon 1" itemId="19"/>
